@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>README.md · master · Robert A. Canfield / optimize · GitLab</title>
+  <meta name="Description" content="Optimization functions for MATLAB: sqp.m, slp_trust">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1404.47">
+  <style type="text/css">
+    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 16.0px 'Times New Roman'; color: #000000; -webkit-text-stroke: #000000; min-height: 18.0px}
+    p.p6 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Courier; color: #000000; -webkit-text-stroke: #000000}
+    li.li2 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 18.0px Courier; font-kerning: none}
+    span.s3 {-webkit-text-stroke: 0px #000000}
+    span.s4 {text-decoration: underline ; font-kerning: none; color: #0000ee}
+    span.s5 {font: 12.0px Times; font-kerning: none}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 8.0px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>SLP_SQP </b></span><span class="s2"><b>slp_trust.m</b></span><span class="s1"><b> and </b></span><span class="s2"><b>sqp.m</b></span><span class="s1"><b> MATLAB optimization functions</b></span></h1>
+<p class="p2"><span class="s1">Copyright (c) 2015, Robert A. Canfield. All rights reserved.</span></p>
+<ul class="ul1">
+  <li class="li3"><span class="s3"></span><span class="s1">Virginia Tech and Air Force Institute of Technology</span></li>
+  <li class="li3"><span class="s3"></span><span class="s1">bob.canfield@vt.edu</span></li>
+  <li class="li4"><span class="s3"><a href="http://www.aoe.vt.edu/people/faculty/canfield.html"><span class="s4">http://www.aoe.vt.edu/people/faculty/canfield.html</span></a></span></li>
+  <li class="li3"><span class="s3"></span><span class="s1">See accompanying LICENSE.txt file for conditions.</span></li>
+</ul>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>m-Files</b></span></h2>
+<ul class="ul1">
+  <li class="li3"><span class="s3"></span><span class="s1">slp_trust - Sequential Linear Programming (SLP) with a Trust Region Strategy</span></li>
+  <li class="li3"><span class="s3"></span><span class="s1">sqp - Schittkowski's Sequential Quadratic Programming method</span></li>
+  <li class="li3"><span class="s3"></span><span class="s1">foptions - Default parameters used by the optimization routines.</span></li>
+  <li class="li3"><span class="s3"></span><span class="s1">Contents - Text document describing files</span></li>
+</ul>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Documentation</b></span></h2>
+<ul class="ul1">
+  <li class="li3"><span class="s3"></span><span class="s1">sqp.pdf - User's Guide for sqp and slp_trust (Adobe portable document format)</span></li>
+  <li class="li3"><span class="s3"></span><span class="s1">README.md - ReadMe text file (markdown format)</span></li>
+  <li class="li3"><span class="s3"></span><span class="s1">LICENSE.txt - Open Source License notice</span></li>
+</ul>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Examples</b></span></h2>
+<ul class="ul1">
+  <li class="li3"><span class="s3"></span><span class="s1">run*.m - Scripts to run example problems</span></li>
+  <li class="li3"><span class="s3"></span><span class="s1">f*.m - Functions to evaluate objective, f, and constraints, g</span></li>
+  <li class="li3"><span class="s3"></span><span class="s1">g*.m - Functions to evaluate gradients of f and g</span></li>
+</ul>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Private folder</b></span></h2>
+<ul class="ul1">
+  <li class="li3"><span class="s3"></span><span class="s1">Utility functions called by sqp.m and slp_trust.m</span></li>
+</ul>
+<p class="p5"><span class="s1"></span><br></p>
+<h2 style="margin: 0.0px 0.0px 8.0px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Open Source License</b></span></h2>
+<p class="p2"><span class="s1">Copyright (c) 2015, Robert A. Canfield. All rights reserved.</span></p>
+<p class="p6"><span class="s1">sqp.m, slp_trust.m</span><span class="s5"> MATLAB package</span></p>
+<p class="p2"><span class="s1">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal with the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</span></p>
+<ul class="ul1">
+  <li class="li2"><span class="s3"></span><span class="s1">Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers.</span></li>
+  <li class="li2"><span class="s3"></span><span class="s1">Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimers in the documentation and/or other materials provided with the distribution.</span></li>
+  <li class="li2"><span class="s3"></span><span class="s1">Neither the names of Robert A. Canfield, Virginia Tech, Mark Spillman, Air Force Institute of Technology, nor the names of its contributors may be used to endorse or promote products derived from this Software without specific prior written permission.</span></li>
+</ul>
+<p class="p2"><span class="s1">THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS.</span></p>
+</body>
+</html>

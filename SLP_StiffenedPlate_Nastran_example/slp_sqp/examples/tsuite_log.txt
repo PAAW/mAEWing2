@@ -1,0 +1,1679 @@
+ 
+ 
+01-Oct-2015
+ 
+ 
+test suite problem # 1
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1           11         0   3         -0  1          0      10.8
+    2            5         1   3       0.25  3       0.25      1.21
+    3          5.6         1   3     0.0025  3     0.0025    0.0122
+    4       5.6061         1   3    2.6e-07  3    2.6e-07  1.31e-06
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.5505
+    0.1010
+nfcn=4, ngrd=4, nit=3
+ 
+test suite problem # 2
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1       1.4142         0   6      0.578  1      0.806      1.46
+    3       1.3287     0.144   6        0.5  1      0.624      1.13
+    5       1.2686     0.147   6      0.433  1      0.459     0.792
+    7       1.2383     0.119   6      0.385  1      0.385     0.543
+    9       1.2233       0.1   6      0.349  1      0.349     0.389
+   11        1.224     0.117   6      0.311  1      0.311     0.479
+   12       1.3273         1   6      0.165  1      0.165     0.263
+   13       1.4188         1   6     0.0684  1     0.0684     0.174
+   14       1.4965         1   6    0.00813  1    0.00813    0.0243
+   15       1.5085         1   6   7.01e-05  1   7.01e-05  0.000211
+   16       1.5087         1   6   8.89e-08  1   8.89e-08  2.79e-07
+Optimization Terminated Successfully from sqp
+ 
+x =
+    1.4116    0.3770
+nfcn=16, ngrd=11, nit=10
+ 
+test suite problem # 3
+Merit gradient zero (w/o ACTIVE_CONSTRAINTS)
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            5         0   4       11.8  1         13      5.95
+    3       4.7621       0.1   4       10.5  1       11.6      5.59
+    4       4.9963         1   4       5.03  1       5.71      16.3
+    5        7.293         1   4       2.29  1       2.59      29.7
+    6       10.711         1   4      0.938  1       1.06      31.9
+    7       14.718         1   3      0.306  1      0.347      13.6
+    8       17.593         1   4     0.0581  1     0.0662      1.97
+    9       18.425         1   4    0.00303  1    0.00369    0.0977
+   10       18.474         1   4   0.000104  2   0.000113  0.000665
+   19       18.474  1.49e-08   4   0.000104  2   0.000113      2.42 Hessian modified twice
+   20       18.474         1   4   3.65e-05  2   3.65e-05    0.0588
+   21       18.474         1   4    1.3e-05  2    1.3e-05   0.00153
+   22       18.474         1   4   4.63e-06  2   4.63e-06  5.47e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.6598
+   15.8350
+nfcn=22, ngrd=13, nit=12
+ 
+test suite problem # 4
+d.v. scaling OFF, 
+Function gradient
+Maximum discrepancy between derivatives  = 7.22107e-10
+Constraint gradients
+Maximum discrepancy between derivatives  = 6.85986e-09
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    6         1.56         0   6  -2.78e-17  1    0.00841     0.061
+    7       1.5516         1   6   0.000166  1      0.041     0.304
+    8       1.5106         1   6    0.00414  1      0.165      1.31
+    9       1.3483         1   6        0.1  1       0.13     0.207
+   10       1.3934         1   6    0.00827  1     0.0331     0.457
+   11        1.364         1   6     0.0116  1     0.0507      0.99
+   12       1.3186         1   6     0.0873  1     0.0538     0.355
+   13       1.3377         1   6      0.025  1     0.0194    0.0605
+   14       1.3463         1   6   0.000845  1    0.00222     0.096
+   15       1.3444         1   6   0.000941  1    0.00496     0.169
+   16       1.3398         1   6    0.00507  1     0.0024    0.0999
+   17       1.3401         1   6    0.00126  1   0.000801    0.0874
+   18       1.3398         1   6   0.000882  1   0.000753   0.00428
+   19       1.3402         1   6   3.48e-06  1   0.000148    0.0203
+   20         1.34         1   6   5.42e-05  1   0.000215    0.0335
+   21       1.3399         1   6   0.000243  1   0.000217  0.000867
+   22         1.34         1   6   1.34e-07  1   1.02e-06   0.00129
+   23         1.34         1   6   4.36e-07  1   1.96e-06   0.00345
+sqp: User termination criteria not met, but merit gradient is zero for 3 iterations.
+ 
+x =
+    6.0186    5.3029    4.4994    3.5010    2.1518
+nfcn=23, ngrd=18, nit=17
+ 
+test suite problem # 4
+d.v. scaling ON
+Function gradient
+Maximum discrepancy between derivatives  = 7.22107e-10
+Constraint gradients
+Maximum discrepancy between derivatives  = 6.85986e-09
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    6         1.56         0   6  -2.78e-17  1    0.00841     0.061 sx
+    7       1.5516         1   6   0.000166  1      0.041     0.304
+    8       1.5106         1   6    0.00414  1      0.165      1.31
+    9       1.3483         1   6        0.1  1       0.13     0.207
+   10       1.3934         1   6    0.00827  1     0.0331     0.457
+   11        1.364         1   6     0.0116  1     0.0507      0.99
+   12       1.3186         1   6     0.0873  1     0.0538     0.355
+   13       1.3377         1   6      0.025  1     0.0194    0.0605
+   14       1.3463         1   6   0.000845  1    0.00222     0.096
+   15       1.3444         1   6   0.000941  1    0.00496     0.169
+   16       1.3398         1   6    0.00507  1     0.0024    0.0999
+   17       1.3401         1   6    0.00126  1   0.000801    0.0874
+   18       1.3398         1   6   0.000882  1   0.000753   0.00428
+   19       1.3402         1   6   3.48e-06  1   0.000148    0.0203
+   20         1.34         1   6   5.42e-05  1   0.000215    0.0335
+   21       1.3399         1   6   0.000243  1   0.000217  0.000867
+   22         1.34         1   6   1.34e-07  1      1e-06   0.00129
+   23         1.34         1   6   4.26e-07  1   1.95e-06   0.00345
+sqp: User termination criteria not met, but merit gradient is zero for 3 iterations.
+ 
+x =
+    6.0186    5.3029    4.4994    3.5010    2.1518
+nfcn=23, ngrd=18, nit=17
+ 
+test suite problem # 5
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1           65         0   4       -124  1          0       257
+    2            0         1   3          0  1-         0         0
+Optimization Terminated Successfully from sqp
+ 
+x =
+     0     0     0
+nfcn=2, ngrd=2, nit=1
+ 
+test suite problem # 6
+Finite difference gradients
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    1       4144.8         0  20       17.6  6   3.56e+03       5.5
+    9       3010.2         1  21       2.65  5       31.2    0.0433
+   17       2994.3         1  21    0.00423  5    0.00247  4.29e-06
+   25       2994.3         1  21   1.08e-08  5   5.59e-09  1.09e-11
+Optimization Terminated Successfully from sqp
+ 
+x =
+    3.5000    0.7000   17.0000    7.3000    7.7153    3.3502    5.2867
+nfcn=25, ngrd=4, nit=3
+ 
+test suite problem # 9
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            0         0   1          1  1          1       0.2
+    2          0.2         1   1  -3.95e-11  1          0  3.16e-11
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.8000
+    0.6000
+nfcn=2, ngrd=2, nit=1
+ 
+test suite problem # 10
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            8         0   1         -3  1          0      19.5
+    2          0.5         1   1         -0  1          0  1.11e-16
+Optimization Terminated Successfully from sqp
+ 
+x =
+    2.5000
+    2.5000
+nfcn=2, ngrd=2, nit=1
+ 
+test suite problem # 11
+Finite difference gradients
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    1            0         0   1         -2  1          4         2
+    5           -1       0.5   1         -1  1   2.15e-09  4.64e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    1.0000
+    2.0000
+nfcn=5, ngrd=2, nit=1
+ 
+test suite problem # 12
+Check z0p1>eps to avoid infinite r
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            3         0   2          8  1         13      65.6
+    2       52.111         1   2         -0  1          0     0.438
+    3       52.105         1   2  -4.22e-11  1          0      0.21
+    4           52         1   2  -5.39e-11  1          0  1.23e-09
+Optimization Terminated Successfully from sqp
+ 
+x =
+    4.6667
+    5.3333
+    1.3333
+nfcn=4, ngrd=4, nit=3
+ 
+test suite problem # 13
+Equality constraint
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1           -6         0   1          2  1          2        24
+    3      -7.0351     0.103   1       1.79  1       1.79      4.19
+    4      -8.3268         1   1          0  1          0    0.0133
+    5      -8.3333         1   1          0  1          0  2.36e-06
+Optimization Terminated Successfully from sqp
+ 
+x =
+    2.1670
+    1.8330
+nfcn=5, ngrd=4, nit=3
+ 
+test suite problem # 14
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            3         0   2         31  1         62      4.46
+    3       3.4714     0.266   2       27.2  1       54.3      6.01
+    4       6.7238         1   2       13.4  1       26.7      17.5
+    6       9.4381      0.49   2       8.89  1       17.8      31.6
+    7       19.851         1   2       4.07  1       8.15        47
+    9        25.14     0.486   2       2.72  1       5.43      76.8
+   10       47.507         1   2       1.02  1       2.03      80.3
+   11       71.392         1   2      0.307  2      0.614      45.4
+   12       89.171         1   2     0.0467  2     0.0934      8.32
+   13       93.105         1   2    0.00175  2    0.00351     0.308
+   14       93.251         1   2    5.2e-05  1   0.000104   0.00686
+   15       93.254         1   2   1.13e-05  2   2.26e-05   0.00211
+   16       93.255         1   2      1e-09  1   2.01e-09  1.87e-07
+Optimization Terminated Successfully from sqp
+ 
+x =
+    5.2263
+    6.2151
+    5.2263
+nfcn=16, ngrd=13, nit=12
+ 
+test suite problem # 15
+vlb is subset of x0
+[Warning: Length of lower bounds is < length(x); filling in missing lower bounds
+with -Inf.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('checkbounds', '/Applications/MATLAB_R2015b.app/toolbox/shared/optimlib/checkbounds.m', 33)" style="font-weight:bold">checkbounds</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2015b.app/toolbox/shared/optimlib/checkbounds.m',33,0)">line 33</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sqp')" style="font-weight:bold">sqp</a>
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsuite', '/Users/rac/Dropbox/MATLAB/optimize/examples/tsuite.m', 62)" style="font-weight:bold">tsuite</a> (<a href="matlab: opentoline('/Users/rac/Dropbox/MATLAB/optimize/examples/tsuite.m',62,0)">line 62</a>)] 
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            3         0   2        0.2  2        0.2     0.877
+    2       3.4167         1   2     0.0286  2     0.0286     0.167
+    3       3.4977         1   2   0.000772  2   0.000772   0.00463
+    4          3.5         1   2   5.95e-07  2   5.95e-07  3.57e-06
+Optimization Terminated Successfully from sqp
+ 
+x =
+    1.0000    1.2500
+nfcn=4, ngrd=4, nit=3
+ 
+test suite problem # 16
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1           31         0   7          1  3          1        96
+    3        25.81       0.1   7       0.92  3       0.92      41.8
+    5       22.168     0.137   7      0.892  3      0.892      35.5
+    7       16.781     0.213   7      0.877  3      0.877      21.2
+    8       5.7746         1   7       1.34  3       2.19       6.2
+    9       8.8459         1   7     0.0707  3     0.0707     0.381
+   10       9.0361         1   7   0.000235  3   0.000235   0.00128
+   11       9.0367         1   7   4.87e-08  3   4.87e-08  2.54e-07
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.0000
+    1.0385
+    2.2271
+    0.0000
+nfcn=11, ngrd=8, nit=7
+ 
+test suite problem # 17
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1           70         0  19         30  5       37.8      61.2
+    2       197.25         1  19       3.45  2        4.3       204
+    4       187.76     0.119  19        3.1  2       3.85       219
+    6       174.77     0.209  19       2.73  2       3.42       202
+    8       164.34     0.171  19       2.43  2       3.02       535
+    9       1201.7         1  19      0.442  2      0.442  2.15e+03
+   11         1115       0.1  19      0.399  2      0.399  2.03e+03
+   13       1028.1       0.1  19      0.362  2      0.362  1.85e+03
+   15       952.14       0.1  19      0.328  2      0.328  1.69e+03
+   17       843.45     0.219  19      0.262  2      0.271  1.43e+03
+   19       771.36       0.1  19      0.264  2      0.273   1.4e+03
+   21       706.28       0.1  19      0.262  2      0.284       849
+   23       688.49       0.1  19      0.234  2      0.254       505
+   25       681.46       0.1  19      0.217  2      0.249       365
+   26       702.02         1  19      0.222  1      0.393       367
+   28       725.89     0.246  19     0.0999  2      0.212       306
+   29       871.31         1  19     0.0474  3     0.0626       220
+   31       868.26     0.472  19     0.0315  2     0.0463       424
+   33        828.5      0.15  19     0.0316  2     0.0518       160
+   34       903.37         1  19     0.0056  2    0.00796        16
+   35       909.47         1  19    0.00118  2    0.00144      4.87
+   36       911.78         1  19   3.41e-05  2   6.75e-05     0.211
+   37       911.88         1  19   1.33e-05  1   1.35e-05   0.00545
+   38       911.88         1  19   6.57e-06  1   6.62e-06    0.0015
+   39       911.88         1  19    4.7e-09  2    4.7e-09  1.59e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    3.8965
+    0.8094
+    2.6645
+    4.3005
+    0.8535
+    1.0952
+    0.0273
+nfcn=39, ngrd=25, nit=24
+ 
+test suite problem # 18
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1          8.8         0  22       5.06  3       14.7      18.7
+    2       3.6747         1  22        2.3  3        4.6      5.09
+    3       3.9923         1  22       1.85  4       3.03      1.67
+    4       3.7229         1  22      0.663  4        1.2      3.12
+    5       3.8219         1  22      0.286  4       0.42       1.9
+    6       4.4196         1  22       0.22  6      0.255     0.769
+    7       4.1097         1  22     0.0429  3     0.0557    0.0924
+    8       4.1021         1  22     0.0262  3     0.0262    0.0548
+    9        4.094         1  22   0.000754  4    0.00132    0.0941
+   10       4.0513         1  22    0.00843  4    0.00911    0.0207
+   11       4.0387         1  22    0.00158  3    0.00182    0.0172
+   12       4.0116         1  22      0.011  3     0.0114    0.0159
+   13       4.0197         1  22   0.000654  3   0.000866   0.00119
+   14       4.0196         1  22   2.17e-05  3   3.87e-05  0.000173
+   15       4.0188         1  22   7.05e-05  4   9.26e-05  8.79e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    5.6544
+    2.6297
+    0.6844
+    0.6030
+    6.0669
+    5.6070
+    1.2182
+    0.5205
+nfcn=15, ngrd=15, nit=14
+ 
+test suite problem # 19
+Modified search: aS mS
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    1       35.338         0   1        0.5  1   5.36e+03        68 mS aS
+    3      0.40635     0.106   2       21.4  1       3.87      2.31
+    4       1.1972         1   2       4.71  1      0.822      1.04
+    5      0.77307         1   2     -0.486  1      0.717       1.4
+    6      0.31196         1   2          1  2      0.232      1.25
+    7       0.1476         1   2     -0.725  2      0.134      1.21
+    8     0.063592         1   2      0.369  1     0.0428     0.884
+    9     0.032382         1   2     -0.034  1     0.0162     0.411
+   10     0.023555         1   2    0.00226  1   8.26e-05  0.000213
+   11      0.02355         1   2   4.51e-08  2      2e-08  1.01e-06
+Optimization Terminated Successfully from sqp
+ 
+x =
+   -9.5474
+    1.0474
+nfcn=11, ngrd=10, nit=9
+ 
+test suite problem # 20
+Line search termination error
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    1   1.6054e+05         0  14   2.81e+05  2   2.25e+06       200
+    2      -1493.5         1  14     0.0119  1   3.76e+05       111
+    3  -1.8763e+05         1  14    0.00426  1   7.75e+05       313
+    5  -2.2437e+05       0.1  14    0.00645  1    1.1e+06  2.23e+03
+    7  -2.8378e+05       0.1  14     0.0281  1   1.02e+06  2.01e+03
+    9  -3.3229e+05       0.1  14     0.0521  1   6.43e+05  1.81e+03
+   11  -3.6993e+05       0.1  14     0.0776  1   4.99e+05  1.63e+03
+   13  -3.9992e+05       0.1  14      0.104  1   4.64e+05  1.47e+03
+   15  -4.2415e+05       0.1  14      0.131  1   4.44e+05  1.32e+03
+   18  -4.3436e+05    0.0514  13      0.143  1    4.6e+05  1.25e+03
+   35  -3.8769e+05         1  13     0.0722  1   4.38e+05  1.25e+03 xp
+   38  -3.9816e+05    0.0471  14     0.0869  1    5.2e+05  1.19e+03
+   52   -3.598e+05         1  14     0.0296  1   4.85e+05  1.19e+03 xp
+   71  -3.3996e+05     0.143  14   1.03e-05  1   3.91e+05  1.19e+03 xp
+   73  -3.6805e+05       0.1  13     0.0406  1   4.32e+05  1.07e+03
+   90  -3.2406e+05         1  10     0.0239  1   3.58e+05  1.07e+03 xp
+   92  -3.4982e+05       0.1  14     0.0199  1   3.37e+05       966
+  112  -3.3612e+05    0.0364  14   2.63e-05  1   2.76e+05       966 xp
+  116  -3.4126e+05    0.0238  13     0.0095  1      3e+05       943
+  136  -3.3131e+05    0.0211  13    0.00497  1   2.84e+05       943 xp
+  142  -3.3246e+05   0.00534  14    0.00283  1   2.93e+05       938
+  158  -3.3246e+05   4.4e-06  13    0.00283  1   2.93e+05       938
+  174  -3.3246e+05  4.26e-06  13    0.00283  1   2.94e+05       938
+  190  -3.3246e+05  4.21e-06  13    0.00282  1   2.95e+05       938
+  206  -3.3246e+05  4.14e-06  14    0.00282  1   2.96e+05       938
+  222  -3.3247e+05  4.08e-06  13    0.00282  1   2.96e+05       938
+  238  -3.3247e+05  4.02e-06  13    0.00282  1   2.97e+05       938
+  254  -3.3247e+05  3.96e-06  13    0.00282  1   2.98e+05       938
+  270  -3.3247e+05   3.9e-06  14    0.00282  1   2.98e+05       938
+  286  -3.3247e+05  3.84e-06  14    0.00281  1   2.99e+05       938
+  302  -3.3247e+05  3.78e-06  14    0.00281  1      3e+05       938
+  318  -3.3247e+05  3.73e-06  14    0.00281  1      3e+05       938
+  334  -3.3247e+05  3.68e-06  14    0.00281  1   3.01e+05       938
+  350  -3.3247e+05  3.62e-06  14    0.00281  1   3.02e+05       938
+  366  -3.3247e+05  3.57e-06  14    0.00281  1   3.02e+05       938
+  382  -3.3247e+05  3.52e-06  14    0.00281  1   3.03e+05       938
+  398  -3.3247e+05  3.47e-06  14     0.0028  1   3.03e+05       938
+  414  -3.3247e+05  3.43e-06  14     0.0028  1   3.04e+05       938
+  430  -3.3248e+05  3.39e-06  14     0.0028  1   3.05e+05       938
+  446  -3.3248e+05  3.36e-06  14     0.0028  1   3.05e+05       938
+  462  -3.3248e+05  3.33e-06  14     0.0028  1   3.06e+05       938
+  478  -3.3248e+05   3.3e-06  14     0.0028  1   3.06e+05       938
+  494  -3.3248e+05  3.28e-06  14     0.0028  1   3.07e+05       938
+  510  -3.3248e+05  3.25e-06  14    0.00279  1   3.07e+05       938
+  526  -3.3248e+05  3.22e-06  14    0.00279  1   3.08e+05       938
+  542  -3.3248e+05  3.19e-06  14    0.00279  1   3.08e+05       938
+  558  -3.3248e+05  3.17e-06  14    0.00279  1   3.09e+05       938
+  574  -3.3248e+05  3.14e-06  14    0.00279  1    3.1e+05       938
+  590  -3.3248e+05  3.11e-06  14    0.00279  1    3.1e+05       938
+sqp: Maximum # function evaluations exceeded. Increase opts(14).
+ 
+x =
+   1.0e+03 *
+    0.1692    4.0622    0.2772    1.5099    0.0010    0.0003
+nfcn=606, ngrd=49, nit=48
+ 
+test suite problem # 21
+1 equality constraint
+Andy Grace termination criteria
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j         AG  max{S/2}
+    1   1.6054e+05         0  14   2.81e+05  2   5.78e+05       100
+    2      -1491.4         1  14    0.00106  1   1.82e+05      55.3
+    3  -1.7808e+05         1  14   4.64e-05  1   1.88e+05       108
+    5  -2.1224e+05       0.1  14   6.73e-05  1   2.72e+05  1.15e+03
+    7  -2.6552e+05       0.1  13    0.00328  1   1.89e+05  1.03e+03
+    9  -3.0249e+05       0.1  13    0.00632  1   8.04e+04       552
+   11  -3.5872e+05      0.37  12     0.0218  1   8.43e+03       176
+   12   -3.702e+05         1  14     0.0198  1   3.72e+03      57.3
+   13  -3.6194e+05         1  12    0.00252  1        556      1.77
+   14  -3.6065e+05         1  14   3.27e-07  1       75.5      5.83
+   15  -3.6073e+05         1  13   2.43e-05  1       5.67     0.361
+   16  -3.6072e+05         1  13   5.67e-08  1      0.443     0.601
+   17  -3.6072e+05         1  13   1.06e-08  1       3.26      4.73
+   18  -3.6073e+05         1  12   1.59e-07  1       7.64      13.4
+   19  -3.6074e+05         1  12    3.7e-07  1       16.5      32.3
+   20  -3.6077e+05         1  14   6.13e-07  1       31.5      64.7
+   21  -3.6081e+05         1  14   4.84e-07  1       26.1        48
+   22  -3.6085e+05         1  13   1.31e-07  1       21.3      7.14
+   23  -3.6087e+05         1  14   1.64e-06  1       1.92      7.85
+   24  -3.6088e+05         1  14   2.98e-07  1      0.063      1.61
+   25  -3.6088e+05         1  14   3.82e-11  1   8.36e-05    0.0815
+   26  -3.6088e+05         1  14   7.24e-12  1   2.01e-06  0.000709
+   27  -3.6088e+05         1  14    1.5e-14  1   4.26e-09  1.56e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+   1.0e+03 *
+    0.1498    3.7953    0.3000    1.8430    0.0011    0.0002
+nfcn=27, ngrd=23, nit=22
+ 
+Percent difference between objective and known solution
+Problem #      % Error
+---------      -------
+      1         0.0004
+      2         0.0433
+      3         0.0235
+      4        -0.0031
+      4        -0.0031
+      5         0.0000
+      6        -0.0183
+      9         0.0000
+     10         0.0000
+     11        -0.0000
+     12         0.0000
+     13         0.0040
+     14         0.0009
+     15        -0.0001
+     16        -0.0032
+     17         0.0001
+     18         1.7170
+     19         0.0016
+     20        -7.8675
+     21         0.0001
+
+ 
+ 
+
+ 
+ 
+25-Nov-2016
+ 
+ 
+test suite problem # 1
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1           11         0   3         -0  1          0      10.8
+    2            5         1   3       0.25  3       0.25      1.21
+    3          5.6         1   3     0.0025  3     0.0025    0.0122
+    4       5.6061         1   3    2.6e-07  3    2.6e-07  1.31e-06
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.5505
+    0.1010
+nfcn=4, ngrd=4, nit=3
+ 
+test suite problem # 2
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1       1.4142         0   4      0.578  1      0.806      1.46
+    3       1.3287     0.144   4        0.5  1      0.624      1.13
+    5       1.2686     0.147   4      0.433  1      0.459     0.792
+    7       1.2383     0.119   4      0.385  1      0.385     0.543
+    9       1.2233       0.1   4      0.349  1      0.349     0.389
+   11        1.224     0.117   4      0.311  1      0.311     0.479
+   12       1.3273         1   4      0.165  1      0.165     0.263
+   13       1.4188         1   4     0.0684  1     0.0684     0.174
+   14       1.4965         1   4    0.00813  1    0.00813    0.0243
+   15       1.5085         1   4   7.01e-05  1   7.01e-05  0.000211
+   16       1.5087         1   4   8.89e-08  1   8.89e-08  2.77e-07
+Optimization Terminated Successfully from sqp
+ 
+x =
+    1.4116    0.3770
+nfcn=16, ngrd=11, nit=10
+ 
+test suite problem # 3
+Merit gradient zero (w/o ACTIVE_CONSTRAINTS)
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            5         0   4       11.8  1         13      5.95
+    3       4.7621       0.1   4       10.5  1       11.6      5.59
+    4       4.9963         1   4       5.03  1       5.71      16.3
+    5        7.293         1   4       2.29  1       2.59      29.7
+    6       10.711         1   4      0.938  1       1.06      31.9
+    7       14.718         1   3      0.306  1      0.347      13.6
+    8       17.593         1   4     0.0581  1     0.0662      1.97
+    9       18.425         1   4    0.00303  1    0.00369    0.0977
+   10       18.474         1   4   0.000104  2   0.000113  0.000665
+   19       18.474  1.49e-08   4   0.000104  2   0.000113      2.42 Hessian modified twice
+   20       18.474         1   4   3.65e-05  2   3.65e-05    0.0588
+   21       18.474         1   4    1.3e-05  2    1.3e-05   0.00153
+   22       18.474         1   4   4.63e-06  2   4.63e-06  5.47e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.6598
+   15.8350
+nfcn=22, ngrd=13, nit=12
+ 
+test suite problem # 4
+d.v. scaling OFF, 
+Function gradient
+Maximum discrepancy between derivatives  = 7.22107e-10
+Constraint gradients
+Maximum discrepancy between derivatives  = 6.85986e-09
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    6         1.56         0   6  -2.78e-17  1    0.00841     0.061
+    7       1.5516         1   6   0.000166  1      0.041     0.304
+    8       1.5106         1   6    0.00414  1      0.165      1.31
+    9       1.3483         1   6        0.1  1       0.13     0.207
+   10       1.3934         1   6    0.00827  1     0.0331     0.457
+   11        1.364         1   6     0.0116  1     0.0507      0.99
+   12       1.3186         1   6     0.0873  1     0.0538     0.355
+   13       1.3377         1   6      0.025  1     0.0194    0.0605
+   14       1.3463         1   6   0.000845  1    0.00222     0.096
+   15       1.3444         1   6   0.000941  1    0.00496     0.169
+   16       1.3398         1   6    0.00507  1     0.0024    0.0999
+   17       1.3401         1   6    0.00126  1   0.000801    0.0874
+   18       1.3398         1   6   0.000882  1   0.000753   0.00428
+   19       1.3402         1   6   3.48e-06  1   0.000148    0.0203
+   20         1.34         1   6   5.42e-05  1   0.000215    0.0335
+   21       1.3399         1   6   0.000243  1   0.000217  0.000867
+   22         1.34         1   6   1.34e-07  1   1.02e-06   0.00129
+   23         1.34         1   6   4.36e-07  1   1.96e-06   0.00345
+sqp: User termination criteria not met, but merit gradient is zero for 3 iterations.
+ 
+x =
+    6.0186    5.3029    4.4994    3.5010    2.1518
+nfcn=23, ngrd=18, nit=17
+ 
+test suite problem # 4
+d.v. scaling ON
+Function gradient
+Maximum discrepancy between derivatives  = 7.22107e-10
+Constraint gradients
+Maximum discrepancy between derivatives  = 6.85986e-09
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    6         1.56         0   6  -2.78e-17  1    0.00841     0.061 sx
+    7       1.5516         1   6   0.000166  1      0.041     0.304
+    8       1.5106         1   6    0.00414  1      0.165      1.31
+    9       1.3483         1   6        0.1  1       0.13     0.207
+   10       1.3934         1   6    0.00827  1     0.0331     0.457
+   11        1.364         1   6     0.0116  1     0.0507      0.99
+   12       1.3186         1   6     0.0873  1     0.0538     0.355
+   13       1.3377         1   6      0.025  1     0.0194    0.0605
+   14       1.3463         1   6   0.000845  1    0.00222     0.096
+   15       1.3444         1   6   0.000941  1    0.00496     0.169
+   16       1.3398         1   6    0.00507  1     0.0024    0.0999
+   17       1.3401         1   6    0.00126  1   0.000801    0.0874
+   18       1.3398         1   6   0.000882  1   0.000753   0.00428
+   19       1.3402         1   6   3.48e-06  1   0.000148    0.0203
+   20         1.34         1   6   5.42e-05  1   0.000215    0.0335
+   21       1.3399         1   6   0.000243  1   0.000217  0.000867
+   22         1.34         1   6   1.34e-07  1      1e-06   0.00129
+   23         1.34         1   6   4.26e-07  1   1.95e-06   0.00345
+sqp: User termination criteria not met, but merit gradient is zero for 3 iterations.
+ 
+x =
+    6.0186    5.3029    4.4994    3.5010    2.1518
+nfcn=23, ngrd=18, nit=17
+ 
+test suite problem # 5
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1           65         0   4       -124  1          0       257
+    2            0         1   3          0  1-         0         0
+Optimization Terminated Successfully from sqp
+ 
+x =
+     0     0     0
+nfcn=2, ngrd=2, nit=1
+ 
+test suite problem # 6
+Finite difference gradients
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    1       4144.8         0  13       17.6  6   3.56e+03       5.5
+    9       3010.2         1  14       2.65  5       31.2    0.0433
+   17       2994.3         1  14    0.00423  5    0.00247  4.29e-06
+   25       2994.3         1  14   1.08e-08  5   5.59e-09  1.09e-11
+Optimization Terminated Successfully from sqp
+ 
+x =
+    3.5000    0.7000   17.0000    7.3000    7.7153    3.3502    5.2867
+nfcn=25, ngrd=4, nit=3
+ 
+test suite problem # 9
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            0         0   1          1  1          1       0.2
+    2          0.2         1   1  -3.95e-11  1          0  3.16e-11
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.8000
+    0.6000
+nfcn=2, ngrd=2, nit=1
+ 
+test suite problem # 10
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            8         0   1         -3  1          0      19.5
+    2          0.5         1   1         -0  1          0  1.11e-16
+Optimization Terminated Successfully from sqp
+ 
+x =
+    2.5000
+    2.5000
+nfcn=2, ngrd=2, nit=1
+ 
+test suite problem # 11
+Finite difference gradients
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    1            0         0   1         -2  1          4         2
+    5           -1       0.5   1         -1  1   2.15e-09  4.64e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    1.0000
+    2.0000
+nfcn=5, ngrd=2, nit=1
+ 
+test suite problem # 12
+Check z0p1>eps to avoid infinite r
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            3         0   2          8  1         13      65.6
+    2       52.111         1   2         -0  1          0     0.438
+    3       52.105         1   2  -4.22e-11  1          0      0.21
+    4           52         1   2  -5.39e-11  1          0  1.23e-09
+Optimization Terminated Successfully from sqp
+ 
+x =
+    4.6667
+    5.3333
+    1.3333
+nfcn=4, ngrd=4, nit=3
+ 
+test suite problem # 13
+Equality constraint
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1           -6         0   1          2  1          2        24
+    3      -7.0351     0.103   1       1.79  1       1.79      4.19
+    4      -8.3268         1   1          0  1          0    0.0133
+    5      -8.3333         1   1          0  1          0  2.36e-06
+Optimization Terminated Successfully from sqp
+ 
+x =
+    2.1670
+    1.8330
+nfcn=5, ngrd=4, nit=3
+ 
+test suite problem # 14
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            3         0   2         31  1         62      4.46
+    3       3.4714     0.266   2       27.2  1       54.3      6.01
+    4       6.7238         1   2       13.4  1       26.7      17.5
+    6       9.4381      0.49   2       8.89  1       17.8      31.6
+    7       19.851         1   2       4.07  1       8.15        47
+    9        25.14     0.486   2       2.72  1       5.43      76.8
+   10       47.507         1   2       1.02  1       2.03      80.3
+   11       71.392         1   2      0.307  2      0.614      45.4
+   12       89.171         1   2     0.0467  2     0.0934      8.32
+   13       93.105         1   2    0.00175  2    0.00351     0.308
+   14       93.251         1   2    5.2e-05  1   0.000104   0.00686
+   15       93.254         1   2   1.13e-05  2   2.26e-05   0.00211
+   16       93.255         1   2      1e-09  1   2.01e-09  1.87e-07
+Optimization Terminated Successfully from sqp
+ 
+x =
+    5.2263
+    6.2151
+    5.2263
+nfcn=16, ngrd=13, nit=12
+ 
+test suite problem # 15
+vlb is subset of x0
+[Warning: Length of lower bounds is < length(x); filling in missing lower bounds with -Inf.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('checkbounds', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/checkbounds.m', 31)" style="font-weight:bold">checkbounds</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/checkbounds.m',31,0)">line 31</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sqp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/sqp.m', 309)" style="font-weight:bold">sqp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/sqp.m',309,0)">line 309</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsuite', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/tsuite.m', 62)" style="font-weight:bold">tsuite</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/tsuite.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 18)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',18,0)">line 18</a>)] 
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1            3         0   2        0.2  2        0.2     0.877
+    2       3.4167         1   2     0.0286  2     0.0286     0.167
+    3       3.4977         1   2   0.000772  2   0.000772   0.00463
+    4          3.5         1   2   5.95e-07  2   5.95e-07  3.57e-06
+Optimization Terminated Successfully from sqp
+ 
+x =
+    1.0000    1.2500
+nfcn=4, ngrd=4, nit=3
+ 
+test suite problem # 16
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1           31         0   7          1  3          1        96
+    3        25.81       0.1   7       0.92  3       0.92      41.8
+    5       22.168     0.137   7      0.892  3      0.892      35.5
+    7       16.781     0.213   7      0.877  3      0.877      21.2
+    8       5.7746         1   7       1.34  3       2.19       6.2
+    9       8.8459         1   7     0.0707  3     0.0707     0.381
+   10       9.0361         1   7   0.000235  3   0.000235   0.00128
+   11       9.0367         1   7   4.87e-08  3   4.87e-08  2.54e-07
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.0000
+    1.0385
+    2.2271
+    0.0000
+nfcn=11, ngrd=8, nit=7
+ 
+test suite problem # 17
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1           70         0  12         30  5       37.8      61.2
+    2       197.25         1  12       3.45  2        4.3       204
+    4       187.76     0.119  12        3.1  2       3.85       219
+    6       174.77     0.209  12       2.73  2       3.42       202
+    8       164.34     0.171  12       2.43  2       3.02       535
+    9       1201.7         1  12      0.442  2      0.442  2.15e+03
+   11         1115       0.1  12      0.399  2      0.399  2.03e+03
+   13       1028.1       0.1  12      0.362  2      0.362  1.85e+03
+   15       952.14       0.1  12      0.328  2      0.328  1.69e+03
+   17       843.45     0.219  12      0.262  2      0.271  1.43e+03
+   19       771.36       0.1  12      0.264  2      0.273   1.4e+03
+   21       706.28       0.1  12      0.262  2      0.284       849
+   23       688.49       0.1  12      0.234  2      0.254       505
+   25       681.46       0.1  12      0.217  2      0.249       365
+   26       702.02         1  12      0.222  1      0.393       367
+   28       725.89     0.246  12     0.0999  2      0.212       306
+   29       871.31         1  12     0.0474  3     0.0626       220
+   31       868.26     0.472  12     0.0315  2     0.0463       424
+   33        828.5      0.15  12     0.0316  2     0.0518       160
+   34       903.37         1  12     0.0056  2    0.00796        16
+   35       909.47         1  12    0.00118  2    0.00144      4.87
+   36       911.78         1  12   3.41e-05  2   6.75e-05     0.211
+   37       911.88         1  12   1.33e-05  1   1.35e-05   0.00545
+   38       911.88         1  12   6.57e-06  1   6.62e-06    0.0015
+   39       911.88         1  12    4.7e-09  2    4.7e-09  1.59e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    3.8965
+    0.8094
+    2.6645
+    4.3005
+    0.8535
+    1.0952
+    0.0273
+nfcn=39, ngrd=25, nit=24
+ 
+test suite problem # 18
+ 
+                                               Termination Criteria
+                                                     0.01    0.0001
+                                               --------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        SCV       KTO
+    1          8.8         0  14       5.06  3       14.7      18.7
+    2       3.6747         1  14        2.3  3        4.6      5.09
+    3       3.9923         1  14       1.85  4       3.03      1.67
+    4       3.7229         1  14      0.663  4        1.2      3.12
+    5       3.8219         1  14      0.286  4       0.42       1.9
+    6       4.4196         1  14       0.22  6      0.255     0.769
+    7       4.1097         1  14     0.0429  3     0.0557    0.0924
+    8       4.1021         1  14     0.0262  3     0.0262    0.0548
+    9        4.094         1  14   0.000754  4    0.00132    0.0941
+   10       4.0513         1  14    0.00843  4    0.00911    0.0207
+   11       4.0387         1  14    0.00158  3    0.00182    0.0172
+   12       4.0116         1  14      0.011  3     0.0114    0.0159
+   13       4.0197         1  14   0.000654  3   0.000866   0.00119
+   14       4.0196         1  14   2.17e-05  3   3.87e-05  0.000173
+   15       4.0188         1  14   7.05e-05  4   9.26e-05  8.79e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    5.6544
+    2.6297
+    0.6844
+    0.6030
+    6.0669
+    5.6070
+    1.2182
+    0.5205
+nfcn=15, ngrd=15, nit=14
+ 
+test suite problem # 19
+Modified search: aS mS
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    1       35.338         0   1        0.5  1   5.36e+03        68 mS aS
+    3      0.40635     0.106   2       21.4  1       3.87      2.31
+    4       1.1972         1   2       4.71  1      0.822      1.04
+    5      0.77307         1   2     -0.486  1      0.717       1.4
+    6      0.31196         1   2          1  2      0.232      1.25
+    7       0.1476         1   2     -0.725  2      0.134      1.21
+    8     0.063592         1   2      0.369  1     0.0428     0.884
+    9     0.032382         1   2     -0.034  1     0.0162     0.411
+   10     0.023555         1   2    0.00226  1   8.26e-05  0.000213
+   11      0.02355         1   2   4.51e-08  2      2e-08  1.01e-06
+Optimization Terminated Successfully from sqp
+ 
+x =
+   -9.5474
+    1.0474
+nfcn=11, ngrd=10, nit=9
+ 
+test suite problem # 20
+Line search termination error
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j        KTO    max(S)
+    1   1.6054e+05         0   8   2.81e+05  2   2.25e+06       200
+    2      -1493.5         1   8     0.0119  1   3.76e+05       111
+    3  -1.8763e+05         1   9    0.00426  1   7.75e+05       313
+    5  -2.2437e+05       0.1   8    0.00645  1    1.1e+06  2.23e+03
+    7  -2.8378e+05       0.1   8     0.0281  1   1.02e+06  2.01e+03
+    9  -3.3229e+05       0.1   8     0.0521  1   6.43e+05  1.81e+03
+   11  -3.6993e+05       0.1   8     0.0776  1   4.99e+05  1.63e+03
+   13  -3.9992e+05       0.1   8      0.104  1   4.64e+05  1.47e+03
+   15  -4.2415e+05       0.1   8      0.131  1   4.44e+05  1.32e+03
+   18  -4.3436e+05    0.0514   7      0.143  1    4.6e+05  1.25e+03
+   35  -3.8769e+05         1   8     0.0722  1   4.38e+05  1.25e+03 xp
+   38  -3.9816e+05    0.0471   8     0.0869  1    5.2e+05  1.19e+03
+   52   -3.598e+05         1   8     0.0296  1   4.85e+05  1.19e+03 xp
+   71  -3.3996e+05     0.143   8   1.03e-05  1   3.91e+05  1.19e+03 xp
+   73  -3.6805e+05       0.1   8     0.0406  1   4.32e+05  1.07e+03
+   90  -3.2406e+05         1   8     0.0239  1   3.58e+05  1.07e+03 xp
+   92  -3.4982e+05       0.1   8     0.0199  1   3.37e+05       966
+  112  -3.3612e+05    0.0364   8   2.63e-05  1   2.76e+05       966 xp
+  116  -3.4126e+05    0.0238   8     0.0095  1      3e+05       943
+  136  -3.3131e+05    0.0211   7    0.00497  1   2.84e+05       943 xp
+  142  -3.3246e+05   0.00534   7    0.00283  1   2.93e+05       938
+  158  -3.3246e+05   4.4e-06   7    0.00283  1   2.93e+05       938
+  174  -3.3246e+05  4.26e-06   8    0.00283  1   2.94e+05       938
+  190  -3.3246e+05  4.21e-06   7    0.00282  1   2.95e+05       938
+  206  -3.3246e+05  4.14e-06   7    0.00282  1   2.96e+05       938
+  222  -3.3247e+05  4.08e-06   7    0.00282  1   2.96e+05       938
+  238  -3.3247e+05  4.02e-06   7    0.00282  1   2.97e+05       938
+  254  -3.3247e+05  3.96e-06   7    0.00282  1   2.98e+05       938
+  270  -3.3247e+05   3.9e-06   8    0.00282  1   2.98e+05       938
+  286  -3.3247e+05  3.84e-06   8    0.00281  1   2.99e+05       938
+  302  -3.3247e+05  3.78e-06   8    0.00281  1      3e+05       938
+  318  -3.3247e+05  3.73e-06   8    0.00281  1      3e+05       938
+  334  -3.3247e+05  3.68e-06   8    0.00281  1   3.01e+05       938
+  350  -3.3247e+05  3.62e-06   8    0.00281  1   3.02e+05       938
+  366  -3.3247e+05  3.57e-06   8    0.00281  1   3.02e+05       938
+  382  -3.3247e+05  3.52e-06   8    0.00281  1   3.03e+05       938
+  398  -3.3247e+05  3.47e-06   8     0.0028  1   3.03e+05       938
+  414  -3.3247e+05  3.43e-06   8     0.0028  1   3.04e+05       938
+  430  -3.3248e+05  3.39e-06   8     0.0028  1   3.05e+05       938
+  446  -3.3248e+05  3.36e-06   8     0.0028  1   3.05e+05       938
+  462  -3.3248e+05  3.33e-06   8     0.0028  1   3.06e+05       938
+  478  -3.3248e+05   3.3e-06   8     0.0028  1   3.06e+05       938
+  494  -3.3248e+05  3.28e-06   8     0.0028  1   3.07e+05       938
+  510  -3.3248e+05  3.25e-06   8    0.00279  1   3.07e+05       938
+  526  -3.3248e+05  3.22e-06   8    0.00279  1   3.08e+05       938
+  542  -3.3248e+05  3.19e-06   8    0.00279  1   3.08e+05       938
+  558  -3.3248e+05  3.17e-06   8    0.00279  1   3.09e+05       938
+  574  -3.3248e+05  3.14e-06   8    0.00279  1    3.1e+05       938
+  590  -3.3248e+05  3.11e-06   8    0.00279  1    3.1e+05       938
+sqp: Maximum # function evaluations exceeded. Increase opts(14).
+ 
+x =
+   1.0e+03 *
+    0.1692    4.0622    0.2772    1.5099    0.0010    0.0003
+nfcn=606, ngrd=49, nit=48
+ 
+test suite problem # 21
+1 equality constraint
+Andy Grace termination criteria
+ 
+                                       Termination Criteria
+                                      1e-06        0.0001    0.0001
+                                -----------------------------------
+f-CNT         FUNC      STEP NAC     max{g}  j         AG  max{S/2}
+    1   1.6054e+05         0   8   2.81e+05  2   5.78e+05       100
+    2      -1491.4         1   8    0.00106  1   1.82e+05      55.3
+    3  -1.7808e+05         1   9   4.64e-05  1   1.88e+05       108
+    5  -2.1224e+05       0.1   8   6.73e-05  1   2.72e+05  1.15e+03
+    7  -2.6552e+05       0.1   7    0.00328  1   1.89e+05  1.03e+03
+    9  -3.0249e+05       0.1   8    0.00632  1   8.04e+04       552
+   11  -3.5872e+05      0.37   8     0.0218  1   8.43e+03       176
+   12   -3.702e+05         1   8     0.0198  1   3.72e+03      57.3
+   13  -3.6194e+05         1   8    0.00252  1        556      1.77
+   14  -3.6065e+05         1   8   3.27e-07  1       75.5      5.83
+   15  -3.6073e+05         1   7   2.43e-05  1       5.67     0.361
+   16  -3.6072e+05         1   8   5.67e-08  1      0.443     0.601
+   17  -3.6072e+05         1   6   1.06e-08  1       3.26      4.73
+   18  -3.6073e+05         1   7   1.59e-07  1       7.64      13.4
+   19  -3.6074e+05         1   8    3.7e-07  1       16.5      32.3
+   20  -3.6077e+05         1   8   6.13e-07  1       31.5      64.7
+   21  -3.6081e+05         1   8   4.84e-07  1       26.1        48
+   22  -3.6085e+05         1   7   1.31e-07  1       21.3      7.14
+   23  -3.6087e+05         1   8   1.64e-06  1       1.92      7.85
+   24  -3.6088e+05         1   7   2.98e-07  1      0.063      1.61
+   25  -3.6088e+05         1   8   3.82e-11  1   8.36e-05    0.0815
+   26  -3.6088e+05         1   7   7.24e-12  1   2.01e-06  0.000709
+   27  -3.6088e+05         1   6   1.53e-14  1   4.35e-09  1.56e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+   1.0e+03 *
+    0.1498    3.7953    0.3000    1.8430    0.0011    0.0002
+nfcn=27, ngrd=23, nit=22
+ 
+Percent difference between objective and known solution
+Problem #      % Error
+---------      -------
+      1         0.0004
+      2         0.0433
+      3         0.0235
+      4        -0.0031
+      4        -0.0031
+      5         0.0000
+      6        -0.0183
+      9         0.0000
+     10         0.0000
+     11        -0.0000
+     12         0.0000
+     13         0.0040
+     14         0.0009
+     15        -0.0001
+     16        -0.0032
+     17         0.0001
+     18         1.7170
+     19         0.0016
+     20        -7.8675
+     21         0.0001
+
+
+
+
+
+
+07-Apr-2019
+ 
+ 
+test suite problem # 1
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1           11         0    3         -0    1          0      10.7
+    2            5         1    3       0.25    3       0.25      1.21
+    3          5.6         1    3     0.0025    3     0.0025    0.0122
+    4       5.6061         1    3   2.64e-07    3   2.68e-07   1.3e-06
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.5505
+    0.1010
+nfcn=4, ngrd=4, nit=3
+ 
+test suite problem # 2
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1       1.4142         0    4      0.578    1      0.806      1.46
+    3       1.3287     0.144    4        0.5    1      0.624      1.13
+    5       1.2686     0.147    4      0.433    1      0.459     0.792
+    7       1.2383     0.119    4      0.385    1      0.385     0.543
+    9       1.2233       0.1    4      0.349    1      0.349     0.389
+   11        1.224     0.117    4      0.311    1      0.311     0.479
+   12       1.3273         1    4      0.165    1      0.165     0.263
+   13       1.4188         1    4     0.0684    1     0.0684     0.174
+   14       1.4965         1    4    0.00813    1    0.00813    0.0243
+   15       1.5085         1    4   7.01e-05    1   7.01e-05  0.000211
+   16       1.5087         1    4   8.89e-08    1   8.89e-08  2.59e-07
+Optimization Terminated Successfully from sqp
+ 
+x =
+    1.4116    0.3770
+nfcn=16, ngrd=11, nit=10
+ 
+test suite problem # 3
+Merit gradient zero (w/o ACTIVE_CONSTRAINTS)
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1            5         0    4       11.8    1         13      5.95
+    3       4.7621       0.1    4       10.5    1       11.6      5.59
+    4       4.9963         1    4       5.03    1       5.71      16.3
+    5        7.293         1    4       2.29    1       2.59      29.7
+    6       10.711         1    4      0.938    1       1.06      31.9
+    7       14.718         1    4      0.306    1      0.347      13.6
+    8       17.593         1    4     0.0581    1     0.0662      1.97
+    9       18.425         1    4    0.00303    1    0.00369    0.0977
+   10       18.474         1    4   0.000104    2   0.000113  0.000665
+   19       18.474  1.49e-08    4   0.000104    2   0.000113       1.6 Hessian modified twice
+   20       18.474         1    4   5.94e-05    2   5.94e-05     0.147
+   21       18.474         1    4   2.33e-05    2   2.33e-05   0.00483
+   22       18.474         1    4   8.37e-06    2   8.37e-06  0.000154
+   23       18.474         1    4   2.98e-06    2   2.98e-06   1.4e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.6598
+   15.8350
+nfcn=23, ngrd=14, nit=13
+ 
+test suite problem # 4
+d.v. scaling OFF, 
+Function gradient
+Maximum discrepancy between derivatives  = 7.22107e-10
+Constraint gradients
+Maximum discrepancy between derivatives  = 6.85986e-09
+ 
+                                         Termination Criteria
+                                       1e-06          0.0001    0.0001
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    6         1.56         0    6  -2.78e-17    1    0.00841     0.061
+    7       1.5516         1    6   0.000166    1      0.041     0.304
+    8       1.5106         1    6    0.00414    1      0.165      1.31
+    9       1.3483         1    6        0.1    1       0.13     0.207
+   10       1.3934         1    6    0.00827    1     0.0331     0.457
+   11        1.364         1    6     0.0116    1     0.0507      0.99
+   12       1.3186         1    6     0.0873    1     0.0538     0.355
+   13       1.3377         1    6      0.025    1     0.0194    0.0605
+   14       1.3463         1    6   0.000845    1    0.00222     0.096
+   15       1.3444         1    6   0.000941    1    0.00496     0.169
+   16       1.3398         1    6    0.00507    1     0.0024    0.0999
+   17       1.3401         1    6    0.00126    1   0.000801    0.0874
+   18       1.3398         1    6   0.000882    1   0.000753   0.00428
+   19       1.3402         1    6   3.46e-06    1   0.000148    0.0203
+   20         1.34         1    6   5.42e-05    1   0.000215    0.0335
+   21       1.3399         1    6   0.000243    1   0.000217  0.000867
+   22         1.34         1    6   1.34e-07    1   1.01e-06   0.00129
+   23         1.34         1    6   4.34e-07    1   1.95e-06   0.00345
+sqp: User termination criteria not met, but merit gradient is zero for 3 iterations.
+ 
+x =
+    6.0186    5.3029    4.4994    3.5010    2.1518
+nfcn=23, ngrd=18, nit=17
+ 
+test suite problem # 4
+d.v. scaling ON
+Function gradient
+Maximum discrepancy between derivatives  = 7.22107e-10
+Constraint gradients
+Maximum discrepancy between derivatives  = 6.85986e-09
+ 
+                                         Termination Criteria
+                                       1e-06          0.0001    0.0001
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    6         1.56         0    6  -2.78e-17    1    0.00841     0.061 sx
+    7       1.5516         1    6   0.000166    1      0.041     0.304
+    8       1.5106         1    6    0.00414    1      0.165      1.31
+    9       1.3483         1    6        0.1    1       0.13     0.207
+   10       1.3934         1    6    0.00827    1     0.0331     0.457
+   11        1.364         1    6     0.0116    1     0.0507      0.99
+   12       1.3186         1    6     0.0873    1     0.0538     0.355
+   13       1.3377         1    6      0.025    1     0.0194    0.0605
+   14       1.3463         1    6   0.000845    1    0.00222     0.096
+   15       1.3444         1    6   0.000941    1    0.00496     0.169
+   16       1.3398         1    6    0.00507    1     0.0024    0.0999
+   17       1.3401         1    6    0.00126    1   0.000801    0.0874
+   18       1.3398         1    6   0.000882    1   0.000753   0.00428
+   19       1.3402         1    6   3.47e-06    1   0.000148    0.0203
+   20         1.34         1    6   5.42e-05    1   0.000215    0.0335
+   21       1.3399         1    6   0.000243    1   0.000217  0.000867
+   22         1.34         1    6   1.27e-07    1   1.01e-06   0.00129
+   23         1.34         1    6   4.34e-07    1   1.95e-06   0.00345
+sqp: User termination criteria not met, but merit gradient is zero for 3 iterations.
+ 
+x =
+    6.0186    5.3029    4.4994    3.5010    2.1518
+nfcn=23, ngrd=18, nit=17
+ 
+test suite problem # 5
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1           65         0    4       -124    1          0       257
+    2   4.5704e-23         1    4  -5.03e-14    1-         0  3.47e-15
+Optimization Terminated Successfully from sqp
+ 
+x =
+   1.0e-10 *
+    0.0005    0.1214    0.0015
+nfcn=2, ngrd=2, nit=1
+ 
+test suite problem # 6
+Finite difference gradients
+ 
+                                         Termination Criteria
+                                       1e-06          0.0001    0.0001
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    1       4144.8         0   13       17.6    6   3.56e+03       5.5
+    9       3010.2         1   14       2.65    5       31.2    0.0433
+   17       2994.3         1   14    0.00423    5    0.00247  4.29e-06
+   25       2994.3         1   14   1.07e-08    5   5.56e-09  1.09e-11
+Optimization Terminated Successfully from sqp
+ 
+x =
+    3.5000    0.7000   17.0000    7.3000    7.7153    3.3502    5.2867
+nfcn=25, ngrd=4, nit=3
+ 
+test suite problem # 9
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1            0         0    1          1    1          1       0.2
+    2          0.2         1    1  -4.01e-10    1          0  3.13e-10
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.8000
+    0.6000
+nfcn=2, ngrd=2, nit=1
+ 
+test suite problem # 10
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1            8         0    1         -3    1          0      19.5
+    2          0.5         1    1   3.97e-09    1   3.97e-09  7.94e-09
+Optimization Terminated Successfully from sqp
+ 
+x =
+    2.5000
+    2.5000
+nfcn=2, ngrd=2, nit=1
+ 
+test suite problem # 11
+Finite difference gradients
+ 
+                                         Termination Criteria
+                                       1e-06          0.0001    0.0001
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    1            0         0    1         -2    1          4         2
+    5           -1       0.5    1         -1    1   1.69e-09   4.1e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    1.0000
+    2.0000
+nfcn=5, ngrd=2, nit=1
+ 
+test suite problem # 12
+Check z0p1>eps to avoid infinite r
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1            3         0    2          8    1         13      65.6
+    2       52.111         1    2   3.45e-13    1   3.45e-13     0.438
+    3       52.105         1    2   4.25e-12    1   4.25e-12      0.21
+    4           52         1    2   4.29e-12    1   4.29e-12  7.27e-11
+Optimization Terminated Successfully from sqp
+ 
+x =
+    4.6667
+    5.3333
+    1.3333
+nfcn=4, ngrd=4, nit=3
+ 
+test suite problem # 13
+Equality constraint
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1           -6         0    1          2    1          2        24
+    3      -7.0351     0.103    1       1.79    1       1.79      4.19
+    4      -8.3268         1    1          0    1          0    0.0133
+    5      -8.3333         1    1          0    1          0  2.36e-06
+Optimization Terminated Successfully from sqp
+ 
+x =
+    2.1670
+    1.8330
+nfcn=5, ngrd=4, nit=3
+ 
+test suite problem # 14
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1            3         0    2         31    1         62      4.46
+    3       3.4714     0.266    2       27.2    1       54.3      6.01
+    4       6.7238         1    2       13.4    1       26.7      17.5
+    6       9.4381      0.49    2       8.89    1       17.8      31.6
+    7       19.851         1    2       4.07    1       8.15        47
+    9        25.14     0.486    2       2.72    1       5.43      76.8
+   10       47.507         1    2       1.02    1       2.03      80.3
+   11       71.392         1    2      0.307    1      0.614      45.4
+   12       89.171         1    2     0.0467    1     0.0934      8.32
+   13       93.105         1    2    0.00175    1    0.00351     0.308
+   14       93.251         1    2    5.2e-05    1   0.000104   0.00686
+   15       93.254         1    2   1.13e-05    2   2.26e-05   0.00211
+   16       93.255         1    2   1.06e-09    2   2.11e-09  1.92e-07
+Optimization Terminated Successfully from sqp
+ 
+x =
+    5.2263
+    6.2151
+    5.2263
+nfcn=16, ngrd=13, nit=12
+ 
+test suite problem # 15
+vlb is subset of x0
+[Warning: Length of lower bounds is < length(x); filling in missing lower
+bounds with -Inf.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('checkbounds', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/checkbounds.m', 31)" style="font-weight:bold">checkbounds</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/checkbounds.m',31,0)">line 31</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sqp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/sqp.m', 313)" style="font-weight:bold">sqp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/sqp.m',313,0)">line 313</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tsuite', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/tsuite.m', 62)" style="font-weight:bold">tsuite</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/tsuite.m',62,0)">line 62</a>)] 
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1            3         0    2        0.2    2        0.2     0.877
+    2       3.4167         1    2     0.0286    2     0.0286     0.167
+    3       3.4977         1    2   0.000772    2   0.000772   0.00463
+    4          3.5         1    2   5.95e-07    2   5.95e-07  3.57e-06
+Optimization Terminated Successfully from sqp
+ 
+x =
+    1.0000    1.2500
+nfcn=4, ngrd=4, nit=3
+ 
+test suite problem # 16
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1           31         0    7          1    3          1        96
+    3        25.81       0.1    7       0.92    3       0.92      42.6
+    5       22.578     0.116    7      0.891    3      0.891      28.2
+    6       4.3304         1    7       2.47    3       4.34      8.65
+    7       7.5385         1    7       0.62    3       0.62      2.78
+    8       8.8429         1    7     0.0817    3     0.0817     0.378
+    9       9.0125         1    7    0.00909    3    0.00909    0.0484
+   10       9.0364         1    7   0.000134    3   0.000134  0.000724
+   11       9.0367         1    7   6.63e-08    3   6.63e-08   3.6e-07
+Optimization Terminated Successfully from sqp
+ 
+x =
+    0.0000
+    1.0384
+    2.2271
+    0.0000
+nfcn=11, ngrd=9, nit=8
+ 
+test suite problem # 17
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1           70         0   12         30    5       37.8      61.2
+    2       197.25         1   12       3.45    2        4.3       204
+    4       187.76     0.119   12        3.1    2       3.85       219
+    6       174.77     0.209   12       2.73    2       3.42       202
+    8       164.34     0.171   12       2.43    2       3.02       535
+    9       1201.7         1   12      0.442    2      0.442  2.15e+03
+   11         1115       0.1   12      0.399    2      0.399  2.03e+03
+   13       1028.1       0.1   12      0.362    2      0.362  1.85e+03
+   15       952.14       0.1   12      0.328    2      0.328  1.69e+03
+   17       843.45     0.219   12      0.262    2      0.271  1.43e+03
+   19       771.36       0.1   12      0.264    2      0.273   1.4e+03
+   21       706.28       0.1   12      0.262    2      0.284       849
+   23       688.49       0.1   12      0.234    2      0.254       505
+   25       681.45       0.1   12      0.217    2      0.249       365
+   26       702.01         1   12      0.222    1      0.393       367
+   28       725.88     0.246   12     0.0999    2      0.212       306
+   29       871.27         1   12     0.0475    3     0.0627       220
+   31       868.24     0.472   12     0.0315    2     0.0463       425
+   33       828.41      0.15   12     0.0317    2     0.0518       160
+   34       903.34         1   12    0.00562    2      0.008        16
+   35       909.46         1   12    0.00119    2    0.00145      4.89
+   36       911.78         1   12   3.45e-05    2   6.82e-05     0.213
+   37       911.88         1   12   1.33e-05    1   1.35e-05   0.00549
+   38       911.88         1   12   6.61e-06    1   6.66e-06   0.00151
+   39       911.88         1   12    4.8e-09    2    4.8e-09   1.6e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    3.8965
+    0.8094
+    2.6645
+    4.3005
+    0.8535
+    1.0952
+    0.0273
+nfcn=39, ngrd=25, nit=24
+ 
+test suite problem # 18
+ 
+                                                 Termination Criteria
+                                                        0.01    0.0001
+                                                 ----------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        SCV       KTO
+    1          8.8         0   14       5.06    3       14.7      18.7
+    2       3.6747         1   14        2.3    3        4.6      5.09
+    3       3.9923         1   14       1.85    4       3.03      1.67
+    4       3.7229         1   14      0.663    4        1.2      3.12
+    5       3.8219         1   14      0.286    4       0.42       1.9
+    6       4.4196         1   14       0.22    6      0.255     0.769
+    7       4.1097         1   14     0.0429    3     0.0557    0.0924
+    8       4.1021         1   14     0.0262    3     0.0262    0.0548
+    9        4.094         1   14   0.000754    4    0.00132    0.0941
+   10       4.0513         1   14    0.00843    4    0.00911    0.0207
+   11       4.0387         1   14    0.00158    3    0.00182    0.0172
+   12       4.0116         1   14      0.011    3     0.0114    0.0159
+   13       4.0197         1   14   0.000654    3   0.000866   0.00119
+   14       4.0196         1   14   2.17e-05    3   3.87e-05  0.000173
+   15       4.0188         1   14   7.05e-05    4   9.26e-05  8.79e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+    5.6544
+    2.6297
+    0.6844
+    0.6030
+    6.0669
+    5.6070
+    1.2182
+    0.5205
+nfcn=15, ngrd=15, nit=14
+ 
+test suite problem # 19
+Modified search: aS mS
+ 
+                                         Termination Criteria
+                                       1e-06          0.0001    0.0001
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    1       35.338         0    1        0.5    1   5.36e+03        68 mS aS
+    3      0.40635     0.106    2       21.4    1       3.87      2.31
+    4       1.1972         1    2       4.71    1      0.822      1.04
+    5      0.77307         1    2     -0.486    1      0.717       1.4
+    6      0.31196         1    2          1    2      0.232      1.25
+    7       0.1476         1    2     -0.725    2      0.134      1.21
+    8     0.063592         1    2      0.369    1     0.0428     0.884
+    9     0.032382         1    2     -0.034    1     0.0162     0.411
+   10     0.023555         1    2    0.00226    1   8.26e-05  0.000213
+   11      0.02355         1    2  -1.66e-07    2   1.44e-08  3.87e-07
+Optimization Terminated Successfully from sqp
+ 
+x =
+   -9.5474
+    1.0474
+nfcn=11, ngrd=10, nit=9
+ 
+test suite problem # 20
+Line search termination error
+ 
+                                         Termination Criteria
+                                       1e-06          0.0001    0.0001
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    1   1.6054e+05         0    8   2.81e+05    2   2.25e+06       200
+    2      -1493.5         1    8     0.0119    1   3.76e+05       111
+    3  -1.8763e+05         1    8    0.00426    1   7.75e+05       313
+    5  -2.2437e+05       0.1    8    0.00645    1    1.1e+06  2.23e+03
+    7  -2.8378e+05       0.1    8     0.0281    1   1.02e+06  2.01e+03
+    9  -3.3229e+05       0.1    8     0.0521    1   6.43e+05  1.81e+03
+   11  -3.6993e+05       0.1    8     0.0776    1   4.99e+05  1.63e+03
+   13  -3.9992e+05       0.1    8      0.104    1   4.64e+05  1.47e+03
+   15  -4.2415e+05       0.1    8      0.131    1   4.44e+05  1.32e+03
+   18  -4.3436e+05    0.0514    8      0.143    1    4.6e+05  1.25e+03
+   35  -3.8769e+05         1    8     0.0722    1   4.38e+05  1.25e+03 xp
+   38  -3.9816e+05    0.0471    8     0.0869    1    5.2e+05  1.19e+03
+   53   -3.598e+05         1    8     0.0296    1   4.85e+05  1.19e+03 xp
+   72  -3.3996e+05     0.143    8   1.03e-05    1   3.91e+05  1.19e+03 xp
+   74  -4.2781e+05     0.325    8      0.154    1   3.21e+05       805
+   87  -3.6519e+05         1    8     0.0657    1   2.51e+05       805 xp
+   98  -3.0258e+05         1    8     0.0228    1   2.65e+05       805 xp
+  100  -3.2056e+05       0.1    8     0.0205    1   2.28e+05       725
+  115  -2.9855e+05     0.316    8     0.0106    1   2.41e+05       725 xp
+  117  -3.1371e+05       0.1    8     0.0305    1   1.98e+05       652
+  130  -2.8688e+05     0.347    8    0.00735    1   2.07e+05       652 xp
+  133  -2.9232e+05     0.042    8    0.00889    1   1.89e+05       625
+  152  -2.8465e+05    0.0952    8    0.00195    1   1.88e+05       625 xp
+  157  -2.8557e+05    0.0077    8   0.000917    1   1.88e+05       620
+  179  -2.8488e+05   0.00187    8   4.55e-05    1   1.86e+05       620 xp
+  187  -2.8497e+05  0.000756    8   0.000233    1   1.88e+05       619
+  210   -2.848e+05  0.000474    8   1.03e-05    1   1.87e+05       619 xp
+  218  -2.8486e+05  0.000511    8   0.000178    1   1.87e+05       619
+  241  -2.8471e+05  0.000401    8   2.83e-05    1   1.86e+05       619 xp
+  249   -2.848e+05  0.000727    8   0.000239    1   1.87e+05       619
+  272  -2.8462e+05  0.000483    8   8.73e-06    1   1.87e+05       619 xp
+  281  -2.8465e+05   0.00025    8   8.33e-05    1   1.86e+05       619
+  304  -2.8454e+05  0.000306    8   7.37e-05    1   1.86e+05       619 xp
+  312   -2.846e+05  0.000512    8   0.000115    1   1.86e+05       618
+  335  -2.8448e+05  0.000335    8   5.69e-05    1   1.81e+05       618 xp
+  346  -2.8449e+05  9.55e-05    8   2.18e-05    1   1.87e+05       618
+  357   -2.845e+05  8.62e-05    8   9.93e-06    1   1.87e+05       618
+  382  -2.8449e+05  2.38e-05    8   2.24e-06    1    1.8e+05       618 xp
+  398  -2.8449e+05     3e-06    8   1.14e-06    1   1.87e+05       618
+  412  -2.8449e+05  7.54e-06    8   1.63e-06    1   1.86e+05       618
+  438  -2.8449e+05  5.08e-06    8   9.69e-07    1   1.84e+05       618 xp
+  454  -2.8449e+05  1.96e-06    8    2.5e-07    1   1.86e+05       618
+  470  -2.8449e+05   1.9e-06    8    4.5e-07    1   1.86e+05       618
+  497  -2.8449e+05  1.31e-06    8   2.21e-07    1   8.23e+03        15 xp Hessian modified twice
+  498  -2.8784e+05         1    8    3.3e-06    1        340     0.427
+  499  -2.8801e+05         1    8   2.12e-06    1   1.04e+06      17.6 aS
+  503  -2.8836e+05     0.001    8     0.0005    1        715     0.134
+  504    -2.88e+05         1    8   1.01e-05    1       15.8     0.678
+  505  -2.8801e+05         1    8   3.51e-06    1   1.03e+06      17.6 aS
+  510   -2.881e+05  0.000276    8   0.000141    1   3.57e+05      17.6 aS
+  518   -2.881e+05  9.62e-07    8   0.000142    1   3.55e+05      17.6 aS
+sqp: Augmented Search direction failed after 3 tries.
+ 
+x =
+   1.0e+03 *
+    0.1615    4.3820    0.3000    1.5144    0.0011    0.0005
+nfcn=538, ngrd=51, nit=50
+ 
+test suite problem # 21
+1 equality constraint
+Andy Grace termination criteria
+ 
+                                         Termination Criteria
+                                       1e-06          0.0001    0.0001
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j         AG  max{S/2}
+    1   1.6054e+05         0    8   2.81e+05    2   5.78e+05       100
+    2      -1491.4         1    8    0.00106    1   1.82e+05      55.2
+    3  -1.7652e+05         1    8   2.08e-05    1   1.87e+05       103
+    5  -2.1046e+05       0.1    8   4.14e-05    1   2.73e+05  1.15e+03
+    7  -2.6395e+05       0.1    8    0.00325    1   1.91e+05  1.04e+03
+    9  -3.0141e+05       0.1    8    0.00628    1   8.15e+04       557
+   11  -3.5964e+05     0.379    8     0.0228    1   7.97e+03       176
+   12  -3.7016e+05         1    8     0.0198    1    3.6e+03      59.4
+   13  -3.6205e+05         1    8    0.00271    1        595      1.88
+   14  -3.6063e+05         1    8   2.17e-07    1       76.7      5.91
+   15  -3.6073e+05         1    8   2.49e-05    1       2.52     0.481
+   16  -3.6072e+05         1    8   5.69e-10    1      0.346     0.446
+   17  -3.6072e+05         1    8   5.52e-09    1       2.23      3.04
+   18  -3.6073e+05         1    8   3.69e-08    1       12.5      17.7
+   19  -3.6075e+05         1    8   2.47e-07    1       64.6      99.1
+   20  -3.6084e+05         1    8      2e-06    1       20.5        51
+   21  -3.6086e+05         1    8    5.5e-08    1       10.2      4.31
+   22  -3.6087e+05         1    8   9.67e-07    1       1.12      2.56
+   23  -3.6088e+05         1    8   2.62e-07    1     0.0746   0.00692
+   24  -3.6088e+05         1    8   3.45e-11    1   9.45e-06   0.00491
+   25  -3.6088e+05         1    8   1.03e-13    1   3.71e-08  0.000704
+   27  -3.6088e+05       0.1    8   8.87e-14    1   8.09e+04       668 aS
+   32  -3.6089e+05    0.0001    8   3.63e-05    1       8.09      0.12
+   33  -3.6088e+05         1    8    3.7e-10    1    8.4e-05    0.0192
+   34  -3.6088e+05         1    8   6.58e-15    1   2.09e-05    0.0348
+   35  -3.6088e+05         1    8    4.3e-14    1   1.84e-07  0.000357
+   36  -3.6088e+05         1    8   5.11e-14    1   6.14e-07   0.00109
+   37  -3.6088e+05         1    8   8.58e-13    1   2.29e-07  0.000731
+   38  -3.6088e+05         1    8   1.16e-14    1   1.19e-08  3.09e-05
+Optimization Terminated Successfully from sqp
+ 
+x =
+   1.0e+03 *
+    0.1498    3.7953    0.3000    1.8430    0.0011    0.0002
+nfcn=38, ngrd=29, nit=28
+ 
+Percent difference between objective and known solution
+Problem #      % Error
+---------      -------
+      1         0.0004
+      2         0.0433
+      3         0.0236
+      4        -0.0031
+      4        -0.0031
+      5         0.0000
+      6        -0.0183
+      9         0.0000
+     10        -0.0000
+     11        -0.0000
+     12        -0.0000
+     13         0.0040
+     14         0.0009
+     15        -0.0001
+     16        -0.0032
+     17         0.0001
+     18         1.7170
+     19         0.0016
+     20       -20.2015
+     21         0.0001
+

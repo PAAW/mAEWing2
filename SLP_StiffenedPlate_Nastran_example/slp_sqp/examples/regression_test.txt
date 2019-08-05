@@ -1,0 +1,1358 @@
+Function gradient
+Maximum discrepancy between derivatives  = 3.55801e-08
+Constraint gradients
+Maximum discrepancy between derivatives  = 3.95361e-08
+ 
+                                         Termination Criteria
+                                       1e-06            0.01      0.05
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    3       19.869         0    4       2.32    1       27.7      1.27
+    4       32.911         1    4      0.827    1       17.8       4.9
+    5       37.506         1    4      0.264    1       11.3      3.21
+    6       41.463         1    4     0.0475    1       2.54     0.811
+    7       42.648         1    4    0.00214    1      0.121    0.0388
+    8       42.709         1    4   4.68e-06    1   0.000265  8.45e-05
+    9       42.709         1    4   2.23e-11    1   7.27e-07  4.12e-09
+Optimization Terminated Successfully from sqp
+ 
+xf =
+   1.878356631456233  20.236907251438357
+OPT =
+  Columns 1 through 3
+   2.000000000000000   0.050000000000000   0.010000000000000
+  Columns 4 through 6
+   0.000001000000000                   0                   0
+  Columns 7 through 9
+                   0  42.708670016139799   1.000000000000000
+  Columns 10 through 12
+   9.000000000000000   7.000000000000000   9.000000000000000
+  Columns 13 through 15
+                   0   6.000000000000000  20.000000000000000
+  Columns 16 through 18
+   0.000000010000000   0.100000000000000                   0
+LAMBDA =
+   1.0e+03 *
+   0.018713342302468
+   2.404062324080381
+   0.000000000000000
+                   0
+                   0
+   0.000000000000000
+ 
+                                         Termination Criteria
+                                      0.0001           0.001      0.01
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    1      -2.7447         0    5      -0.09    3       1.32      1.15
+    4      -4.1068         1    5    -0.0998    3       7.38      6.07
+    7      -12.089         1    5     -0.169    3       23.4      10.7
+   10      -24.276         1    5     0.0178    1      0.618     0.896
+   13      -24.605         1    5     0.0003    1       2.15      3.38
+   16      -26.495         1    5     0.0111    1       5.17      10.8
+   19      -31.137         1    5      0.188    2      0.871      1.43
+   22      -31.249         1    5   0.000694    2      0.648      2.16
+   25       -31.65         1    5    0.00745    2     0.0284     0.411
+   28      -31.638         1    5    0.00027    2    0.00177    0.0404
+   31      -31.637         1    5   2.61e-06    2    1.9e-05  0.000884
+Optimization Terminated Successfully from sqp
+ 
+          fval: -31.636819890888908
+     funcCount: 31
+     gradCount: 11
+    iterations: 10
+       options: [1×18 double]
+        status: 1
+ 
+SLP filter
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0        -2.7447         -0.09      3           0      -2.745
+        1        -7.5508       -0.1344      3           4      -7.551        0.1       1.036  f *
+        2        -15.927        -0.207      3           6      -15.93       0.15        1.02  f *
+        3        -26.395       -0.1475      1           9       -26.4      0.225      0.8443  f *
+        4        -29.786       0.05164      2       5.819       -26.4     0.3375      0.4617  m +
+        5        -22.482       -0.1837      3        13.5       -26.4     0.3375     -0.8537  f - Rejected
+        6        -29.305       -0.3271      3        6.75       -29.3     0.1688     -0.1126  f +
+        7        -31.535      0.001089      2       3.375       -29.3    0.08438      0.7084  m +
+        8        -31.606       0.01025      2       2.531      -10.61    0.08438      -8.415  g +
+        9        -31.646      0.002563      2       1.266       -26.4    0.04219      0.3604  f +
+       10        -31.571      0.002563      2       1.266      -26.32    0.04219      -11.64  f +
+       11        -31.623     0.0006407      2      0.6328      -30.31    0.02109      0.7378  f +
+       12        -31.639     0.0006407      2      0.6328      -30.33    0.02109   1.386e-12  g +
+       13        -31.635     0.0001602      2      0.3164      -31.31    0.01055      -3.563  f +
+       14        -31.637     4.005e-05      2      0.1582      -31.55   0.005273       0.632  f + Bound
+              ----------  ------------         ----------
+    Criteria       0.001        0.0001               0.01
+SLP  converged. Final objective function value = -31.6367
+               Lagrangian gradient   2-norm = 0.0058444
+               Lagrangian gradient inf-norm = 0.0045782
+               Optimality Tolerance         = 0.01
+Trust Region Strategy uses filter
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+             f: [1×15 double]
+             g: [3×15 double]
+      rejected: [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+    iterations: 14
+     funcCount: 15
+     gradCount: 14
+       message: 1
+ 
+MPEA filter
+ 
+         Sequential MPEA Optimization Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0        -2.7447         -0.09      3           0      -2.745
+        1        -7.5508       -0.1344      3           4      -7.551        0.1       1.036  f *
+        2        -15.927        -0.207      3           6      -15.93       0.15        1.02  f *
+        3        -26.395       -0.1475      1           9       -26.4      0.225      0.8443  f *
+        4        -29.786       0.05164      2       5.819       -26.4     0.3375      0.4617  m +
+        5        -22.482       -0.1837      3        13.5       -26.4     0.3375     -0.8537  f - Rejected
+        6        -29.305       -0.3271      3        6.75       -29.3     0.1688     -0.1126  f +
+        7        -31.535      0.001089      2       3.375       -29.3    0.08438      0.7084  m +
+        8        -31.606       0.01025      2       2.531      -10.61    0.08438      -8.415  g +
+        9        -31.646      0.002563      2       1.266       -26.4    0.04219      0.3604  f +
+       10        -31.571      0.002563      2       1.266      -26.32    0.04219      -11.64  f +
+       11        -31.623     0.0006407      2      0.6328      -30.31    0.02109      0.7378  f +
+       12        -31.639     0.0006407      2      0.6328      -30.33    0.02109   1.386e-12  g +
+       13        -31.635     0.0001602      2      0.3164      -31.31    0.01055      -3.563  f +
+       14        -31.637     4.005e-05      2      0.1582      -31.55   0.005273       0.632  f + Bound
+              ----------  ------------         ----------
+    Criteria       0.001        0.0001               0.01
+MPEA converged. Final objective function value = -31.6367
+               Lagrangian gradient   2-norm = 0.0058444
+               Lagrangian gradient inf-norm = 0.0045782
+               Optimality Tolerance         = 0.01
+Trust Region Strategy uses filter
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+             f: [1×15 double]
+             g: [3×15 double]
+      rejected: [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+    iterations: 14
+     funcCount: 15
+     gradCount: 14
+       message: 1
+ 
+MPEA TRAM filter
+ 
+         Sequential MPEA Optimization Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0        -2.7447         -0.09      3           0      -2.745
+        1        -7.5508       -0.1344      3           4      -7.551        0.1       1.036  f * _f
+        2        -23.495       -0.2343      1          12      -23.49        0.3      0.9706  f * !
+        3        -29.269       0.09835      1       9.425      -23.49     0.5313      0.3626  m + R=0.5
+        4        -20.113       -0.1213      3       17.41      -23.49     0.5313     -0.6051  f - ! Rejected
+        5        -29.666       -0.3454      3        6.62      -29.67     0.1655     0.07649  f * !
+        6        -30.382       0.01866      2       5.193      -29.67     0.1655      0.1997  m + _g
+        7        -30.335       -0.3621      2       4.303      -30.33     0.1076    -0.02532  f + !
+        8        -31.449     0.0002244      2       2.099      -30.33    0.05246      0.7514  m + _g
+        9        -31.647      0.003963      2       1.574      -11.97    0.05246      -16.67  g + _g
+       10        -31.637     0.0002477      2      0.3935      -30.41    0.01312      0.1492  f + _g
+       11        -31.634     0.0002477      2      0.3934       -30.4    0.01311     -0.4049  f + !
+       12        -31.637     6.171e-05      2      0.1964      -31.33   0.006546       0.569  f + Bound
+              ----------  ------------         ----------
+    Criteria       0.001        0.0001               0.01
+MPEA converged. Final objective function value = -31.6369
+               Lagrangian gradient   2-norm = 0.0043904
+               Lagrangian gradient inf-norm = 0.0034423
+               Optimality Tolerance         = 0.01
+Trust Region Strategy uses filter
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+! Trust Radius set by Merit function minimization
+_ Trust Radius set by target Trust Ratio
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+             f: [1×13 double]
+             g: [3×13 double]
+      rejected: [0 0 0 0 1 0 0 0 0 0 0 0 0]
+    iterations: 12
+     funcCount: 13
+     gradCount: 12
+       message: 1
+ 
+QMEA filter
+ 
+         Sequential QMEA Optimization Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0        -2.7447         -0.09      3           0      -2.745
+        1        -7.5508       -0.1344      3           4      -7.551        0.1       1.036  f *
+        2        -15.927        -0.207      3           6      -15.93       0.15        1.02  f *
+       L0            Lapx          Lqmea    L_err       L_quad         beta    qp_ls_ineq
+      -2.74466      -2.60663      -2.57396  0.1707     0.0326702   4.29814e-12
+      -7.55081      -7.66143      -7.59719 -0.0464     0.0642414      0.022411
+        3         -26.39       -0.1468      1           9      -26.39      0.225       0.844  f *
+       L0            Lapx          Lqmea    L_err       L_quad         beta    eq_lp_simplex
+      -7.55081      -14.4407      -7.55081  0.0000       6.88991     0.0373335
+      -15.9274      -19.2212      -15.9274  0.0000       3.29373       64309.1
+        4        -28.332       -0.3544      3        6.75      -28.33     0.3375       1.511  f *
+        5         -21.23         1.664      2        13.5      -28.33     0.5063      -5.862  m - Rejected
+       L0            Lapx          Lqmea    L_err       L_quad         beta    eq_neq_1
+      -26.3902      -25.8116      -23.4596  2.9306       2.35205       33.5087
+      -16.8171      -32.4361       3022.993039.8117       3055.43   7.99268e-18
+        6        -30.694       -0.2111      2       5.062      -30.69     0.2531       1.227  f *
+       L0            Lapx          Lqmea    L_err       L_quad         beta    eq_neq_1
+      -28.3319      -28.0101       -27.996  0.3359     0.0140199    0.00315298
+      -13.3153      -33.4072      -33.0736-19.7582      0.333609    0.00066186
+        7        -31.527       -0.0236      2       0.952      -31.53     0.2531      0.8271  f *
+       L0            Lapx          Lqmea    L_err       L_quad         beta    qp_ls_ineq
+      -14.4116       -38.815      -23.4332 -9.0216       15.3818      0.164539
+      -30.6937      -30.7576      -30.6937  0.0000      0.063929   7.97024e-27
+        8        -31.623     2.665e-15      2       0.116      -31.62     0.2531        0.99  m +
+       L0            Lapx          Lqmea    L_err       L_quad         beta    eq_lp_simplex
+      -30.6937      -30.7746      -30.6937  0.0000     0.0809228      0.141846
+      -31.5273      -31.5283      -31.5273  0.0000   0.000970693       1.95716
+        9        -31.623    -8.882e-16      2   2.852e-06      -31.62     0.2531           1  f * Unbound
+              ----------  ------------         ----------
+    Criteria       0.001        0.0001               0.01
+QMEA slowed.    Final objective function value = -31.6229
+                Lagrangian gradient   2-norm = 0.043598
+                Lagrangian gradient inf-norm = 0.034038
+                Optimality Tolerance         = 0.01
+Trust Region Strategy uses filter
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+                 f: [1×10 double]
+                 g: [3×10 double]
+          rejected: [0 0 0 0 0 1 0 0 0 0]
+    RadiusFraction: [1 1 0.666666666666667 0.666666666666667 1 1 1 1 1]
+        iterations: 9
+         funcCount: 10
+         gradCount: 9
+           message: 1
+ 
+QMEA TRAM filter
+ 
+         Sequential QMEA Optimization Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0        -2.7447         -0.09      3           0      -2.745
+        1        -7.5508       -0.1344      3           4      -7.551        0.1       1.036  f * _f
+        2        -23.495       -0.2343      1          12      -23.49        0.3      0.9706  f * !
+       L0            Lapx          Lqmea    L_err       L_quad         beta    qp_ls_ineq
+      -2.74466       -6.9253       -3.2833 -0.5386         3.642     0.0245827
+      -7.55081      -10.3858      -7.55081 -0.0000       2.83503     0.0485501
+        3        -29.269       0.09835      1       9.425      -23.49     0.5313      0.3626  m + R=0.5
+       L0            Lapx          Lqmea    L_err       L_quad         beta    eq_lp_simplex
+      -7.55081      -28.4891      -7.55081 -0.0000       20.9383     0.0567117
+      -23.4948      -29.4874      -23.4948 -0.0000       5.99258       510.407
+        4         -8.969       -0.1119      3       20.57      -23.49     0.5313      -2.717  f - _f Rejected
+       L0            Lapx          Lqmea    L_err       L_quad         beta    qp_ls_ineq
+      -23.4948      -29.4874      -29.2821 -5.7873      0.205243    0.00379186
+      -8.96901      -36.7398      -35.9547-26.9857      0.785096   1.98621e-16
+        5        -26.131       -0.3087      3       8.619      -26.13     0.2155     -0.8109  f + !
+       L0            Lapx          Lqmea    L_err       L_quad         beta    qp_ls_ineq
+      -29.2687      -34.8745      -32.8365 -3.5678       2.03797     0.0550161
+      -8.96901      -12.9129      -8.96901  0.0000       3.94386    0.00783512
+        6        -28.405       -0.3132      1       2.484      -28.41    0.06209      0.8627  f + !
+       L0            Lapx          Lqmea    L_err       L_quad         beta    eq_lp_simplex
+      -8.96901      -16.9513      -8.96901  0.0000       7.98226     0.0761258
+       -26.131      -26.5285       -26.131  0.0000      0.397464       8.84446
+        7        -29.805       -0.1557      1       2.484       -29.8    0.06209      0.7504  f * !
+       L0            Lapx          Lqmea    L_err       L_quad         beta    qp_ls_ineq
+       -26.131      -28.0067      -27.2799 -1.1489      0.726809     0.0589158
+      -28.4052      -28.9085      -28.7268 -0.3216       0.18171   3.37741e+07
+        8        -30.123     0.0005868      1       2.465       -29.8     0.1227      0.3249  m + R=0.502
+       L0            Lapx          Lqmea    L_err       L_quad         beta    qp_ls_ineq
+      -28.4052      -30.6917      -28.4052  0.0000       2.28646      0.186745
+      -29.8045      -30.4064      -29.8391 -0.0345      0.567309       8.61054
+        9        -30.155      -0.03842      1      0.6151      -30.15     0.1227      0.4469  f * R=0.5
+       L0            Lapx          Lqmea    L_err       L_quad         beta    qp_ls_ineq
+      -29.8045      -30.1338      -30.1234 -0.3188     0.0104849    0.00612859
+      -30.1232      -30.1492      -30.1481 -0.0248     0.0011595        872571
+       10        -31.052       0.03114      2       1.863      -30.15     0.1227      0.9016  m + _g
+       L0            Lapx          Lqmea    L_err       L_quad         beta    qp_ls_ineq
+      -30.1232      -30.2414       -30.212 -0.0887     0.0294306     0.0103873
+      -30.1548      -30.1798      -30.1548  0.0000     0.0249645      0.130327
+       11        -31.024    -3.616e-09      2      0.1585      -31.02     0.1227      0.9159  f + _g
+       L0            Lapx          Lqmea    L_err       L_quad         beta    qp_ls_ineq
+      -30.1548       -30.208      -30.2079 -0.0531   3.50446e-05   2.16018e-20
+      -30.9919      -31.0548      -31.0183 -0.0263     0.0365559        3.4347
+       12        -31.024    -1.332e-15      2   9.752e-05      -31.02     0.1227           1  f + ! Unbound
+              ----------  ------------         ----------
+    Criteria       0.001        0.0001               0.01
+QMEA slowed.    Final objective function value = -31.0238
+                Lagrangian gradient   2-norm = 0.30198
+                Lagrangian gradient inf-norm = 0.24274
+                Optimality Tolerance         = 0.01
+Trust Region Strategy uses filter
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+! Trust Radius set by Merit function minimization
+_ Trust Radius set by target Trust Ratio
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+                 f: [1×13 double]
+                 g: [3×13 double]
+          rejected: [0 0 0 0 1 0 0 0 0 0 0 0 0]
+    RadiusFraction: [1×12 double]
+        iterations: 12
+         funcCount: 13
+         gradCount: 12
+           message: 1
+ 
+SLP TRAM filter
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0        -2.7447         -0.09      3           0      -2.745
+        1        -7.5508       -0.1344      3           4      -7.551        0.1       1.036  f * _f
+        2        -18.628       -0.2376      3           8      -18.63        0.2       1.011  f * _f
+        3        -28.069         0.188      1       14.49      -18.63        0.4      0.3025  m + R=0.906
+        4        -21.115       -0.1698      3          16      -21.11        0.4     -0.4077  f + _g
+        5        -31.367      0.007643      2       7.999      -21.11        0.2      0.8294  m + _g
+        6        -30.917       0.05759      2           6      -21.11        0.2      -6.535  g - _g Rejected
+        7         -31.66        0.0144      2           3      -12.35    0.09999     -0.8838  g + _g
+        8         -31.61        0.0036      2         1.5      -26.78       0.05     -0.6277  f + _f
+        9        -31.628      0.003443      2       1.467      -27.01     0.0489     0.04346  g + !
+       10        -31.609      0.003443      2       1.467      -26.99     0.0489      -0.198  f + _g
+       11        -31.639     0.0008608      2      0.7335      -30.48    0.02445      0.5442  f +
+       12        -31.619     0.0008608      2      0.7335      -30.46    0.02445       -2.64  f - _f
+       13        -31.635     0.0002152      2      0.3667      -31.35    0.01222      0.6808  f +
+       14        -31.637     0.0002152      2      0.3667      -31.35    0.01222  -6.191e-12  g + !
+       15        -31.637     5.399e-05      2      0.1837      -31.56   0.006123      0.1442  f + _g Bound
+              ----------  ------------         ----------
+    Criteria       0.001        0.0001               0.01
+SLP  converged. Final objective function value = -31.6369
+               Lagrangian gradient   2-norm = 0.0043381
+               Lagrangian gradient inf-norm = 0.0034013
+               Optimality Tolerance         = 0.01
+Trust Region Strategy uses filter
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+! Trust Radius set by Merit function minimization
+_ Trust Radius set by target Trust Ratio
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+             f: [1×16 double]
+             g: [3×16 double]
+      rejected: [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+    iterations: 15
+     funcCount: 16
+     gradCount: 15
+       message: 1
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0          1e+05        0.5625     11           0   1.406e+05
+        1          84865         0.328     11           8   1.104e+05        0.2      0.4168  g *
+        2          70954        0.2401      9           8   1.119e+05        0.2      0.2449  g *
+        3          63631        0.2567     10           8   1.584e+05        0.2     0.07852  g +
+        4          64958        0.0797     10           4   8.602e+04        0.1      0.6896  g +
+        5          64449       0.03887     11           4   7.705e+04        0.1     -0.1494  g +
+        6          63238       0.04521     11           4   7.705e+04        0.1     -0.1631  g +
+        7          63977       0.01144     11           2   6.744e+04       0.05      0.7469  g +
+        8          64108       0.01162     11           2   6.744e+04       0.05    -0.01562  g - Rejected
+        9          64205      0.002775     11           1   6.504e+04      0.025      0.7575  g +
+       10          64176      0.002767     11           1   6.501e+04      0.025    0.002784  g +
+       11          64230     0.0007079     11         0.5   6.444e+04     0.0125      0.7441  g +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 59)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',59,0)">line 59</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       12          64229     0.0007039     11         0.5   6.444e+04     0.0125     0.00567  g + Bound
+       13          64240      0.000175     11        0.25   6.429e+04    0.00625      0.7514  g +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 59)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',59,0)">line 59</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       14          64243     0.0001773     11        0.25   6.429e+04    0.00625    -0.01303  g - Rejected
+       15          64244     4.398e-05     11       0.125   6.426e+04   0.003125      0.7487  g +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 59)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',59,0)">line 59</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       16          64244     4.481e-05     11       0.125   6.426e+04   0.003125     -0.0188  g + Bound
+              ----------  ------------         ----------
+    Criteria         0.5        0.0001                0.5
+SLP  slowed.    Final objective function value = 64243.8366
+               Lagrangian gradient   2-norm = 5.0473
+               Lagrangian gradient inf-norm = 3.0272
+               Optimality Tolerance         = 1
+Trust Region Strategy uses filter
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0          1e+05        0.5625     11           0   3.721e+05
+        1          84865         0.328     11           8   2.165e+05        0.2      0.5405  *
+        2          70954        0.2401      9           8   1.995e+05        0.2      0.1179  *
+        3          69210       0.07143     10           4   1.131e+05        0.1      0.6639  *
+        4          65508        0.0427     10           4   9.032e+04        0.1      0.4819  *
+        5          63799       0.05956     10           4   9.032e+04        0.1     -0.4002  + Rejected
+        6          65099       0.01605     10           2   7.461e+04       0.05      0.6232  +
+        7          64215       0.01755     10           2   7.247e+04       0.05      0.2055  +
+        8          63999        0.0123     11           2   6.806e+04       0.05      0.5164  +
+        9          64007         0.012     11           2   6.806e+04       0.05     0.06012  + Rejected
+       10          64190      0.003297     11           1   6.495e+04      0.025       0.798  +
+       11          64210      0.003367      8           1   6.495e+04      0.025      -1.327  - Rejected
+       12          64241     0.0007907     11         0.5   6.459e+04     0.0125      0.5024  +
+       13          64231     0.0007362     11         0.5    6.44e+04     0.0125       0.525  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 66)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',66,0)">line 66</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       14          64229     0.0007397     11         0.5    6.44e+04     0.0125    0.006497  + Rejected
+       15          64240     0.0001799     11        0.25   6.428e+04    0.00625       0.736  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 66)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',66,0)">line 66</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       16          64242     0.0001853     11        0.25   6.428e+04    0.00625    -0.07885  - Rejected
+       17          64244     4.713e-05     11       0.125   6.425e+04   0.003125       0.708  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 66)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',66,0)">line 66</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       18          64244     4.488e-05     11       0.125   6.425e+04   0.003125     0.04108  + Rejected
+       19          64245     1.128e-05     11      0.0625   6.425e+04   0.001563      0.7389  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 66)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',66,0)">line 66</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       20          64245     1.122e-05     11      0.0625   6.425e+04   0.001563   -0.008657  + Rejected
+       21          64245     2.797e-06     11     0.03125   6.425e+04  0.0007813      0.7283  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 66)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',66,0)">line 66</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       22          64245     2.929e-06     11     0.03125   6.425e+04  0.0007813    -0.05229  - Rejected
+       23          64245      7.31e-07     11     0.01562   6.425e+04  0.0003906      0.7152  + Bound
+              ----------  ------------         ----------
+    Criteria         0.5        0.0001                0.5
+SLP  converged. Final objective function value = 64244.8328
+               Lagrangian gradient   2-norm = 1.2788
+               Lagrangian gradient inf-norm = 0.75809
+               Optimality Tolerance         = 1
+Trust Region Strategy uses simple Merit function
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0          1e+05        0.5625     11           0   1.406e+05
+        1          84865         0.328     11           8   1.104e+05        0.2      0.5347  *
+        2          70954        0.2401      9           8   1.119e+05        0.2    -0.03895  *
+        3          69210       0.07143     10           4   9.522e+04        0.1      0.3924  *
+        4          65508        0.0427     10           4   7.903e+04        0.1      0.5501  *
+        5          63799       0.05956     10           4   7.903e+04        0.1     -0.2938  + Rejected
+        6          65099       0.01605     10           2   7.075e+04       0.05      0.5945  +
+        7          64215       0.01755     10           2   7.075e+04       0.05      0.2115  +
+        8          63999        0.0123     11           2   6.619e+04       0.05      0.6684  +
+        9          64007         0.012     11           2    6.49e+04       0.05      0.5729  +
+       10          63980       0.01189     11           2   6.452e+04       0.05      0.3848  +
+       11          64000       0.01192     11           2   6.452e+04       0.05     -0.6192  - Rejected
+       12          64160      0.003271     11           1   6.431e+04      0.025      0.5532  +
+       13          64217      0.003153     11           1   6.449e+04      0.025      -1.604  +
+       14          64234     0.0008716     11         0.5   6.427e+04     0.0125       0.826  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 71)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',71,0)">line 71</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       15          64228     0.0008717      9         0.5   6.427e+04     0.0125      -1.786  + Rejected
+       16          64244     0.0001978     11        0.25   6.425e+04    0.00625      0.6766  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 71)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',71,0)">line 71</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       17          64240     0.0001846     11        0.25   6.426e+04    0.00625     -0.8775  +
+       18          64244     4.681e-05     11       0.125   6.425e+04   0.003125      0.8852  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 71)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',71,0)">line 71</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       19          64244      4.54e-05     11       0.125   6.425e+04   0.003125    -0.06027  +
+       20          64245     1.135e-05     11      0.0625   6.425e+04   0.001563      0.6379  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 71)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',71,0)">line 71</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       21          64245     1.114e-05     11      0.0625   6.425e+04   0.001563     0.07675  +
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 423)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',423,0)">line 423</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 71)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',71,0)">line 71</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+[Warning: Rank deficient, rank = 12, tol =  2.845721e-12.] 
+       22          64245     2.827e-06     11     0.03125   6.424e+04  0.0007813      0.5834  + Unbound
+              ----------  ------------         ----------
+    Criteria         0.5        0.0001                0.5
+SLP  converged. Final objective function value = 64244.7524
+               Lagrangian gradient   2-norm = 0.8893
+               Lagrangian gradient inf-norm = 0.58241
+               Optimality Tolerance         = 1
+Trust Region Strategy uses Merit function
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0          1e+05        0.5625     11           0   1.406e+05
+        1          84865         0.328     11           8   1.104e+05        0.2      0.5347  *
+        2          70954        0.2401      9           8   1.119e+05        0.2    -0.03895  * !
+        3          65347        0.2337     10           6   1.444e+05       0.15     -0.7055  * !
+        4          64056       0.09232     10       4.195   9.663e+04     0.1049      0.5955  *
+        5          63192        0.0594     11       4.195   7.848e+04     0.1049      0.5384  *
+        6          62960       0.05445     11       4.195   7.061e+04     0.1049      0.4968  *
+        7          63367        0.0606     11       4.195   7.061e+04     0.1049      0.2758  - _m Rejected
+        8          64384      0.003778     11       1.049   6.469e+04    0.02622      0.9482  + !
+        9          64205      0.003596     11       1.049   6.488e+04    0.02622     -0.3853  + !
+       10          64211      0.002128     11      0.8528   6.438e+04    0.02132      0.7301  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 79)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       11          64202      0.002197     11      0.8528   6.438e+04    0.02132     0.02349  + _m
+       12          64235     0.0005517     11      0.4216   6.428e+04    0.01054      0.6756  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 79)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       13          64236     0.0005579     11      0.4216   6.428e+04    0.01054    -0.01704  - ! Rejected
+       14          64244     0.0001302     11      0.2073   6.425e+04   0.005181      0.6965  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 79)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       15          64242     0.0001257     11      0.2073   6.425e+04   0.005181      0.1694  + _m
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 423)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',423,0)">line 423</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 79)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+[Warning: Rank deficient, rank = 12, tol =  2.845721e-12.] 
+       16          64244     4.505e-05     11      0.1248   6.425e+04   0.003119      0.5297  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 79)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       17          64244     4.755e-05     11      0.1248   6.425e+04   0.003119    -0.09354  - ! Rejected
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 423)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',423,0)">line 423</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 79)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+[Warning: Rank deficient, rank = 12, tol =  2.845721e-12.] 
+       18          64245     1.003e-05     11     0.05704   6.425e+04   0.001426      0.7032  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 79)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',79,0)">line 79</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       19          64245     9.096e-06     11     0.05704   6.425e+04   0.001426      0.1148  + _m
+       20          64245     2.903e-06     11     0.03222   6.425e+04  0.0008055      0.5868  + Bound
+              ----------  ------------         ----------
+    Criteria         0.5        0.0001                0.5
+SLP  converged. Final objective function value = 64244.7701
+               Lagrangian gradient   2-norm = 1.4132
+               Lagrangian gradient inf-norm = 0.76732
+               Optimality Tolerance         = 1
+Trust Region Strategy uses Merit function
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+! Trust Radius set by Merit function minimization
+_ Trust Radius set by target Trust Ratio
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0          1e+05        0.5625     11           0   1.406e+05
+        1          84865         0.328     11           8   1.104e+05        0.2      0.4168  g *
+        2          70954        0.2401      9           8   1.119e+05        0.2      0.2449  g *
+        3          63631        0.2567     10           8   1.584e+05        0.2     0.07852  g + !
+        4          63407        0.1647     10       5.471   1.089e+05     0.1368      0.3584  g *
+        5          62798       0.07606     11       5.471   7.615e+04     0.1368      0.1399  g * !
+        6          62620       0.07557     11       5.471   6.698e+04     0.1368    0.006403  g * !
+        7          62849       0.07462     11       5.471   7.123e+04     0.1368      -1.032  f + !
+        8          63588       0.02182     11       2.639   6.457e+04    0.06598      0.7076  g +
+        9          64205       0.01682     11       2.639   6.626e+04    0.06598      0.2289  g +
+       10          63644       0.02304     11       2.639   6.626e+04    0.06598     -0.3697  g - ! Rejected
+       11          64469      0.001559     11      0.6603   6.465e+04    0.01651      0.9073  g + !
+       12          64297      0.001439     11      0.6603   6.446e+04    0.01651     0.07708  g + _g
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 84)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',84,0)">line 84</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       13          64234      0.001462     11      0.6603   6.446e+04    0.01651    -0.01561  g + _g
+       14          64251     0.0002336     11      0.2734   6.429e+04   0.006834      0.8402  g + _g
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 84)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',84,0)">line 84</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       15          64243     0.0002363     11      0.2734    6.43e+04   0.006834    -0.01175  g + _g
+       16          64244     8.193e-05     11      0.1637   6.426e+04   0.004093      0.2166  f +
+       17          64243     8.387e-05     11      0.1637   6.426e+04   0.004093    -0.02368  g + _g
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runBeamGVslp', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m', 84)" style="font-weight:bold">runBeamGVslp</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runBeamGVslp.m',84,0)">line 84</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 13)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',13,0)">line 13</a>)] 
+       18          64244     7.926e-05     11      0.1637   6.426e+04   0.004093      -6.754  f + ! Bound
+              ----------  ------------         ----------
+    Criteria         0.5        0.0001                0.5
+SLP  slowed.    Final objective function value = 64243.5076
+               Lagrangian gradient   2-norm = 8.4337
+               Lagrangian gradient inf-norm = 4.5148
+               Optimality Tolerance         = 1
+Trust Region Strategy uses filter
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+! Trust Radius set by Merit function minimization
+_ Trust Radius set by target Trust Ratio
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+x0 =
+    -1
+    -2
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           3                2                             4
+     1           9          1.51923      0.0480769           2.62  
+     2          15          1.14302            0.1            3.4  
+     3          24         0.798154      0.0432764           1.85  
+     4          30         0.533847       0.112452           2.61  
+     5          39         0.331281      0.0432764           1.42  
+     6          45         0.176032       0.112452              2  
+     7          54        0.0570482      0.0432764           1.08  
+     8          60       -0.0341418       0.112452           1.53  
+     9          69        -0.104031      0.0432764          0.831  
+    10          75        -0.157594       0.112452           1.17  
+    11          84        -0.198645      0.0432764          0.637  
+    12          90        -0.230107       0.112452          0.899  
+    13          99         -0.25422      0.0432764          0.488  
+    14         105          -0.2727       0.112452          0.689  
+    15         114        -0.286864      0.0432764          0.374  
+    16         120        -0.297719       0.112451          0.528  
+    17         129        -0.306038      0.0432764          0.287  
+    18         135        -0.312414       0.112451          0.405  
+    19         144        -0.317301      0.0432764           0.22  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    20         150        -0.321046       0.112451           0.31  
+    21         159        -0.323916      0.0432765          0.168  
+    22         165        -0.326116       0.112451          0.238  
+    23         174        -0.327802      0.0432765          0.129  
+    24         180        -0.329094       0.112451          0.182  
+    25         189        -0.330084      0.0432766         0.0989  
+    26         195        -0.330843        0.11245           0.14  
+    27         204        -0.331425      0.0432766         0.0758  
+    28         210        -0.331871        0.11245          0.107  
+    29         219        -0.332212      0.0432767         0.0581  
+    30         225        -0.332474       0.112449          0.082  
+    31         234        -0.332675      0.0432768         0.0445  
+    32         240        -0.332829       0.112448         0.0629  
+    33         249        -0.332947      0.0432769         0.0341  
+    34         255        -0.333037       0.112447         0.0482  
+    35         264        -0.333106      0.0432771         0.0262  
+    36         270        -0.333159       0.112446         0.0369  
+    37         279          -0.3332      0.0432774         0.0201  
+    38         285        -0.333231       0.112444         0.0283  
+    39         294        -0.333255      0.0432777         0.0154  
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+    40         300        -0.333273       0.112441         0.0217  
+    41         309        -0.333287      0.0432782         0.0118  
+    42         315        -0.333298       0.112438         0.0166  
+    43         324        -0.333306      0.0432786        0.00903  
+    44         330        -0.333313       0.112435         0.0127  
+    45         339        -0.333317       0.043279        0.00692  
+    46         345        -0.333321       0.112431        0.00976  
+    47         354        -0.333324      0.0432798         0.0053  
+    48         360        -0.333326       0.112426        0.00748  
+    49         369        -0.333328      0.0432809        0.00407  
+    50         375        -0.333329       0.112417        0.00574  
+    51         384         -0.33333      0.0432825        0.00312  
+    52         390        -0.333331       0.112405         0.0044  
+    53         399        -0.333331      0.0432845        0.00239  
+    54         405        -0.333332       0.112385        0.00337  
+    55         414        -0.333332      0.0432873        0.00183  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_possible','CSHelpWindow');">Local minimum possible</a>.
+
+fminunc stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_current_step','CSHelpWindow');">size of the current step</a> is less than
+the selected value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'step_size_tol','CSHelpWindow');">step size tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',2.000000e+00,true,true,'fminunc',9.716319e-05,'selected',1.000000e-04,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+x_SD =
+  -0.333919911102842
+  -0.501020607591964
+outSD = 
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+       iterations: 55
+        funcCount: 414
+         stepsize: 1.712237227575838e-04
+     lssteplength: 0.043287255625831
+    firstorderopt: 0.001830756664276
+        algorithm: 'quasi-newton'
+          message: 'Local minimum possible.fminunc stopped because the size of the current step is less thanthe selected value of the step size tolerance.Stopping criteria details:Optimization stopped because the norm of the current step, 9.716319e-05, isless than options.StepTolerance = 1.000000e-04.Optimization Metric                                Optionsrelative norm(step) =   9.72e-05             StepTolerance =   1e-04 (selected)'
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0              2            -1      1           0           2
+        1           2.08            -1      1         0.4           2        0.2       -0.04  f - Rejected
+        2           1.52            -1      1         0.2        1.52        0.1        0.48  f *
+        3           1.04            -1      1         0.2        1.04        0.1      0.9231  f *
+        4           0.32            -1      1         0.4        0.32        0.2      0.8182  f *
+        5           1.12            -1      1         0.4        0.32        0.4     -0.7143  f - Rejected
+        6           0.24            -1      1         0.2        0.24        0.2      0.1429  f *
+        7           0.96            -1      1         0.4        0.24        0.2     -0.5294  f - Rejected
+        8           0.08            -1      1         0.2        0.08        0.1      0.2353  f *
+        9           0.24            -1      1         0.2        0.08        0.1     -0.4445  f - Rejected
+       10       0.030001            -1      1         0.1        0.03       0.05      0.2778  f *
+       11      -0.079999            -1      1         0.1       -0.08       0.05      0.9167  f *
+       12          -0.24            -1      1         0.2       -0.24        0.1         0.8  f *
+       13          -0.32            -1      1         0.4       -0.32        0.2      0.3333  f *
+       14           1.52            -1      1         0.4       -0.32        0.2      -7.667  f - Rejected
+       15       0.080002            -1      1         0.2       -0.32        0.1      -3.333  f - Rejected
+       16          -0.25            -1      1         0.1       -0.32       0.05      -1.167  f - Rejected
+       17        -0.3175            -1      1        0.05       -0.32      0.025    -0.08335  f - Rejected
+       18       -0.32688            -1      1       0.025     -0.3269     0.0125      0.4583  f *
+       19          -0.33            -1      1       0.025       -0.33     0.0125      0.8333  f *
+       20        -0.3025            -1      1        0.05       -0.33      0.025      -5.499  f - Rejected
+       21       -0.32438            -1      1       0.025       -0.33     0.0125       -2.25  f - Rejected
+       22       -0.32922            -1      1      0.0125       -0.33    0.00625     -0.6248  f - Rejected
+       23       -0.33012            -1      1     0.00625     -0.3301   0.003125      0.1876  f *
+       24       -0.33078            -1      1     0.00625     -0.3308   0.003125      0.9444  f *
+       25       -0.33137            -1      1     0.00625     -0.3314   0.003125      0.9375  f *
+       26       -0.33188            -1      1     0.00625     -0.3319   0.003125      0.9286  f *
+       27       -0.33238            -1      1      0.0125     -0.3324    0.00625        0.65  f *
+       28       -0.33172            -1      1      0.0125     -0.3324    0.00625      -1.214  f - Rejected
+       29       -0.33235            -1      1     0.00625     -0.3324   0.003125     -0.1069  f - Rejected
+       30       -0.33244            -1      1    0.003125     -0.3324   0.001563      0.4465  f *
+       31       -0.33255            -1      1    0.003125     -0.3325   0.001563        0.86  f *
+       32        -0.3327            -1      1    0.003125     -0.3327   0.003125      0.9375  f *
+       33       -0.33246            -1      1     0.00625     -0.3327    0.00625     -0.8566  f - Rejected
+       34       -0.33271            -1      1    0.003125     -0.3327   0.003125     0.07168  f *
+       35       -0.33278            -1      1    0.001562     -0.3328   0.001563      0.9687  f *
+       36       -0.33285            -1      1    0.001562     -0.3329   0.001563      0.9667  f *
+       37       -0.33298            -1      1    0.003125      -0.333   0.003125      0.9286  f *
+       38       -0.33317            -1      1     0.00625     -0.3332    0.00625      0.8333  f *
+       39       -0.33333            -1      1      0.0125     -0.3333     0.0125         0.5  f *
+       40       -0.33146            -1      1      0.0125     -0.3333     0.0125      -11.99  f - Rejected
+       41        -0.3329            -1      1     0.00625     -0.3333    0.00625      -5.494  f - Rejected
+       42       -0.33324            -1      1    0.003125     -0.3333   0.003125      -2.247  f - Rejected
+       43       -0.33332            -1      1    0.001562     -0.3333   0.001563     -0.6235  f - Rejected
+       44       -0.33333            -1      1   0.0007812     -0.3333  0.0007813      0.1883  f * Bound
+              ----------  ------------         ----------
+    Criteria      0.0001         1e-06             0.0001
+SLP  converged. Final objective function value = -0.33333
+               Lagrangian gradient   2-norm = 0.0078001
+               Lagrangian gradient inf-norm = 0.0062394
+               Optimality Tolerance         = 0.01
+Trust Region Strategy uses filter
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+x_SLP =
+  -0.333202976257230
+  -0.499219335977911
+out = 
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+                 f: [1×45 double]
+                 g: [1×45 double]
+          rejected: [1×45 logical]
+    RadiusFraction: [1×44 double]
+        iterations: 44
+         funcCount: 45
+         gradCount: 27
+           message: 1
+                                                        First-order 
+ Iteration  Func-count       f(x)        Step-size       optimality
+     0           3                2                             4
+     1           9          1.51923      0.0480769           2.62  
+     2          15        -0.241374             10          0.583  
+     3          18        -0.333333              1       2.98e-08  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_unconstrained','CSHelpWindow');">Local minimum found</a>.
+
+Optimization completed because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'grad_size','CSHelpWindow');">size of the gradient</a> is less than
+the selected value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_unc','CSHelpWindow');">optimality tolerance</a>.
+
+<<a href = "matlab: createExitMsg('fminusub',1.000000e+00,true,true,'fminunc',5.960464e-09,'selected',1.000000e-04,0.000000e+00,'',0.000000e+00,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+x_BFGS =
+  -0.333333284688188
+  -0.499999917430936
+ 
+                                         Termination Criteria
+                                       1e-06          0.0001    0.0001
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    1            2         0    0         -1    1         20         4
+    4       1.5192    0.0481    0         -1    1       8.55      3.02
+    6     -0.33333     0.433    0         -1    1   8.26e-23  1.78e-12
+Optimization Terminated Successfully from sqp
+ 
+x_SQP =
+  -0.333333333332442
+  -0.500000000001782
+
+function [f,g] = fHaftka4p2p1( x )
+% Haftka Example 4.2.1 objective evaluation
+f = 12*x(1)^2 + 4*x(2)^2 - 12*x(1)*x(2) + 2*x(1); % Eq.(4.2.18)
+g = -1;
+end
+
+function [gradf,gradg] = gHaftka4p2p1( x )
+% Haftka Example 4.2.1 objective gradient evaluation
+gradf = [24*x(1) - 12*x(2) + 2;
+          8*x(2) - 12*x(1)];
+gradg = [0; 0];
+end
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0             -3            -7      2           0          -3
+        1           -4.5            -7      2         0.5        -4.5        0.5           1  *
+        2           -7.5            -7      2           1        -7.5          1           1  *
+        3         -11.95         4.105      1        1.95        -7.5          2     -0.3511  + Rejected
+        4          -10.5          -0.5      1           1       -10.5          1           1  +
+        5        -11.107        0.5026      1      0.5357       -10.5          1      0.2526  +
+        6        -11.001      0.002525      1     0.03556         -11          1      0.9945  +
+        7            -11      6.91e-08      1   0.0002101         -11          1           1  + Unbound
+              ----------  ------------         ----------
+    Criteria       1e-06         0.001               0.01
+SLP  converged. Final objective function value = -11
+               Lagrangian gradient   2-norm = 0
+               Lagrangian gradient inf-norm = 0
+               Optimality Tolerance         = 0.0001
+Trust Region Strategy uses Merit function
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+xopt =
+   4.000000003121476
+   3.000000007355368
+fval =
+ -11.000000013598319
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0             -3            -7      2           0          -3
+        1           -4.5            -7      2         0.5        -4.5        0.5           1  * !
+        2          -10.5       -0.5004      1           2       -10.5          2           1  * !
+        3        -11.107        0.5026      1      0.5358       -10.5      2.035      0.2526  + R=0.5
+        4        -11.001      0.002525      1     0.03556         -11      2.035      0.9945  + _m
+        5            -11      6.91e-08      1     0.00021         -11      2.035           1  + _m Unbound
+              ----------  ------------         ----------
+    Criteria       1e-06         0.001               0.01
+SLP  converged. Final objective function value = -11
+               Lagrangian gradient   2-norm = 2.2204e-16
+               Lagrangian gradient inf-norm = 2.2204e-16
+               Optimality Tolerance         = 0.0001
+Trust Region Strategy uses Merit function
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+! Trust Radius set by Merit function minimization
+_ Trust Radius set by target Trust Ratio
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+xopt2 =
+   4.000000003123138
+   3.000000007351979
+fval2 =
+ -11.000000013598255
+
+function [f,g]=fHaftka6p3p1( x )
+% Function evaluation for Example 6.3.1 taken from
+% "Elements of Structural Optimization" by Haftka and Gurdal
+% N.B., Haftka uses g>=0; whereas, Matlab uses g<=0.
+%
+%--Input
+%
+%  x........ Design variable vector of length 2
+%
+%--Ouput
+%
+%  f........ Objective function value (scalar) - linear in x
+%  g........ Constraint function values (vector)
+
+f = [-2 -1]*x(:);
+g = [(sum(x.^2)-25)
+     x(1)^2-x(2)^2-7];
+
+function [gradf,gradg]=gHaftka6p3p1( x )
+% Gradient evaluation for Example 6.3.1 taken from
+% "Elements of Structural Optimization" by Haftka and Gurdal
+% N.B., Haftka uses g>=0; whereas, Matlab uses g<=0.
+%
+%--Input
+%
+%  x........ Design variable vector of length 2
+%
+%--Ouput
+%
+%  gradf.... Gradient of objective function (column vector)
+%  gradg.... Gradients of constraints (#variables by #constraints matrix)
+%            i.e., a constraint gradient in each column
+gradf = [-2; -1];
+gradg = [2*x(:), [2; -2].*x(:)];
+SLP
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0             46            71      2           0       183.2
+        1           35.6         40.72      2           1       112.8        0.2      0.8783  * inf_LP
+        2         30.799         17.48      2           1       62.01        0.2      0.8392  * inf_LP
+        3          26.08         2.721      2           1       31.55        0.2      0.8065  *
+        4         5.1595         2.606      3           2       14.73        0.4      0.5098  *
+        5        0.16691         8.859      2           2       14.73        0.4     -0.3314  + Rejected
+        6          5.598          0.84      3         0.6        13.1        0.2      0.1577  +
+        7         6.2299        0.1621      1      0.2168       7.673        0.1      0.7674  +
+        8         5.4488        0.1983      3         0.3       7.673        0.1      0.1719  +
+        9         5.9543       0.04866      3        0.15       6.503       0.05      0.6598  +
+       10         5.9034       0.04364      3        0.15       6.386       0.05      0.1826  +
+       11         5.9866       0.01292      3       0.075       6.132      0.025      0.6136  +
+       12         5.9854      0.009984      3        0.05       6.098      0.025      0.2117  +
+       13          5.985       0.01172      1       0.075       6.098      0.025     -0.1231  + Rejected
+       14         5.9967      0.003058      1      0.0375       6.031     0.0125      0.6415  +
+       15         5.9934      0.002702      3      0.0375       6.023     0.0125      0.1932  +
+       16          5.999     0.0006728      3     0.01875       6.006    0.00625      0.6772  +
+       17         5.9991     0.0006769      3     0.01875       6.006    0.00625    -0.02991  - Rejected
+       18         5.9999     0.0001696      3    0.009375       6.002   0.003125      0.6965  +
+       19         5.9995     0.0001841      1    0.009375       6.002   0.003125     0.06371  +
+       20         5.9999     4.627e-05      1    0.004687           6   0.001563      0.6808  +
+       21         5.9999     4.585e-05      1    0.004687           6   0.001563     -0.1078  +
+       22              6      1.15e-05      1    0.002344           6  0.0007813      0.7193  +
+       23              6     1.148e-05      1    0.002344           6  0.0007813     -0.1207  +
+       24              6     2.866e-06      1    0.001172           6  0.0003906      0.7213  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runRosenSuzuki', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runRosenSuzuki.m', 24)" style="font-weight:bold">runRosenSuzuki</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runRosenSuzuki.m',24,0)">line 24</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 16)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',16,0)">line 16</a>)] 
+       25              6     2.868e-06      1    0.001172           6  0.0003906     -0.1109  - Rejected
+       26              6     7.164e-07      1   0.0005859           6  0.0001953      0.6842  + Bound
+              ----------  ------------         ----------
+    Criteria       5e-05         1e-06              0.001
+SLP  converged. Final objective function value = 6
+               Lagrangian gradient   2-norm = 0.0024367
+               Lagrangian gradient inf-norm = 0.0014238
+               Optimality Tolerance         = 0.05
+Trust Region Strategy uses Merit function
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+xopt =
+   0.000159205642784
+   1.000103148303103
+   1.999856980527609
+  -1.000151126832821
+fopt =
+   5.999998245588223
+fopt =
+   5.999998245588223
+gopt =
+   0.000000716362294
+  -0.999562943397040
+   0.000000690318943
+Schittkowski's SQP with complex step gradients
+Function gradient
+Maximum discrepancy between derivatives  = 6.27802e-07
+Constraint gradients
+Maximum discrepancy between derivatives  = 2.48221e-07
+ 
+                                         Termination Criteria
+                                       1e-06           5e-05     0.001
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    5           46         0    7         71    2        299      16.5
+   11      -7.4064     0.252    7       20.3    3       46.8      5.03
+   17      -13.395     0.371    7       14.3    3       18.9      2.44
+   22     -0.71871         1    7       8.55    1       20.9      2.14
+   27      -4.7231         1    7       5.85    2       17.4     0.862
+   32       3.3588         1    7       1.02    3       4.62     0.344
+   37       5.6499         1    7      0.228    3      0.788     0.245
+   43       5.6171     0.497    7      0.161    3      0.509     0.303
+   49        5.664      0.36    7      0.119    3      0.669    0.0252
+   54       5.9966         1    7    0.00129    1    0.00682  0.000879
+   59            6         1    7   1.83e-06    3   1.03e-05   0.00011
+   64            6         1    7    3.2e-08    3   1.82e-07  6.88e-07
+Optimization Terminated Successfully from sqp
+ 
+xopt =
+  -0.000000366651465
+   1.000000681671516
+   2.000000076965572
+  -0.999999775761940
+fopt = 
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+          fval: 5.999999908881300
+     funcCount: 64
+     gradCount: 12
+    iterations: 11
+       options: [1×18 double]
+        status: 1
+fopt =
+   5.999999908881300
+gopt =
+   0.000000027134387
+  -0.999997719989313
+   0.000000031993554
+Schittkowski's SQP with fmincon problem structure
+ 
+                                         Termination Criteria
+                                       1e-06           5e-05     0.001
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    1           46         0    7         71    2        299      16.5
+    3      -7.4064     0.252    7       20.3    3       46.8      5.03
+    5      -13.395     0.371    7       14.3    3       18.9      2.44
+    6     -0.71871         1    7       8.55    1       20.9      2.14
+    7      -4.7231         1    7       5.85    2       17.4     0.862
+    8       3.3588         1    7       1.02    3       4.62     0.344
+    9       5.6499         1    7      0.228    3      0.788     0.245
+   11       5.6171     0.497    7      0.161    3      0.509     0.303
+   13        5.664      0.36    7      0.119    3      0.669    0.0252
+   14       5.9966         1    7    0.00129    1    0.00682  0.000879
+   15            6         1    7   1.83e-06    3   1.03e-05   0.00011
+   16            6         1    7    3.2e-08    3   1.82e-07  6.88e-07
+Optimization Terminated Successfully from sqp
+ 
+xopt =
+  -0.000000366651465
+   1.000000681671516
+   2.000000076965572
+  -0.999999775761940
+fopt = 
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+          fval: 5.999999908881300
+     funcCount: 16
+     gradCount: 12
+    iterations: 11
+       options: [1×18 double]
+        status: 1
+active-set
+
+                                Max     Line search  Directional  First-order 
+ Iter F-count        f(x)   constraint   steplength   derivative   optimality Procedure 
+    0      1           46           71                                         Infeasible start point
+    1      4      -22.793        40.26          0.5        -16.7         9.67   
+    2      7     -18.7968        24.48          0.5        -1.22         5.23   
+    3      9     -5.65876        8.036            1         1.95         5.05   
+    4     12     -4.22487        5.043          0.5         0.12         7.57   
+    5     15    -0.961725        2.937          0.5         3.99         2.22   
+    6     17      5.02042        0.434            1          9.5         2.46   
+    7     19      5.80534      0.09981            1         2.06        0.572   
+    8     21      5.96815      0.01293            1         1.34        0.303   
+    9     23      5.99344     0.002493            1        0.454        0.121   
+   10     25       5.9993    0.0002459            1        0.353       0.0302   
+   11     27      5.99998    7.336e-06            1        0.272      0.00319   
+   12     29            6    6.395e-08            1       0.0853     9.34e-05  Hessian modified  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_poss_with_constr','CSHelpWindow');">Local minimum possible. Constraints satisfied</a>.
+
+fmincon stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_search_direction','CSHelpWindow');">size of the current search direction</a> is less than
+twice the selected value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'step_size_tol','CSHelpWindow');">step size tolerance</a> and constraints are 
+satisfied to within the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'constraint_tolerance','CSHelpWindow');">constraint tolerance</a>.
+
+<<a href = "matlab: createExitMsg('nlconst',4.000000e+00,true,true,'fmincon',8.684653e-06,'selected',1.000000e-03,6.394807e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+Active inequalities (to within options.ConstraintTolerance = 1e-06):
+  lower      upper     ineqlin   ineqnonlin
+                                     1
+                                     3
+xopt =
+  -0.000000675453728
+   0.999991430416539
+   2.000002950151503
+  -0.999998183749926
+fval =
+   5.999999815394451
+fopt =
+   5.999999815394451
+gopt =
+   0.000000057055999
+  -1.000030883361841
+   0.000000063948074
+interior-point
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+    0       1    4.600000e+01    7.100e+01    1.642e+01
+    1       4    1.934860e+01    6.120e+01    1.108e+01    4.213e+00
+    2       5    4.249382e+00    3.781e+01    8.789e+00    2.032e+00
+    3       6    4.698110e+00    9.773e+00    8.340e+00    2.569e+00
+    4       7    1.499358e-01    7.932e+00    7.029e+00    5.245e-01
+    5       8    1.402151e+00    4.675e+00    4.236e+00    1.151e+00
+    6       9    1.852085e+00    2.454e+00    2.868e+00    2.954e-01
+    7      11    3.297912e+00    1.200e+00    1.588e+00    5.359e-01
+    8      12    5.397409e+00    2.450e-01    3.388e-01    2.175e-01
+    9      13    6.007760e+00    3.745e-03    4.029e-01    8.627e-02
+   10      14    6.038612e+00    0.000e+00    2.008e-02    2.763e-02
+   11      15    6.000787e+00    3.146e-05    3.569e-03    1.059e-02
+   12      16    6.000402e+00    0.000e+00    2.003e-04    3.343e-04
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_found','CSHelpWindow');">Local minimum found that satisfies the constraints</a>.
+
+Optimization completed because the objective function is non-decreasing in 
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'feasible_directions','CSHelpWindow');">feasible directions</a>, to within the selected value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'optimality_tolerance_msgcsh','CSHelpWindow');">optimality tolerance</a>,
+and constraints are satisfied to within the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'constraint_tolerance','CSHelpWindow');">constraint tolerance</a>.
+
+<<a href = "matlab: createExitMsg('barrier',1.000000e+00,true,true,'fmincon',1.541099e-05,'selected',5.000000e-05,0.000000e+00,'default',1.000000e-06,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+xopt =
+   0.000006368037241
+   0.999922554357999
+   2.000002931356816
+  -0.999951998327349
+fval =
+   6.000402405824172
+fopt =
+   6.000402405824172
+gopt =
+  -0.000200417487498
+  -1.000544416888113
+  -0.000100979725379
+sqp
+ Iter  Func-count            Fval   Feasibility   Step Length       Norm of   First-order  
+                                                                       step    optimality
+    0           1    4.600000e+01     7.100e+01     1.000e+00     0.000e+00     1.700e+01  
+    1           5   -2.289062e+01     3.802e+01     4.900e-01     8.470e+00     3.771e+00  
+    2          10   -2.125209e+01     2.697e+01     3.430e-01     1.393e+00     3.858e+00  
+    3          13   -1.061463e+01     1.126e+01     7.000e-01     1.784e+00     3.683e+00  
+    4          16   -2.497092e+00     5.106e+00     7.000e-01     1.440e+00     4.949e+00  
+    5          19   -1.598383e-01     2.786e+00     7.000e-01     1.120e+00     3.650e+00  
+    6          21    4.431558e+00     7.849e-01     1.000e+00     8.641e-01     3.030e+00  
+    7          23    5.348670e+00     2.763e-01     1.000e+00     5.257e-01     1.230e+00  
+    8          25    5.927257e+00     2.682e-02     1.000e+00     1.539e-01     4.030e-01  
+    9          27    5.995699e+00     1.514e-03     1.000e+00     3.863e-02     6.941e-02  
+   10          29    5.999804e+00     7.084e-05     1.000e+00     8.417e-03     8.584e-03  
+   11          31    5.999993e+00     2.251e-06     1.000e+00     1.464e-03     8.660e-04  
+
+<a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'local_min_poss_with_constr','CSHelpWindow');">Local minimum possible. Constraints satisfied</a>.
+
+fmincon stopped because the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'norm_curr_step_simple_fminconip','CSHelpWindow');">size of the current step</a> is less than
+the selected value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'step_size_tol','CSHelpWindow');">step size tolerance</a> and constraints are 
+satisfied to within the default value of the <a href = "matlab: helpview([docroot '/toolbox/optim/msg_csh/optim_msg_csh.map'],'constraint_tolerance','CSHelpWindow');">constraint tolerance</a>.
+
+<<a href = "matlab: createExitMsg('sqpLineSearch',2.000000e+00,true,true,'fmincon',8.021819e-04,'selected',1.000000e-03,3.170577e-08,'default',1.000000e-06,0.000000e+00,'',0.000000e+00);">stopping criteria details</a>>
+
+xopt =
+  -0.000095775958931
+   1.000067528978486
+   2.000049768247048
+  -0.999927175677887
+fval =
+   5.999993451248464
+fopt =
+   5.999993451248464
+gopt =
+   0.000002142801916
+  -0.999799125372492
+   0.000002251109813
+
+function [f,g]=fRosenSuzuki(x)
+% Objective and constraints for Rosen-Suzuki four-variable problem.
+x=x(:);
+f = 50 + [-5, -5, -21, 7]*x + [1, 1, 2, 1]*x.^2;
+g = [ [1, -1, 1, -1]*x + [1, 1, 1, 1]*x.^2 - 8
+      [-1, 0, 0, -1]*x + [1, 2, 1, 2]*x.^2 - 10
+      [2, -1, 0, -1]*x + [2, 1, 1, 0]*x.^2 - 5];
+end
+ 
+                                         Termination Criteria
+                                       1e-06           0.001       0.1
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    1       1.2007         0    0         -1    1        681      19.7
+    5      -39.431     0.119    0         -1    1       5.41      1.69
+    8      -41.347         1    0         -1    1       1.07     0.542
+   11      -41.777         1    0         -1    1      0.049     0.132
+   14      -41.806         1    0         -1    1    0.00334    0.0452
+   17      -41.808         1    0         -1    1   2.64e-05   0.00189
+Optimization Terminated Successfully from sqp
+ 
+x =
+   8.632943196624520   4.529946318427654
+out = 
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+          fval: -41.808215610699335
+     funcCount: 17
+     gradCount: 6
+    iterations: 5
+       options: [1×18 double]
+        status: 1
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0         1.2007            -1      1           0       1.201
+        1        -27.138            -1      1           1      -27.14        0.2  *
+        2        -38.217            -1      1         0.9      -38.22       0.18  *
+        3        -36.572            -1      1        0.81      -36.57      0.162  *
+        4        -38.546            -1      1       0.729      -38.55     0.1458  *
+        5        -40.497            -1      1      0.6561       -40.5     0.1312  *
+        6        -39.438            -1      1      0.5905      -39.44     0.1181  *
+        7        -40.653            -1      1      0.5314      -40.65     0.1063  *
+        8        -41.512            -1      1      0.4783      -41.51    0.09566  *
+        9        -40.565            -1      1      0.4305      -40.56    0.08609  *
+       10        -41.555            -1      1      0.3874      -41.55    0.07748  *
+       11        -41.795            -1      1      0.3487      -41.79    0.06974  *
+       12        -41.073            -1      1      0.3138      -41.07    0.06276  *
+       13        -41.794            -1      1      0.2824      -41.79    0.05649  *
+       14         -41.77            -1      1      0.2542      -41.77    0.05084  *
+       15        -41.472            -1      1      0.2288      -41.47    0.04575  *
+       16        -41.778            -1      1      0.2059      -41.78    0.04118  *
+       17        -41.801            -1      1      0.1853       -41.8    0.03706  *
+       18        -41.649            -1      1      0.1668      -41.65    0.03335  *
+       19        -41.806            -1      1      0.1501      -41.81    0.03002  *
+       20        -41.681            -1      1      0.1351      -41.68    0.02702  *
+       21        -41.807            -1      1      0.1216      -41.81    0.02432  *
+       22        -41.796            -1      1      0.1094       -41.8    0.02188  *
+       23        -41.756            -1      1     0.09848      -41.76     0.0197  *
+       24        -41.799            -1      1     0.08863       -41.8    0.01773  *
+       25        -41.808            -1      1     0.07977      -41.81    0.01595  * Bound
+              ----------  ------------         ----------
+    Criteria       0.001         1e-06                0.1
+SLP  converged. Final objective function value = -41.8082
+               Lagrangian gradient   2-norm = 0.01146
+               Lagrangian gradient inf-norm = 0.009814
+               Optimality Tolerance         = 0.01
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+x =
+   8.630788355380918
+   4.532436581012624
+regression_check: reshaping result and answer column vectors
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0         1.2007            -1      1           0       1.201
+        1        -38.052            -1      1         2.5      -38.05        0.5      0.4265  *
+        2         1.2007            -1      1         2.5      -38.05        0.5      -2.966  - _f Rejected
+        3        -38.093            -1      1       0.625      -38.09      0.125     0.01232  * !
+        4        -38.889            -1      1      0.3164      -38.89    0.06328      0.4871  *
+        5        -39.924            -1      1      0.3164      -39.92    0.06328      0.9047  * !
+        6        -41.647            -1      1       1.266      -41.65     0.2531      0.4657  *
+        7        -31.677            -1      1       1.266      -41.65     0.2531      -3.451  - _f Rejected
+        8        -41.561            -1      1      0.3164      -41.65    0.06328     -0.1189  - _f Rejected
+        9        -41.808            -1      1      0.1414      -41.81    0.02828      0.4996  * Bound
+              ----------  ------------         ----------
+    Criteria       0.001         1e-06                0.1
+SLP  converged. Final objective function value = -41.8082
+               Lagrangian gradient   2-norm = 0.00084239
+               Lagrangian gradient inf-norm = 0.00070491
+               Optimality Tolerance         = 0.1
+Trust Region Strategy uses Merit function
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+! Trust Radius set by Merit function minimization
+_ Trust Radius set by target Trust Ratio
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+X =
+   8.631986430533507
+   4.531968028389350
+PE =
+ -41.808229900527522
+regression_check: reshaping result and answer column vectors
+ 
+         Sequential Linear Programming (SLP) Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0           1.56             0      1           0        1.56
+        1         1.3779        0.2486      1           1        1.56        0.2      0.2806  +
+        2         1.2764        0.2933      1           1        1.56        0.2      0.2423  +
+        3         1.2517        0.3712      1           1        1.56        0.2     -0.1638  + Rejected
+        4         1.3198       0.08866      1         0.5       1.406        0.1      0.6432  +
+        5          1.311       0.07319      1         0.5       1.382        0.1       0.251  +
+        6         1.3232       0.08125      1         0.5       1.382        0.1     -0.3406  - Rejected
+        7         1.3317       0.02424      1        0.25       1.355       0.05      0.5322  +
+        8         1.3335        0.0203      1        0.25       1.353       0.05     0.09339  +
+        9         1.3378      0.005979      1       0.125       1.344      0.025      0.6222  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runSvanbergSLP', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runSvanbergSLP.m', 23)" style="font-weight:bold">runSvanbergSLP</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runSvanbergSLP.m',23,0)">line 23</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 19)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',19,0)">line 19</a>)] 
+       10         1.3391      0.005094      1       0.125       1.344      0.025     -0.1073  +
+       11         1.3397      0.001215      1      0.0625       1.341     0.0125      0.7292  +
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runSvanbergSLP', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runSvanbergSLP.m', 23)" style="font-weight:bold">runSvanbergSLP</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runSvanbergSLP.m',23,0)">line 23</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 19)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',19,0)">line 19</a>)] 
+       12         1.3396      0.001212      1      0.0625       1.341     0.0125     0.09809  +
+       13         1.3399     0.0002894      1     0.03125        1.34    0.00625      0.6905  + Bound
+[Warning: Move limits contract < TolX] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('trust_region', '/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m', 293)" style="font-weight:bold">trust_region</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/private/trust_region.m',293,0)">line 293</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('slp_trust', '/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m', 394)" style="font-weight:bold">slp_trust</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/slp_trust.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('runSvanbergSLP', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runSvanbergSLP.m', 23)" style="font-weight:bold">runSvanbergSLP</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/runSvanbergSLP.m',23,0)">line 23</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('regression_test', '/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m', 19)" style="font-weight:bold">regression_test</a> (<a href="matlab: opentoline('/Users/canfield/Dropbox/MATLAB/slp_sqp/examples/regression_test.m',19,0)">line 19</a>)] 
+       14         1.3399     0.0003186      1     0.03125        1.34    0.00625      -0.104  - Rejected Bound
+       15         1.3399     7.948e-05      1     0.01562        1.34   0.003125      0.6427  + Bound
+              ----------  ------------         ----------
+    Criteria       0.001        0.0001                0.1
+SLP  converged. Final objective function value = 1.3399
+               Lagrangian gradient   2-norm = 0.0017047
+               Lagrangian gradient inf-norm = 0.0012421
+               Optimality Tolerance         = 0.01
+Trust Region Strategy uses Merit function
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+ 
+Final Design Variables, X
+   6.009755546219885
+   5.329042810871770
+   4.489432298388652
+   3.504547962549642
+   2.140625000000000
+ 
+                                         Termination Criteria
+                                       0.001           0.001       0.1
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    1         1.56         0    6          0    1    0.00841     0.061
+    2       1.5516         1    6   0.000166    1      0.041     0.304
+    3       1.5106         1    6    0.00414    1      0.165      1.31
+    4       1.3483         1    6        0.1    1       0.13     0.207
+    5       1.3934         1    6    0.00827    1     0.0331     0.457
+    6        1.364         1    6     0.0116    1     0.0507      0.99
+    7       1.3186         1    6     0.0873    1     0.0538     0.355
+    8       1.3377         1    6      0.025    1     0.0194    0.0605
+    9       1.3463         1    6   0.000845    1    0.00222     0.096
+   10       1.3444         1    6   0.000941    1    0.00496     0.169
+   11       1.3398         1    6    0.00507    1     0.0024    0.0999
+   12       1.3401         1    6    0.00126    1   0.000801    0.0874
+   13       1.3398         1    6   0.000882    1   0.000753   0.00428
+Optimization Terminated Successfully from sqp
+ 
+Final Design Variables, X
+   6.075571956083722
+   5.255302343831058
+   4.450464924768561
+   3.544572032464905
+   2.145660600787517

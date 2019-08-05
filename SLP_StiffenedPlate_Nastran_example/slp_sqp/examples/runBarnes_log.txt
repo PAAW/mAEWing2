@@ -1,0 +1,225 @@
+ 
+                                         Termination Criteria
+                                      0.0001            0.01      0.01
+                                  -------------------------------------
+f-CNT         FUNC      STEP  NAC     max{g}    j        KTO    max(S)
+    1      -2.7447         0    5      -0.09    3       1.32      1.15
+    4      -4.1068         1    5    -0.0998    3       7.38      6.07
+    7      -12.089         1    5     -0.169    3       23.4      10.7
+   10      -24.276         1    5     0.0178    1      0.618     0.896
+   13      -24.605         1    5     0.0003    1       2.15      3.38
+   16      -26.495         1    5     0.0111    1       5.17      10.8
+   19      -31.137         1    5      0.188    2      0.871      1.43
+   22      -31.249         1    5   0.000694    2      0.648      2.16
+   25       -31.65         1    5    0.00745    2     0.0284     0.411
+   28      -31.638         1    5    0.00027    2    0.00177    0.0404
+   31      -31.637         1    5   2.61e-06    2   1.91e-05  0.000884
+Optimization Terminated Successfully from sqp
+ 
+xSQP =
+   49.5254   19.6221
+OPT = 
+  struct with fields:
+
+          fval: -31.6368
+     funcCount: 31
+     gradCount: 11
+    iterations: 10
+       options: [1Ã18 double]
+LAMBDA = 
+  struct with fields:
+
+     ineq: [3Ã1 double]
+    lower: [2Ã1 double]
+    upper: [2Ã1 double]
+ 
+         Sequential Linear Programming Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0        -2.7447         -0.09      3           0      -2.745
+        1        -7.5508       -0.1344      3           4      -7.551        0.1       1.036  f *
+        2        -15.927        -0.207      3           6      -15.93       0.15        1.02  f *
+        3        -26.395       -0.1475      1           9       -26.4      0.225      0.8443  f *
+        4        -29.786       0.05164      2       5.819       -26.4     0.3375      0.6627  f +
+        5        -22.482       -0.1837      3        13.5       -26.4     0.3375     -0.3276  m - Rejected
+        6        -29.305       -0.3271      3        6.75       -29.3     0.1688      0.3794  m +
+        7        -30.462       0.02549      2       5.857      -29.16     0.1688      0.2853  f +
+        8        -28.867       -0.3053      3        6.75      -29.16     0.1688    -0.07187  m - Rejected
+        9        -30.673       -0.2747      2       3.375      -30.67    0.08438      0.5553  m *
+       10        -31.662       0.01025      2       2.531      -30.67    0.08438       1.037  g +
+       11        -31.432       0.01025      2       2.531      -30.67    0.08438      -2.468  f - Rejected
+       12        -31.615      0.002563      2       1.266      -31.37    0.04219      0.6844  m +
+       13        -31.631      0.002563      2       1.266      -31.38    0.04219      0.0464  m +
+       14        -31.615      0.002563      2       1.266      -31.38    0.04219     -0.2517  f - Rejected
+       15        -31.639     0.0006407      2      0.6328      -31.58    0.02109      0.7051  m +
+       16        -31.623     0.0006407      2      0.6328      -31.56    0.02109     -0.2331  m +
+       17        -31.635     0.0001602      2      0.3164      -31.62    0.01055      0.7405  m +
+       18        -31.637     0.0001602      2      0.3164      -31.62    0.01055   -6.26e-06  g +
+       19        -31.637     4.004e-05      2      0.1582      -31.63   0.005273      0.6968  m + Bound
+              ----------  ------------         ----------
+    Criteria        0.01        0.0001               0.01
+SLP converged. Final objective function value = -31.6367
+               Lagrangian gradient   2-norm = 0.0056279
+               Lagrangian gradient inf-norm = 0.0044087
+               Optimality Tolerance         = 0.01
+Trust Region Strategy uses filter
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+xTRf =
+   49.5903
+   19.6733
+fTRf =
+  -31.6367
+outf = 
+  struct with fields:
+
+                 f: [1Ã20 double]
+                 g: [3Ã20 double]
+          rejected: [0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 0]
+    RadiusFraction: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+        iterations: 19
+         funcCount: 20
+         gradCount: 16
+           message: 1
+ 
+         Sequential Linear Programming Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0        -2.7447         -0.09      3           0      -2.745
+        1        -7.5508       -0.1344      3           4      -7.551        0.1       1.036  *
+        2        -15.927        -0.207      3           6      -15.93       0.15        1.02  *
+        3        -26.395       -0.1475      1           9       -26.4      0.225      0.8443  *
+        4        -29.786       0.05164      2       5.819       -26.4     0.3375      0.4617  +
+        5        -22.482       -0.1837      3        13.5      -22.48     0.3375     -0.3276  -
+        6        -31.212      0.004467      2        6.75      -22.48     0.1688       0.826  +
+        7        -31.436       0.04101      2       5.062      -22.48     0.1688      -6.938  + Rejected
+        8         -31.67       0.01025      2       2.531      -22.48    0.08438      -1.144  + Rejected
+        9        -31.508      0.002563      2       1.266       -26.5    0.04219      0.4418  +
+       10        -31.641      0.002563      2       1.266       -26.5    0.04219     0.02553  +
+       11        -31.634     0.0006407      2      0.6328      -30.35    0.02109      0.7469  +
+       12        -31.633     0.0006407      2      0.6328      -30.35    0.02109   -0.000376  +
+       13        -31.637     0.0001602      2      0.3164      -31.32    0.01055       0.748  +
+       14        -31.632     0.0001602      2      0.3164      -31.31    0.01055    -0.01647  +
+       15        -31.636     4.004e-05      2      0.1582      -31.56   0.005273      0.7498  +
+       16        -31.637     4.004e-05      2      0.1582      -31.56   0.005273     0.01466  + Bound
+              ----------  ------------         ----------
+    Criteria        0.01        0.0001               0.01
+SLP converged. Final objective function value = -31.6369
+               Lagrangian gradient   2-norm = 0.00098768
+               Lagrangian gradient inf-norm = 0.00077403
+               Optimality Tolerance         = 0.01
+Trust Region Strategy uses Merit function
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+xTRm =
+   49.5377
+   19.6317
+fTRm =
+  -31.6369
+outm = 
+  struct with fields:
+
+                 f: [1Ã17 double]
+                 g: [3Ã17 double]
+          rejected: [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0]
+    RadiusFraction: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+        iterations: 16
+         funcCount: 17
+         gradCount: 15
+           message: 1
+ 
+         Sequential Linear Programming Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0        -2.7447         -0.09      3           0      -2.745
+        1        -7.5508       -0.1344      3           4      -7.551        0.1       1.036  * _f
+        2        -18.628       -0.2376      3           8      -18.63        0.2       1.011  * _f
+        3        -28.069         0.188      1       14.49      -18.63        0.4      0.3025  + R=0.906
+        4        -21.115       -0.1698      3          16      -21.11        0.4     0.09387  + _f
+        5        -31.367      0.007643      2       7.999      -21.11        0.2      0.8294  + _m
+        6        -30.917       0.05759      2           6      -21.11        0.2      -5.747  - _g Rejected
+        7         -31.66        0.0144      2           3      -21.11    0.09999      -0.799  + _g Rejected
+        8         -31.61        0.0036      2         1.5      -26.78       0.05       0.535  +
+        9        -31.626        0.0036      2         1.5       -26.8       0.05    0.003178  + !
+       10        -31.639     0.0009056      2      0.7523      -30.42    0.02508      0.7444  +
+       11        -31.617     0.0009056      2      0.7523       -30.4    0.02508    -0.01823  + _f
+       12        -31.634     0.0002264      2      0.3762      -31.33    0.01254      0.7488  +
+       13        -31.637     0.0002264      2      0.3762      -31.33    0.01254    0.009302  + !
+       14        -31.637     5.687e-05      2      0.1885      -31.56   0.006284      0.7445  + Bound
+              ----------  ------------         ----------
+    Criteria        0.01        0.0001               0.01
+SLP converged. Final objective function value = -31.6368
+               Lagrangian gradient   2-norm = 0.0060167
+               Lagrangian gradient inf-norm = 0.0047182
+               Optimality Tolerance         = 0.01
+Trust Region Strategy uses Merit function
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+! Trust Radius set by Merit function minimization
+_ Trust Radius set by target Trust Ratio
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+xTRAM =
+   49.4587
+   19.5690
+fTRAM =
+  -31.6368
+outM = 
+  struct with fields:
+
+                 f: [1Ã15 double]
+                 g: [3Ã15 double]
+          rejected: [0 0 0 0 0 0 1 1 0 0 0 0 0 0 0]
+    RadiusFraction: [1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+        iterations: 14
+         funcCount: 15
+         gradCount: 13
+           message: 1
+ 
+         Sequential Linear Programming Iteration History
+Iteration      Objective MaxConstraint    Index   Step-size   Merit      MoveLimit  TrustRatio
+        0        -2.7447         -0.09      3           0      -2.745
+        1        -7.5508       -0.1344      3           4      -7.551        0.1       1.036  f * _f
+        2        -18.628       -0.2376      3           8      -18.63        0.2       1.011  f * _f
+        3        -28.069         0.188      1       14.49      -18.63        0.4      0.4987  f + R=0.906
+        4        -21.115       -0.1698      3          16      -21.11        0.4     0.09387  m + _f
+        5        -31.367      0.007643      2       7.999      -21.11        0.2      0.8326  f + _f
+        6        -30.917       0.05759      2           6      -21.11        0.2      -6.535  g - _g Rejected
+        7         -31.66        0.0144      2           3      -12.35    0.09999     -0.8838  g + _g
+        8         -31.61        0.0036      2         1.5      -26.78       0.05      0.7444  m +
+        9        -31.626        0.0036      2         1.5      -26.78       0.05  -9.568e-07  g + !
+       10        -31.639     0.0009013      2      0.7505      -30.43    0.02502      0.7456  m +
+       11        -31.617     0.0009013      2      0.7505       -30.4    0.02502    -0.01828  m + _f
+       12        -31.634     0.0002253      2      0.3753      -31.33    0.01251      0.7488  m +
+       13        -31.637     0.0002253      2      0.3753      -31.33    0.01251    -4.3e-06  g + !
+       14        -31.637      5.66e-05      2      0.1881      -31.56   0.006269      0.7444  m + Bound
+              ----------  ------------         ----------
+    Criteria        0.01        0.0001               0.01
+SLP converged. Final objective function value = -31.6367
+               Lagrangian gradient   2-norm = 0.0061379
+               Lagrangian gradient inf-norm = 0.0048132
+               Optimality Tolerance         = 0.01
+Trust Region Strategy uses filter
+* Dominates prior points
++ Nondominated
+- Dominated by prior point(s)
+! Trust Radius set by Merit function minimization
+_ Trust Radius set by target Trust Ratio
+f/g/m Objective/Constraint/Merit governs Trust Ratio
+xTRAMf =
+   49.4573
+   19.5679
+fTRAMf =
+  -31.6367
+outMf = 
+  struct with fields:
+
+                 f: [1Ã15 double]
+                 g: [3Ã15 double]
+          rejected: [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+    RadiusFraction: [1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+        iterations: 14
+         funcCount: 15
+         gradCount: 14
+           message: 1
+>> 

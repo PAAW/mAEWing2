@@ -1,0 +1,189 @@
+$ NASTRAN input file created by the Patran 2016 input file translator on
+$  March     25, 2019 at 14:35:24.
+$ Direct Text Input for Nastran System Cell Section
+$ Design Sensitivity and Optimization Analysis
+SOL 200
+TIME 600
+CEND
+TITLE = STATIC ANALYSIS OF A STIFFENED PLATE                  DSOUG4
+ECHO = NONE
+MAXLINES = 999999999
+DESOBJ(MIN) = 1
+SUBCASE 1
+   TITLE=STATIC ANALYSIS OF A STIFFENED PLATE                  DSOUG4
+   LABEL=LOAD CONDITION 1
+   SPC = 2
+   LOAD = 4
+   DISPLACEMENT(SORT1,REAL)=ALL
+   STRESS(SORT1,REAL,VONMISES,BILIN)=ALL
+   ANALYSIS = STATICS
+   DESSUB = 22
+SUBCASE 2
+   TITLE=STATIC ANALYSIS OF A STIFFENED PLATE                  DSOUG4
+   LABEL=LOAD CONDITION 2
+   SPC = 2
+   LOAD = 7
+   DISPLACEMENT(SORT1,REAL)=ALL
+   STRESS(SORT1,REAL,VONMISES,BILIN)=ALL
+   ANALYSIS = STATICS
+   DESSUB = 23
+SUBCASE 3
+   TITLE=STATIC ANALYSIS OF A STIFFENED PLATE                  DSOUG4
+   LABEL=BUCKLING
+   SPC = 2
+   DISPLACEMENT(SORT1,REAL)=ALL
+   STRESS(SORT1,REAL,VONMISES,BILIN)=ALL
+   ANALYSIS = STATICS
+SUBCASE 4
+   TITLE=STATIC ANALYSIS OF A STIFFENED PLATE                  DSOUG4
+   LABEL=BUCKLING
+   SPC = 2
+   METHOD = 1
+   STATSUB = 3
+   ANALYSIS = BUCK
+   DESSUB = 24
+BEGIN BULK
+PARAM    POST    1
+PARAM    WTMASS .00259
+PARAM    GRDPNT  1
+PARAM   PRTMAXIM YES
+PARAM    NASPRT  1
+EIGRL    1
+$ Elements and Element Properties for region : pbarl.3
+PBEAML   3       1               HAT
+        3.      .766932 2.      .9
+$ Pset: "pbarl.3" will be imported as: "pbeaml.3"
+CBEAM    31      3       10200   10201   0.      0.     1.
+                         0.      0.     1.575    0.      0.     .111236
+CBEAM    32      3       10201   10202   0.      0.     1.
+                         0.      0.     1.575    0.      0.     .111236
+CBEAM    33      3       10202   10203   0.      0.     1.
+                         0.      0.     1.575    0.      0.     .111236
+CBEAM    34      3       10203   10204   0.      0.     1.
+                         0.      0.     1.575    0.      0.     .111236
+$ Elements and Element Properties for region : pshell.1
+PSHELL   1       1      .111236  1      1.              .833333
+$ Pset: "pshell.1" will be imported as: "pshell.1"
+CQUAD4   1       1       10000   10001   10101   10100   0.      0.
+CQUAD4   2       1       10001   10002   10102   10101   0.      0.
+CQUAD4   3       1       10002   10003   10103   10102   0.      0.
+CQUAD4   4       1       10003   10004   10104   10103   0.      0.
+CQUAD4   5       1       10100   10101   10201   10200   0.      0.
+CQUAD4   6       1       10101   10102   10202   10201   0.      0.
+CQUAD4   7       1       10102   10103   10203   10202   0.      0.
+CQUAD4   8       1       10103   10104   10204   10203   0.      0.
+CQUAD4   9       1       10200   10201   10301   10300   0.      0.
+CQUAD4   10      1       10201   10202   10302   10301   0.      0.
+CQUAD4   11      1       10202   10203   10303   10302   0.      0.
+CQUAD4   12      1       10203   10204   10304   10303   0.      0.
+CQUAD4   13      1       10300   10301   10401   10400   0.      0.
+CQUAD4   14      1       10301   10302   10402   10401   0.      0.
+CQUAD4   15      1       10302   10303   10403   10402   0.      0.
+CQUAD4   16      1       10303   10304   10404   10403   0.      0.
+$ Referenced Material Records
+$ Material Record : mat1.1
+$ Description of Material :
+MAT1     1      1.+7    3.7594+6.33     .283
+$ Nodes of the Entire Model
+GRID     10000           0.      0.      0.
+GRID     10001          2.5      0.      0.
+GRID     10002          5.       0.      0.
+GRID     10003          7.5      0.      0.
+GRID     10004          10.      0.      0.
+GRID     10100           0.     2.5      0.
+GRID     10101          2.5     2.5      0.
+GRID     10102          5.      2.5      0.
+GRID     10103          7.5     2.5      0.
+GRID     10104          10.     2.5      0.
+GRID     10200           0.     5.       0.
+GRID     10201          2.5     5.       0.
+GRID     10202          5.      5.       0.
+GRID     10203          7.5     5.       0.
+GRID     10204          10.     5.       0.
+GRID     10300           0.     7.5      0.
+GRID     10301          2.5     7.5      0.
+GRID     10302          5.      7.5      0.
+GRID     10303          7.5     7.5      0.
+GRID     10304          10.     7.5      0.
+GRID     10400           0.     10.      0.
+GRID     10401          2.5     10.      0.
+GRID     10402          5.      10.      0.
+GRID     10403          7.5     10.      0.
+GRID     10404          10.     10.      0.
+$ Loads for Load Case : _LOAD_CONDITION_1.SC1
+SPCADD   2       1
+LOAD     4      1.      1.       1
+$ Displacement Constraints of Load Set : spc1.1
+SPC1     1       1236    10000
+SPC1     1       36      10001
+SPC1     1       36      10002
+SPC1     1       36      10003
+SPC1     1       36      10004
+SPC1     1       136     10100
+SPC1     1       6       10101
+SPC1     1       6       10102
+SPC1     1       6       10103
+SPC1     1       36      10104
+SPC1     1       13      10200
+SPC1     1       3       10204
+SPC1     1       136     10300
+SPC1     1       6       10301
+SPC1     1       6       10302
+SPC1     1       6       10303
+SPC1     1       36      10304
+SPC1     1       136     10400
+SPC1     1       36      10401
+SPC1     1       36      10402
+SPC1     1       36      10403
+SPC1     1       36      10404
+$ Loads for Load Case : _LOAD_CONDITION_2.SC2
+LOAD     7      1.      1.       2
+$ Loads for Load Case : _BUCKLING.SC3
+$ Nodal Forces of Load Set : force.1
+FORCE    1       10004   0      2000.   -1.      0.      0.
+FORCE    1       10104   0      2000.   -1.      0.      0.
+FORCE    1       10204   0      2000.   -1.      0.      0.
+FORCE    1       10304   0      2000.   -1.      0.      0.
+FORCE    1       10404   0      2000.   -1.      0.      0.
+$ Nodal Forces of Load Set : force.2
+FORCE    2       10203   0      10000.   0.      0.     1.
+$ Pressure Loads of Load Set : pload2.1.2D
+PLOAD4   1       1      50.                              THRU    16
+$ ...DESIGN VARIABLE DEFINITION
+$ pshell.1_Thickness
+DESVAR   1      pshell.1.111236 .001    10.     .5
+$ sect.1_W
+DESVAR   2      sect.1_W.766932 .001    10.     .5
+$ pbarl.3_Offset_Node_2
+DESVAR   3      pbarl.3_ 0.     .001    10.     1.
+$ ...DEFINITION OF DESIGN VARIABLE TO ANALYSIS MODEL PARAMETER RELATIONS
+DVPREL1  1       PBEAML  3       DIM2(A)
+         2      1.
+DVPREL1  6       PSHELL  1       T
+         1      1.
+DVCREL1  2       CBEAM   31      W3B
+         3      1.
+DVCREL1  3       CBEAM   32      W3B
+         3      1.
+DVCREL1  4       CBEAM   33      W3B
+         3      1.
+DVCREL1  5       CBEAM   34      W3B
+         3      1.
+$ ...STRUCTURAL RESPONSE IDENTIFICATION
+DRESP1   1       W       WEIGHT
+$ DCONADD22
+DCONADD  22      1       2       3       4       5       6       7
+$ DCONADD23
+DCONADD  23      1       2       3       4       5       6       7
+$ DCONADD24
+DCONADD  24      1       2       3       4       5       6       7
+$ STRESS_1
+$ ...OPTIMIZATION CONTROL
+DOPTPRM  DESMAX  5       FSDMAX  0       P1      1       P2      15
+         P2CR    0       METHOD  1       OPTCOD  MSCADS  P2CDDV  0
+         P2CP    0       P2CC    0       P2CM    0       P2CBL   0
+         P2CALL  0       CONV1  .001     CONV2  1.-20    CONVDV .001
+         CONVPR .001     DELP   .5       DELX   .5       DPMIN  .01
+         DXMIN  .05      CT     -.03     GMAX   .005     CTMIN  .003
+$ Referenced Coordinate Frames
+ENDDATA c2ca9ea5
