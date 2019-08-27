@@ -87,7 +87,7 @@ $ OW
 INCLUDE 'mAEWing2_OW_leadspar_v2.dat'
 INCLUDE 'mAEWing2_OW_rearspar_v2.dat'
 INCLUDE 'mAEWing2_OW_midribs_v2_v2.dat'
-INCLUDE 'mAEWing2_OW_xribs_v2_v2.dat'
+INCLUDE 'mAEWing2_OW_xribs_v3.dat'
 INCLUDE 'mAEWing2_OW_topskin_v3_GVT_setup_v2.dat'
 INCLUDE 'mAEWing2_OW_botskin_v3_GVT_setup.dat'
 
