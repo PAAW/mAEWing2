@@ -1,0 +1,17 @@
+SPLINE4     1001    1001    1001            1001        IPS     BOTH
+SPLINE4    11001   11001   11001           11001        IPS     BOTH
+SPLINE4     2001    2001    2001            2001        IPS     BOTH
+SPLINE4    12001   12001   12001           12001        IPS     BOTH
+SPLINE4     3001    3001    3001            2001        IPS     BOTH
+SPLINE4    13001   13001   13001           12001        IPS     BOTH
+SPLINE4     4001    4001    4001            3001        IPS     BOTH
+SPLINE4    14001   14001   14001           13001        IPS     BOTH
+$ =========== WINGLET SPLINE4 ===============
+$1......2.......3.......4.......5.......6.......7.......8.......9...
+SPLINE4 32000   32000   32000           32000           IPS     BOTH
+SPLINE4 33000   33000   33000           32000           IPS     BOTH
+SPLINE4 34000   34000   34000           32000           IPS     BOTH
+$                                             
+SPLINE4 42000   42000   42000           42000           IPS     BOTH
+SPLINE4 43000   43000   43000           42000           IPS     BOTH
+SPLINE4 44000   44000   44000           42000           IPS     BOTH

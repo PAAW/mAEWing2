@@ -1,0 +1,160 @@
+INIT MASTER(S)
+$ NASTRAN input file created by the Patran 2012.2.1 64-Bit input file
+$ translator on December  15, 2015 at 21:44:40.
+$ Direct Text Input for Nastran System Cell Section
+$ Normal Modes Analysis, Database
+$ NOTES:
+$ Jan-15: Add Node 10001 as the cg location of the full mAEWing2;
+$    Fictious support is specified at this point for decoupled rigid mode shapes
+SOL 200
+CEND
+$ Direct Text Input for Global Case Control Data
+TITLE = MSC.Nastran job created on 20-Feb-15 at 15:37:03
+ECHO = NONE
+
+ANALYSIS = MODES
+DESOBJ(MIN) = 403
+DESSUB = 90001
+$ Using Nastran default values for RESVEC
+$ SUPORT1 = 250
+MODTRAK = 100
+
+SUBCASE 1
+$ Subcase name : Default
+   SUBTITLE=Default
+   METHOD = 101
+  $ VECTOR(SORT1,REAL)=ALL
+  $ SPCFORCES(SORT1,REAL)=ALL
+  $ SET 1 = 10001, 10062, 210113 THRU 210122,
+  $ 210148,314801,345201,346201,344901,346101,344601,344301,345501,
+  $ 348101,347801,347501,348501,348401,346901,346601,
+  $ 312201,312101,312001,311901,311801,311701,311601,311501,311401,
+  $ 311301
+  $ SET 1 = 315901,315601,315301,316301,314801,316201,314401,314101
+  $ DISPLACEMENT(PUNCH) = 1
+  $ DISP = ALL
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+$ GROUND POINT FOR WEIGHT GENERATION
+PARAM,GRDPNT,28888
+$ PRE_PROPVERT WEIGHT TO MASS (1/386)  
+PARAM     WTMASS .002591
+$ PRE_PROPVERT FROM IN/SEC TO KNOTS
+PARAM       VREF  20.254
+EIGRL    101                     20      0                       MASS
+$ GRAV     10             386.0   0.0     0.0     -1.
+$1......2.......3.......4.......5.......6.......7.......8.......9.......0.......
+$ GRDSET                                                  126 
+$ EIGR     101    MGIV                            20
+$          MASS
+
+$ ==============================================================
+$                       elements and nodes
+$ ==============================================================
+INCLUDE 'mAEWing2_nodes_modified_CB_v2_v2.dat'
+$ CB
+INCLUDE 'mAEWing2_CB_addspar_v2.dat'
+INCLUDE 'mAEWing2_CB_leadspar_v2.dat'
+INCLUDE 'mAEWing2_CB_midspar_v2.dat'
+INCLUDE 'mAEWing2_CB_rearspar_v2.dat'
+INCLUDE 'mAEWing2_CB_ribs_v3_v2.dat'
+INCLUDE 'mAEWing2_CB_topskin_v2.dat'
+INCLUDE 'mAEWing2_CB_botskin_v2_v2.dat'
+$ IW
+INCLUDE 'mAEWing2_IW_leadspar_v2.dat'
+INCLUDE 'mAEWing2_IW_midspar_v2.dat'
+INCLUDE 'mAEWing2_IW_rearspar_v2.dat'
+INCLUDE 'mAEWing2_IW_ribs_v2_v2.dat'
+INCLUDE 'mAEWing2_IW_botskin_v2_v2.dat'
+INCLUDE 'mAEWing2_IW_topskin_v2_v2.dat'
+$ OW
+INCLUDE 'mAEWing2_OW_leadspar_v2.dat'
+INCLUDE 'mAEWing2_OW_rearspar_v2.dat'
+INCLUDE 'mAEWing2_OW_midribs_v2_v2.dat'
+INCLUDE 'mAEWing2_OW_xribs_v2_v2.dat'
+INCLUDE 'mAEWing2_OW_topskin_v3_GVT_setup_v2.dat'
+INCLUDE 'mAEWing2_OW_botskin_v3_GVT_setup_v2.dat'
+
+INCLUDE 'mAEWing2_winglet_modified_v2_v2.dat'
+$
+$ =============================================
+$          Referenced Coordinate Frames
+$ =============================================
+INCLUDE 'mAEWing2_CORD2R.dat'
+$ =============================================
+$          Laminated  Configurations
+$ =============================================
+INCLUDE 'mAEWing2_material.dat'
+$ =============================================
+INCLUDE 'spc_suport.dat'
+$ 
+$ UPDATED PCOMP WITH NSM
+INCLUDE 'mAEWing2_PCOMP_wing.dat'
+INCLUDE 'mAEWing2_PCOMP_CB.dat'
+
+$ =============================================
+$         lumped mass at center body
+$ =============================================
+$
+INCLUDE 'mAEWing2_Wing_CONM2_servos.dat'
+INCLUDE 'mAEWing2_CONM2_attaches.dat'
+INCLUDE 'mAEWing2_CONM2_wing_controlunit+powerreg.dat'
+$ =============================================
+$        Separate bdf files for Flaps
+$ ============================================
+INCLUDE 'mAEWing2_OW_TE_flaps_nodes_v2.dat'
+INCLUDE 'mAEWing2_OW_TE_flaps_elements.dat'
+INCLUDE 'mAEWing2_OW_LE_flaps_nodes_v2.dat'
+INCLUDE 'mAEWing2_OW_LE_flaps_elements.dat'
+INCLUDE 'mAEWing2_IW_TE_flaps_nodes_v2.dat'
+INCLUDE 'mAEWing2_IW_TE_flaps_elements.dat'
+$ INCLUDE 'mAEWing2_PCOMP_Flaps.dat'
+$
+INCLUDE 'mAEWing2_RBE2_updated_v2_v2.dat'
+INCLUDE 'mAEWing2_CBUSH_4_flaps_v2.dat'
+INCLUDE 'RBE2_control_surfaces_v2.dat'
+$ coordinate framework for control surfaces
+INCLUDE 'mAEWing2_HingeLine_CORD2R_v2.dat'
+$
+$  =================== point mass or distributed mass ==========
+$ control surface tube
+INCLUDE 'mAEWing2_CS_tube.dat'
+$ WINGKID
+INCLUDE 'mAEWing2_OW_WL_skid.dat'
+$ CB point mass
+INCLUDE 'mAEWing2_CB_Gear_v0p2.dat'
+INCLUDE 'mAEWing2_CB_Propulsion_v0p1.dat'
+INCLUDE 'mAEWing2_CB_Airdata.dat'
+INCLUDE 'mAEWing2_CB_Flight_v0p2.dat'
+INCLUDE 'mAEWing2_CB_Attachv2.dat'
+INCLUDE 'mAEWing2_CB_accelerometers.dat'
+$$$
+$	
+$ 18888 is CB  CG location
+$1......2.......3.......4.......5.......6.......7.......8.......9.......
+GRID       18888        76.136  0.0236   52.1269  
+$ RBE2       18888  18888 123456  903403
+$ 28888 full model CG location
+$ GRID       28888        81.632  0.0      53.136 
+GRID       28888        81.632  0.0      52.253
+$ RBE2       28888  28888 123456  730038
+$
+$ ===================== GVT information =============
+$ ACCELEROMETERS
+$ INCLUDE 'mAEWing2_onlyWing_GVT_accelero.dat'
+$ =============================================
+$	
+$ =============== GVT springs ==============
+$1......2.......3.......4.......5.......6.......7.......8.......9.......0.......
+CBUSH   77071   7       730031                                  0
+CBUSH   77072   7       730152                                  0
+CBUSH   77073   7       10730152                                0
+$PBUSH    7      K       0.      0.      1.08493 0.      0.      0.  
+PBUSH    7      K       .53675  .68522  1.10777 69.9209 106.8   61.0702 
+$
+$
+$ INCLUDE 'DESVAR_mAEWing2_Fullmodel_GVT_setup_CB_base_v6.dat'
+INCLUDE 'DESVAR_mAEWing2_Fullmodel_GVT_setup_updated.dat'
+ENDDATA d2dbc08c

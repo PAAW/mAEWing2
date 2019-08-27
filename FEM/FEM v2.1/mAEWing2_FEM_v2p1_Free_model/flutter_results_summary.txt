@@ -1,0 +1,7 @@
+Possible flutter. Mode 2 at 37.4956 has zero frequency. DIVERGENCE. Solution not converged for certain speeds.
+Possible flutter. Mode 2 at 77.3585 has zero frequency. DIVERGENCE. Solution not converged for certain speeds.
+Possible flutter. Mode 2 at 114.661 has zero frequency. DIVERGENCE. Solution not converged for certain speeds.
+Possible flutter. Mode 3 at 44.4907 has zero frequency. DIVERGENCE. Solution not converged for certain speeds.
+Possible flutter. Mode 3 at 86.7543 has zero frequency. DIVERGENCE. Solution not converged for certain speeds.
+Possible flutter. Mode 3 at 130.5061 has zero frequency. DIVERGENCE. Solution not converged for certain speeds.
+Possible flutter. Mode 7 at 78.4879 at 3.5983 Hz.

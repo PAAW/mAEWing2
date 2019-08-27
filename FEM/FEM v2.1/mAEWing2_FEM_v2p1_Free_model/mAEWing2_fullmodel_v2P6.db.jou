@@ -1,0 +1,21 @@
+$# Creating journal file 
+$# C:\Users\weizhao\Desktop\mAEWing2_FEM_updates\mAEWing2_FEM_updates_GridZ\SO
+$# L200_mAEWing2_Fullmodel\mAEWing2_fullmodel_v2P6.db.jou at 27-Nov-17 16:44:01
+uil_file_rebuild.start("C:\MSC.Software\Patran_x64\20121/template.db", @
+"C:\Users\weizhao\Desktop\mAEWing2_FEM_updates\mAEWing2_FEM_updates_GridZ\" // @
+"SOL200_mAEWing2_Fullmodel\mAEWing2_fullmodel_v2P6.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\weizhao\Desktop\mAEWing2_FEM_updates\mAEWing2_F" // @
+"EM_updates_GridZ\SOL200_mAEWing2_Fullmodel" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+$# MSC.Patran FLDS Basic Patran 2012 64-Bit has reacquired its license(s) 
+$# from FLEXlm per a request to execute on a Windows GL-IAPETUS(90b11c617f78) 
+$# (Windows 6.1 (Build 7601: Service Pack 1)) at 27-Nov-17 16:45:25. License 
+$# File: 1701@trinidad.its.vt.edu
+$# MSC.Patran Patran 2012 64-Bit has reacquired its license(s) from FLEXlm 
+$# per a request to execute on a Windows GL-IAPETUS(90b11c617f78) (Windows 
+$# 6.1 (Build 7601: Service Pack 1)) at 27-Nov-17 16:45:28. License File: 
+$# 1701@trinidad.its.vt.edu

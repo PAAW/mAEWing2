@@ -1,0 +1,325 @@
+MSC Nastran V2017.0 (Intel Windows 7 Enterprise 6.1 7601) Control File: 
+----------------------------------------------------------------- 
+$ sysfield=SCR*(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/msc_nastran/20170/conf/nast20170.rcf[1])
+$ sysfield=DBALL(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/msc_nastran/20170/conf/nast20170.rcf[2])
+Nastran BUFFSIZE=8193 $(c:/msc.software/msc_nastran/20170/conf/nast20170.rcf[5])
+JID='C:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\sol200_maewing2_fullmodel_gvt_setup_updated.bdf'
+OUT='./sol200_maewing2_fullmodel_gvt_setup_updated'
+MEM=4289855488      $ WORDS
+MACH='Intel'
+OPER='Windows 7 Enterprise'
+OSV='6.1 7601'
+MODEL='P5-4/7007 (waco)'
+NPROC='12'
+CONFIG=15
+NPROC=12
+symbol=DELDIR='c:/msc.software/msc_nastran/20170/msc20170/nast/del' $(program default)
+symbol=DEMODIR='c:/msc.software/msc_nastran/20170/msc20170/nast/demo' $(program default)
+symbol=LM_NO_SNMP=1 $(c:/msc.software/msc_nastran/20170/conf/nast20170.rcf[8])
+symbol=SSSALTERDIR='c:/msc.software/msc_nastran/20170/msc20170/nast/sssalter' $(program default)
+symbol=TPLDIR='c:/msc.software/msc_nastran/20170/msc20170/nast/tpl' $(program default)
+SDIR='c:/scratch/sol200_maewing2_fullmodel_gvt_setup_updated.T19728_49'
+DBS='c:/scratch/sol200_maewing2_fullmodel_gvt_setup_updated.T19728_49'
+SCR='yes'
+SMEM=100
+BPOOL=8182.3MB
+DMPMEM=estimate
+NEWDEL='c:/msc.software/msc_nastran/20170/msc20170/win64i8/sss'
+DEL='MSCDEF'
+DML=MSCDEF
+SDL=MSCDEF
+AUTH='1701@trinidad.its.vt.edu'
+AUTHQUE=20
+MSGCAT='c:/msc.software/msc_nastran/20170/msc20170/win64i8/analysis.msg'
+MSGDEST='f06'
+NEWS='c:/msc.software/msc_nastran/20170/msc20170/nast/news.txt'
+----------------------------------------------------------------- 
+MSC_ISHELLPATH=C:\MSC.Software\MSC_Nastran\20170\msc20170\actran\win64\Actran_17.1.b.97631\bin;C:\MSC.Software\MSC_Nastran\20170\msc20170\nast; 
+MSC_JIDPATH= 
+PATH=c:\msc.software\msc_nastran\20170\msc20170\win64i8;c:\msc.software\msc_nastran\20170\msc20170\win64i8\nCode\bin;c:\msc.software\msc_nastran\20170\msc20170\win64i8\nvidia;c:\msc.software\msc_nastran\20170\msc20170\win64i8\lib;c:\msc.software\msc_nastran\20170\msc20170\win64i8;C:\Program Files\MATLAB\R2016b\bin\win64;C:\MSC.Software\Patran_x64\20160\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2016b\runtime\win64;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell 
+SCA_SERVICE_CATALOG=c:\msc.software\msc_nastran\20170\msc20170\res\SCAServiceCatalog.xml 
+SCA_RESOURCE_DIR=c:\msc.software\msc_nastran\20170\msc20170\res 
+Cmd Line:    C:\MSC.Software\MSC_Nastran\20170\msc20170\win64i8\nastran.exe SOL200_mAEWing2_fullmodel_GVT_setup_updated.bdf scr=yes 
+Current Dir: C:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel 
+Time Cmd:    c:\msc.software\msc_nastran\20170\msc20170\win64i8\msctime 
+Executable:  c:\msc.software\msc_nastran\20170\msc20170\win64i8\analysis.exe 
+Arch= Kywd:  [Not specified]  
+MSC_MSG:     stderr  
+FPE:         yes  
+----------------------------------------------------------------- 
+Current resource limits:
+ Physical memory:                    65458 MB
+ Physical memory available:          48522 MB
+ Paging file size:                  130914 MB
+ Paging file size available:        110828 MB
+ Virtual memory:                   8388607 MB
+ Virtual memory available:         8388549 MB
+----------------------------------------------------------------- 
+System configuration:
+ Hostname:         waco.aoe.vt.edu
+ Architecture:     win64i8
+ Platform:         Intel Windows 7 Enterprise 6.1 7601 (Windows Compute Cluster)
+ Model:            P5-4/7421
+ Clock freq.:      7421 MHz
+ Number of CPUs:   12
+ Executable:       standard
+ Raw model ID:     15
+ Config number:    15
+ Physical memory:  65458 MB
+ Virtual memory:   130914 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: "c:/msc.software/msc_nastran/20170/msc20170/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
+                   <ccs_cmd> (Windows CCS nodes)
+----------------------------------------------------------------- 
+MSC Nastran started  Sat Nov 18 23:15:49 EST 2017 
+ 23:15:50  Beginning Analysis
+SCA Kernel 18.3.439984 successfully initialized
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20170\msc20170\win64i8\libimalloc.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20170\msc20170\win64i8\mkl_core.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20170\msc20170\win64i8\mkl_intel_thread.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20170\msc20170\win64i8\mkl_rt.dll" has been loaded.
+BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20170\msc20170\win64i8\MSCblas.dll" has been loaded.
+
+ 23:15:50  MSC Authorization Information - System Attributes (1004, 0)
+ 23:15:50  -----------------------------------------------------------
+  Date:          Sat Nov 18 23:15:50 2017
+  MSC Id:        484d7eeb35c0 (ethernet) (Intel)
+  Hostname:      waco (user weizhao, display waco)
+  License files: 1701@trinidad.its.vt.edu
+  CEID:          5DBD1901-25B99848
+  User:          weizhao
+  Display:       waco
+  LAPI Version:  LAPI 10.1.8-3298 (FLEXlm 11.9.0.0)
+
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+  * *                                 * *
+  * *   MSC Customer Entitlement ID   * *
+  * *        5DBD1901-25B99848        * *
+  * *                                 * *
+  * * * * * * * * * * * * * * * * * * * *
+  * * * * * * * * * * * * * * * * * * * *
+
+ 23:15:50  MSC Authorization Information - Checkout Successful (1016, 0)
+ 23:15:50  -------------------------------------------------------------
+ 23:15:50  Acquired 1 license for MSC Nastran from license server on host trinidad.its.vt.edu
+
+
+Beginning bulk data processing using the IFPStar component.
+For more information on IFPStar, please see KB article KB8019200
+on our support pages, at http://simcompanion.mscsoftware.com.
+
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_nodes_modified_CB_v2.dat"
+ 23:15:51  4667 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_nodes_modified_CB_v2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_addspar.dat"
+ 23:15:51  96 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_addspar.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_leadspar.dat"
+ 23:15:51  100 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_leadspar.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_midspar.dat"
+ 23:15:51  76 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_midspar.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_rearspar.dat"
+ 23:15:51  64 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_rearspar.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_ribs_v3.dat"
+ 23:15:51  860 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_ribs_v3.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_topskin.dat"
+ 23:15:51  888 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_topskin.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_botskin_v2.dat"
+ 23:15:51  888 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_botskin_v2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_leadspar.dat"
+ 23:15:51  96 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_leadspar.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_midspar.dat"
+ 23:15:51  88 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_midspar.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_rearspar.dat"
+ 23:15:51  104 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_rearspar.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_ribs_v2.dat"
+ 23:15:51  504 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_ribs_v2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_botskin_v2.dat"
+ 23:15:51  754 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_botskin_v2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_topskin_v2.dat"
+ 23:15:51  754 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_topskin_v2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_leadspar.dat"
+ 23:15:51  400 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_leadspar.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_rearspar.dat"
+ 23:15:51  400 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_rearspar.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_midribs_v2.dat"
+ 23:15:51  1184 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_midribs_v2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_xribs_v2.dat"
+ 23:15:51  172 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_xribs_v2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_topskin_v3_GVT_setup.dat"
+ 23:15:51  2064 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_topskin_v3_GVT_setup.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_botskin_v3_GVT_setup.dat"
+ 23:15:51  2041 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_botskin_v3_GVT_setup.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_winglet_modified_v2.dat"
+ 23:15:51  1081 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_winglet_modified_v2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CORD2R.dat"
+ 23:15:51  83 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CORD2R.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_material.dat"
+ 23:15:51  68 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_material.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\spc_suport.dat"
+ 23:15:51  21 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\spc_suport.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_PCOMP_wing.dat"
+ 23:15:51  61 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_PCOMP_wing.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_PCOMP_CB.dat"
+ 23:15:51  30 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_PCOMP_CB.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_Wing_CONM2_servos.dat"
+ 23:15:51  76 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_Wing_CONM2_servos.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CONM2_attaches.dat"
+ 23:15:51  57 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CONM2_attaches.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CONM2_wing_controlunit+powerreg.dat"
+ 23:15:51  22 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CONM2_wing_controlunit+powerreg.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_TE_flaps_nodes.dat"
+ 23:15:51  684 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_TE_flaps_nodes.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_TE_flaps_elements.dat"
+ 23:15:51  632 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_TE_flaps_elements.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_LE_flaps_nodes.dat"
+ 23:15:51  171 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_LE_flaps_nodes.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_LE_flaps_elements.dat"
+ 23:15:51  158 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_LE_flaps_elements.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_TE_flaps_nodes.dat"
+ 23:15:51  171 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_TE_flaps_nodes.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_TE_flaps_elements.dat"
+ 23:15:51  158 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_IW_TE_flaps_elements.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_RBE2.dat"
+ 23:15:51  56 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_RBE2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CBUSH_4_flaps.dat"
+ 23:15:51  38 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CBUSH_4_flaps.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\RBE2_control_surfaces.dat"
+ 23:15:51  96 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\RBE2_control_surfaces.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_HingeLine_CORD2R.DAT"
+ 23:15:51  37 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_HingeLine_CORD2R.DAT"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CS_tube.dat"
+ 23:15:51  56 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CS_tube.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_WL_skid.dat"
+ 23:15:51  20 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_OW_WL_skid.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_Gear_v0p2.dat"
+ 23:15:51  29 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_Gear_v0p2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_Propulsion_v0p1.dat"
+ 23:15:51  37 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_Propulsion_v0p1.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_Airdata.dat"
+ 23:15:51  6 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_Airdata.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_Flight_v0p2.dat"
+ 23:15:51  156 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_Flight_v0p2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_Attachv2.dat"
+ 23:15:51  62 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_Attachv2.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_accelerometers.dat"
+ 23:15:51  8 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\mAEWing2_CB_accelerometers.dat"
+ 23:15:51  Reading INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\DESVAR_mAEWing2_Fullmodel_GVT_setup_updated.dat"
+ 23:15:51  244 records read from INCLUDE file "c:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\DESVAR_mAEWing2_Fullmodel_GVT_setup_updated.dat"
+ 23:15:51  160 records read from JID file "C:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\sol200_maewing2_fullmodel_gvt_setup_updated.bdf"
+ 23:15:51  A total of 20678 records were read from 49 files.
+
+Processing of bulk data entries is complete.
+
+ 23:15:53  Analysis started.
+ 23:15:53  Geometry access/verification to CAD part initiated (if needed).
+ 23:15:53  Geometry access/verification to CAD part successfully completed (if needed).
+ 23:15:56  Design cycle 1 started.
+ 23:15:56  Finite element model generation started.
+ 23:15:57  Finite element model generated 36588 degrees of freedom.
+ 23:15:57  Finite element model generation successfully completed.
+ 23:15:57  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:15:57  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:15:57  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:15:57  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:15:57  Solution of the system equations for normal modes started.
+ 23:15:59  Solution of the system equations for normal modes successfully completed.
+
+ 23:16:03  MSC Authorization Information - Checkout Successful (1016, 0)
+ 23:16:03  -------------------------------------------------------------
+ 23:16:03  Acquired 1 license for MSC Nastran Optimization from license server on host trinidad.its.vt.edu
+
+ 23:16:03  Design cycle 2 started.
+ 23:16:03  Finite element model generation started.
+ 23:16:03  Finite element model generated 36588 degrees of freedom.
+ 23:16:03  Finite element model generation successfully completed.
+ 23:16:03  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:16:03  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:16:03  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:16:03  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:16:03  Solution of the system equations for normal modes started.
+ 23:16:05  Solution of the system equations for normal modes successfully completed.
+ 23:16:08  Design cycle 3 started.
+ 23:16:08  Finite element model generation started.
+ 23:16:09  Finite element model generated 36588 degrees of freedom.
+ 23:16:09  Finite element model generation successfully completed.
+ 23:16:09  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:16:09  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:16:09  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:16:09  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:16:09  Solution of the system equations for normal modes started.
+ 23:16:11  Solution of the system equations for normal modes successfully completed.
+ 23:16:15  Design cycle 4 started.
+ 23:16:15  Finite element model generation started.
+ 23:16:16  Finite element model generated 36588 degrees of freedom.
+ 23:16:16  Finite element model generation successfully completed.
+ 23:16:16  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:16:16  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:16:16  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:16:16  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:16:16  Solution of the system equations for normal modes started.
+ 23:16:18  Solution of the system equations for normal modes successfully completed.
+ 23:16:21  Design cycle 5 started.
+ 23:16:21  Finite element model generation started.
+ 23:16:22  Finite element model generated 36588 degrees of freedom.
+ 23:16:22  Finite element model generation successfully completed.
+ 23:16:22  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:16:22  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:16:22  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:16:22  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:16:22  Solution of the system equations for normal modes started.
+ 23:16:24  Solution of the system equations for normal modes successfully completed.
+ 23:16:28  Design cycle 6 started.
+ 23:16:28  Finite element model generation started.
+ 23:16:28  Finite element model generated 36588 degrees of freedom.
+ 23:16:28  Finite element model generation successfully completed.
+ 23:16:28  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:16:28  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:16:28  Application of Loads and Boundary Conditions to the finite element model started.
+ 23:16:28  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 23:16:28  Solution of the system equations for normal modes started.
+ 23:16:30  Solution of the system equations for normal modes successfully completed.
+ 23:16:30  Finite element model generation started.
+ 23:16:31  Finite element model generated 36588 degrees of freedom.
+ 23:16:31  Finite element model generation successfully completed.
+ 23:16:31  Optimization completed.
+ ================================================== 
+ Warning/Fatal Message Summary           Occurrence
+       USER WARNING MESSAGE     6064.0          1 
+       USER WARNING MESSAGE     6064.0        647 
+       USER WARNING MESSAGE     4312.0         21 
+     SYSTEM WARNING MESSAGE     5407.1          1 
+ ================================================== 
+ 23:16:31  36 records read from JID file "C:\Users\weizhao\Documents\PAAW\mAEWing2\updated_FEM\SOL200_mAEWing2_Fullmodel\sol200_maewing2_fullmodel_gvt_setup_updated.bdf"
+ 23:16:31  NSEXIT: EXIT(0)
+ 23:16:31  Analysis complete  0
+Real:       42.831 seconds ( 0:00:42.831)
+User:       37.393 seconds ( 0:00:37.393)
+Sys:         4.851 seconds ( 0:00:04.851)
+ ==================================================
+ OS:              6.1
+ OEM ID:         9
+ Number of processors:         12
+ Page size:         4096
+ Processor type:         8664
+ Minimum application address:         10000
+ Maximum application address:         fffeffff
+ Active processor mask:         4095
+ Nsocket:         1
+ Ncore:           12  ( 1 X 12 )
+ HyperThreading:  On
+ Ram:          65458 Mb
+ ==================================================
+ Time Summary                 CPU       Wall   ( Time in Seconds )
+ Stiffness Generation        14.9         15 
+ Eigenvalue                  11.7         12 
+ Miscellaneous               14.0         14 
+ -------------------------------------------
+ Total:                      40.5         41 
+ ==================================================
+ ==================================================
+ Detailed performance studies can be found at:
+ https://simcompanion.mscsoftware.com/infocenter/index?page=content&id=S:KB8022065&actp=LIST 
+ ==================================================
+MSC Nastran finished Sat Nov 18 23:16:33 EST 2017 
