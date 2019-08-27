@@ -3,7 +3,7 @@ MSC Nastran V2017.0 (Intel Windows 7 Enterprise 6.1 7601) Control File:
 $ sysfield=SCR*(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/msc_nastran/20170/conf/nast20170.rcf[1])
 $ sysfield=DBALL(RAW=YES,BUFFIO=YES,wnum=16,wsize=16mb) $(c:/msc.software/msc_nastran/20170/conf/nast20170.rcf[2])
 Nastran BUFFSIZE=8193 $(c:/msc.software/msc_nastran/20170/conf/nast20170.rcf[5])
-JID='v:/scholar/sparibs/paaw project/repairedwing_v2.1/maewing2_fem_v2p0_free_model-repaired/sol145_femv2p1.bdf'
+JID='c:/users/weizhao/documents/github/maewing2/fem/fem v2.1/maewing2_fem_v2p1_free_model/sol145_femv2p1.bdf'
 OUT='./sol145_femv2p1'
 MEM=4289855488      $ WORDS
 MACH='Intel'
@@ -18,7 +18,7 @@ symbol=DEMODIR='c:/msc.software/msc_nastran/20170/msc20170/nast/demo' $(program 
 symbol=LM_NO_SNMP=1 $(c:/msc.software/msc_nastran/20170/conf/nast20170.rcf[8])
 symbol=SSSALTERDIR='c:/msc.software/msc_nastran/20170/msc20170/nast/sssalter' $(program default)
 symbol=TPLDIR='c:/msc.software/msc_nastran/20170/msc20170/nast/tpl' $(program default)
-SDIR='c:/scratch/sol145_femv2p1.T25252_33'
+SDIR='c:/scratch/sol145_femv2p1.T76524_48'
 DBS='./sol145_femv2p1'
 SCR='no'
 SMEM=100
@@ -39,8 +39,8 @@ MSC_JIDPATH=
 PATH=c:\msc.software\msc_nastran\20170\msc20170\win64i8;c:\msc.software\msc_nastran\20170\msc20170\win64i8\nCode\bin;c:\msc.software\msc_nastran\20170\msc20170\win64i8\nvidia;c:\msc.software\msc_nastran\20170\msc20170\win64i8\lib;c:\msc.software\msc_nastran\20170\msc20170\win64i8;C:\MSC.Software\Patran_x64\20160\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2016b\runtime\win64;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\weizhao\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\Users\weizhao\Documents\NASTRAN95\bin;C:\Users\weizhao\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin 
 SCA_SERVICE_CATALOG=c:\msc.software\msc_nastran\20170\msc20170\res\SCAServiceCatalog.xml 
 SCA_RESOURCE_DIR=c:\msc.software\msc_nastran\20170\msc20170\res 
-Cmd Line:    C:\MSC.Software\MSC_Nastran\20170\msc20170\win64i8\nastran.exe JID=V:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\sol145_FEMv2p1.bdf 
-Current Dir: V:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired 
+Cmd Line:    C:\MSC.Software\MSC_Nastran\20170\msc20170\win64i8\nastran.exe JID=C:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\sol145_FEMv2p1.bdf 
+Current Dir: C:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model 
 Time Cmd:    c:\msc.software\msc_nastran\20170\msc20170\win64i8\msctime 
 Executable:  c:\msc.software\msc_nastran\20170\msc20170\win64i8\analysis.exe 
 Arch= Kywd:  [Not specified]  
@@ -49,18 +49,18 @@ FPE:         yes
 ----------------------------------------------------------------- 
 Current resource limits:
  Physical memory:                    65458 MB
- Physical memory available:          45698 MB
+ Physical memory available:          31958 MB
  Paging file size:                  130914 MB
- Paging file size available:        105591 MB
+ Paging file size available:         90015 MB
  Virtual memory:                   8388607 MB
- Virtual memory available:         8388550 MB
+ Virtual memory available:         8388549 MB
 ----------------------------------------------------------------- 
 System configuration:
  Hostname:         waco.aoe.vt.edu
  Architecture:     win64i8
  Platform:         Intel Windows 7 Enterprise 6.1 7601 (Windows Compute Cluster)
- Model:            P5-4/7050
- Clock freq.:      7409 MHz
+ Model:            P5-4/7033
+ Clock freq.:      7018 MHz
  Number of CPUs:   12
  Executable:       standard
  Raw model ID:     15
@@ -73,8 +73,8 @@ System configuration:
  Remote shell cmd: "c:/msc.software/msc_nastran/20170/msc20170/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
                    <ccs_cmd> (Windows CCS nodes)
 ----------------------------------------------------------------- 
-MSC Nastran started  Mon Nov 26 10:34:33 EST 2018 
- 10:34:36  Beginning Analysis
+MSC Nastran started  Tue Aug 27 11:13:53 EDT 2019 
+ 11:13:55  Beginning Analysis
 SCA Kernel 18.3.439984 successfully initialized
 BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20170\msc20170\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20170\msc20170\win64i8\mkl_core.dll" has been loaded.
@@ -82,13 +82,13 @@ BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20170\msc20170\win64i8\mkl_intel_t
 BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20170\msc20170\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20170\msc20170\win64i8\MSCblas.dll" has been loaded.
 
- 10:34:36  MSC Authorization Information - System Attributes (1004, 0)
- 10:34:36  -----------------------------------------------------------
-  Date:          Mon Nov 26 10:34:36 2018
+ 11:13:55  MSC Authorization Information - System Attributes (1004, 0)
+ 11:13:55  -----------------------------------------------------------
+  Date:          Tue Aug 27 11:13:55 2019
   MSC Id:        5cf3708e6315 (ethernet) (Intel)
   Hostname:      waco (user weizhao, display waco)
   License files: 1701@trinidad.its.vt.edu
-  CEID:          5DBD1901-35B8CF86
+  CEID:          5DBD1901-4586722E
   User:          weizhao
   Display:       waco
   LAPI Version:  LAPI 10.1.8-3298 (FLEXlm 11.9.0.0)
@@ -97,146 +97,146 @@ BLAS/LAPACK .dll "c:\msc.software\msc_nastran\20170\msc20170\win64i8\MSCblas.dll
   * * * * * * * * * * * * * * * * * * * *
   * *                                 * *
   * *   MSC Customer Entitlement ID   * *
-  * *        5DBD1901-35B8CF86        * *
+  * *        5DBD1901-4586722E        * *
   * *                                 * *
   * * * * * * * * * * * * * * * * * * * *
   * * * * * * * * * * * * * * * * * * * *
 
- 10:34:36  MSC Authorization Information - Checkout Successful (1016, 0)
- 10:34:36  -------------------------------------------------------------
- 10:34:36  Acquired 1 license for MSC Nastran from license server on host trinidad.its.vt.edu
+ 11:13:55  MSC Authorization Information - Checkout Successful (1016, 0)
+ 11:13:55  -------------------------------------------------------------
+ 11:13:55  Acquired 1 license for MSC Nastran from license server on host trinidad.its.vt.edu
 
 
- 10:34:36  MSC Authorization Information - Checkout Successful (1016, 0)
- 10:34:36  -------------------------------------------------------------
- 10:34:36  Acquired 1 license for MSC Nastran Aero - Basic from license server on host trinidad.its.vt.edu
+ 11:13:55  MSC Authorization Information - Checkout Successful (1016, 0)
+ 11:13:55  -------------------------------------------------------------
+ 11:13:55  Acquired 1 license for MSC Nastran Aero - Basic from license server on host trinidad.its.vt.edu
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 10:34:36  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_nodes_modified_CB_v2_v2.dat"
- 10:34:36  4667 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_nodes_modified_CB_v2_v2.dat"
- 10:34:36  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_addspar_v2.dat"
- 10:34:36  96 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_addspar_v2.dat"
- 10:34:36  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_leadspar_v2.dat"
- 10:34:36  100 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_leadspar_v2.dat"
- 10:34:36  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_midspar_v2.dat"
- 10:34:36  76 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_midspar_v2.dat"
- 10:34:36  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_rearspar_v2.dat"
- 10:34:36  64 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_rearspar_v2.dat"
- 10:34:36  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_ribs_v3_v2.dat"
- 10:34:36  860 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_ribs_v3_v2.dat"
- 10:34:36  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_topskin_v2.dat"
- 10:34:36  888 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_topskin_v2.dat"
- 10:34:36  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_botskin_v2_v2.dat"
- 10:34:36  888 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_botskin_v2_v2.dat"
- 10:34:36  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_leadspar_v2.dat"
- 10:34:37  96 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_leadspar_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_midspar_v2.dat"
- 10:34:37  88 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_midspar_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_rearspar_v2.dat"
- 10:34:37  104 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_rearspar_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_ribs_v2_v2.dat"
- 10:34:37  504 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_ribs_v2_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_botskin_v2_v2.dat"
- 10:34:37  754 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_botskin_v2_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_topskin_v2_v2.dat"
- 10:34:37  754 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_topskin_v2_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_leadspar_v2.dat"
- 10:34:37  400 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_leadspar_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_rearspar_v2.dat"
- 10:34:37  400 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_rearspar_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_midribs_v2_v2.dat"
- 10:34:37  1184 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_midribs_v2_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_xribs_v2_v2.dat"
- 10:34:37  172 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_xribs_v2_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_topskin_v3_GVT_setup_v2.dat"
- 10:34:37  2070 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_topskin_v3_GVT_setup_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_botskin_v3_GVT_setup.dat"
- 10:34:37  2041 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_botskin_v3_GVT_setup.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_winglet_modified_v2_v2.dat"
- 10:34:37  1081 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_winglet_modified_v2_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CORD2R.dat"
- 10:34:37  83 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CORD2R.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_material_updated.dat"
- 10:34:37  71 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_material_updated.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\spc_suport.dat"
- 10:34:37  21 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\spc_suport.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_PCOMP_wing_updated.dat"
- 10:34:37  61 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_PCOMP_wing_updated.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_PCOMP_CB_updated.dat"
- 10:34:37  30 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_PCOMP_CB_updated.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_Wing_CONM2_servos.dat"
- 10:34:37  76 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_Wing_CONM2_servos.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CONM2_attaches.dat"
- 10:34:37  57 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CONM2_attaches.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CONM2_wing_controlunit+powerreg.dat"
- 10:34:37  22 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CONM2_wing_controlunit+powerreg.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_TE_flaps_nodes_v2.dat"
- 10:34:37  684 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_TE_flaps_nodes_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_TE_flaps_elements.dat"
- 10:34:37  632 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_TE_flaps_elements.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_LE_flaps_nodes_v2.dat"
- 10:34:37  171 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_LE_flaps_nodes_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_LE_flaps_elements.dat"
- 10:34:37  158 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_LE_flaps_elements.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_TE_flaps_nodes_v2.dat"
- 10:34:37  171 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_TE_flaps_nodes_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_TE_flaps_elements.dat"
- 10:34:37  158 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IW_TE_flaps_elements.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_RBE2_updated_v2_v2.dat"
- 10:34:37  59 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_RBE2_updated_v2_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CBUSH_4_flaps_v2.dat"
- 10:34:37  38 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CBUSH_4_flaps_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\RBE2_control_surfaces_v2.dat"
- 10:34:37  96 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\RBE2_control_surfaces_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_HingeLine_CORD2R_v2.dat"
- 10:34:37  37 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_HingeLine_CORD2R_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CS_tube.dat"
- 10:34:37  56 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CS_tube.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_WL_skid.dat"
- 10:34:37  20 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_OW_WL_skid.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_Gear_v0p2.dat"
- 10:34:37  29 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_Gear_v0p2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_Propulsion_v0p1.dat"
- 10:34:37  37 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_Propulsion_v0p1.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_Airdata.dat"
- 10:34:37  6 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_Airdata.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_Flight_v0p2_updated.dat"
- 10:34:37  156 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_Flight_v0p2_updated.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_Attachv2.dat"
- 10:34:37  62 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CB_Attachv2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IMU_accelerometers.dat"
- 10:34:37  26 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_IMU_accelerometers.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_Full_GVT_accelero.dat"
- 10:34:37  81 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_Full_GVT_accelero.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CAERO1.dat"
- 10:34:37  123 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_CAERO1.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_AESURF.dat"
- 10:34:37  126 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_AESURF.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_SPLINE4.dat"
- 10:34:37  17 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_SPLINE4.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_SPLINE4_SET1_v2.dat"
- 10:34:37  254 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_SPLINE4_SET1_v2.dat"
- 10:34:37  Reading INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_SPLINE4_AELIST.dat"
- 10:34:37  280 records read from INCLUDE file "v:\Scholar\SpaRibs\PAAW Project\RepairedWing_v2.1\mAEWing2_FEM_v2p0_Free_model-repaired\mAEWing2_SPLINE4_AELIST.dat"
- 10:34:37  298 records read from JID file "v:/scholar/sparibs/paaw project/repairedwing_v2.1/maewing2_fem_v2p0_free_model-repaired/sol145_femv2p1.bdf"
- 10:34:37  A total of 21483 records were read from 54 files.
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_nodes_modified_CB_v2_v2.dat"
+ 11:13:56  4667 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_nodes_modified_CB_v2_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_addspar_v2.dat"
+ 11:13:56  96 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_addspar_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_leadspar_v2.dat"
+ 11:13:56  100 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_leadspar_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_midspar_v2.dat"
+ 11:13:56  76 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_midspar_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_rearspar_v2.dat"
+ 11:13:56  64 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_rearspar_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_ribs_v3_v2.dat"
+ 11:13:56  860 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_ribs_v3_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_topskin_v2.dat"
+ 11:13:56  888 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_topskin_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_botskin_v2_v2.dat"
+ 11:13:56  888 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_botskin_v2_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_leadspar_v2.dat"
+ 11:13:56  96 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_leadspar_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_midspar_v2.dat"
+ 11:13:56  88 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_midspar_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_rearspar_v2.dat"
+ 11:13:56  104 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_rearspar_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_ribs_v2_v2.dat"
+ 11:13:56  504 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_ribs_v2_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_botskin_v2_v2.dat"
+ 11:13:56  754 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_botskin_v2_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_topskin_v2_v2.dat"
+ 11:13:56  754 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_topskin_v2_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_leadspar_v2.dat"
+ 11:13:56  400 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_leadspar_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_rearspar_v2.dat"
+ 11:13:56  400 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_rearspar_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_midribs_v2_v2.dat"
+ 11:13:56  1184 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_midribs_v2_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_xribs_v3.dat"
+ 11:13:56  172 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_xribs_v3.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_topskin_v3_GVT_setup_v2.dat"
+ 11:13:56  2070 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_topskin_v3_GVT_setup_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_botskin_v3_GVT_setup.dat"
+ 11:13:56  2041 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_botskin_v3_GVT_setup.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_winglet_modified_v2_v2.dat"
+ 11:13:56  1081 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_winglet_modified_v2_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CORD2R.dat"
+ 11:13:56  83 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CORD2R.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_material_updated.dat"
+ 11:13:56  71 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_material_updated.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\spc_suport.dat"
+ 11:13:56  21 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\spc_suport.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_PCOMP_wing_updated.dat"
+ 11:13:56  61 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_PCOMP_wing_updated.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_PCOMP_CB_updated.dat"
+ 11:13:56  30 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_PCOMP_CB_updated.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_Wing_CONM2_servos.dat"
+ 11:13:56  76 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_Wing_CONM2_servos.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CONM2_attaches.dat"
+ 11:13:56  57 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CONM2_attaches.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CONM2_wing_controlunit+powerreg.dat"
+ 11:13:56  22 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CONM2_wing_controlunit+powerreg.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_TE_flaps_nodes_v2.dat"
+ 11:13:56  684 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_TE_flaps_nodes_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_TE_flaps_elements.dat"
+ 11:13:56  632 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_TE_flaps_elements.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_LE_flaps_nodes_v2.dat"
+ 11:13:56  171 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_LE_flaps_nodes_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_LE_flaps_elements.dat"
+ 11:13:56  158 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_LE_flaps_elements.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_TE_flaps_nodes_v2.dat"
+ 11:13:56  171 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_TE_flaps_nodes_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_TE_flaps_elements.dat"
+ 11:13:56  158 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IW_TE_flaps_elements.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_RBE2_updated_v2_v2.dat"
+ 11:13:56  59 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_RBE2_updated_v2_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CBUSH_4_flaps_v2.dat"
+ 11:13:56  38 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CBUSH_4_flaps_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\RBE2_control_surfaces_v2.dat"
+ 11:13:56  96 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\RBE2_control_surfaces_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_HingeLine_CORD2R_v2.dat"
+ 11:13:56  37 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_HingeLine_CORD2R_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CS_tube.dat"
+ 11:13:56  56 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CS_tube.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_WL_skid.dat"
+ 11:13:56  20 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_OW_WL_skid.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_Gear_v0p2.dat"
+ 11:13:56  29 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_Gear_v0p2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_Propulsion_v0p1.dat"
+ 11:13:56  37 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_Propulsion_v0p1.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_Airdata.dat"
+ 11:13:56  6 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_Airdata.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_Flight_v0p2_updated.dat"
+ 11:13:56  156 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_Flight_v0p2_updated.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_Attachv2.dat"
+ 11:13:56  62 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CB_Attachv2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IMU_accelerometers.dat"
+ 11:13:56  26 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_IMU_accelerometers.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_Full_GVT_accelero.dat"
+ 11:13:56  81 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_Full_GVT_accelero.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CAERO1.dat"
+ 11:13:56  123 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_CAERO1.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_AESURF.dat"
+ 11:13:56  126 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_AESURF.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_SPLINE4.dat"
+ 11:13:56  17 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_SPLINE4.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_SPLINE4_SET1_v2.dat"
+ 11:13:56  254 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_SPLINE4_SET1_v2.dat"
+ 11:13:56  Reading INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_SPLINE4_AELIST.dat"
+ 11:13:56  280 records read from INCLUDE file "c:\Users\weizhao\Documents\GitHub\mAEWing2\FEM\FEM v2.1\mAEWing2_FEM_v2p1_Free_model\mAEWing2_SPLINE4_AELIST.dat"
+ 11:13:57  298 records read from JID file "c:/users/weizhao/documents/github/maewing2/fem/fem v2.1/maewing2_fem_v2p1_free_model/sol145_femv2p1.bdf"
+ 11:13:57  A total of 21483 records were read from 54 files.
 
 Processing of bulk data entries is complete.
 
- 10:34:43  Analysis started.
- 10:34:43  Geometry access/verification to CAD part initiated (if needed).
- 10:34:43  Geometry access/verification to CAD part successfully completed (if needed).
- 10:34:45  Finite element model generation started.
- 10:34:45  Finite element model generated 36798 degrees of freedom.
- 10:34:45  Finite element model generation successfully completed.
- 10:34:45  Application of Loads and Boundary Conditions to the finite element model started.
- 10:34:45  Application of Loads and Boundary Conditions to the finite element model successfully completed.
- 10:34:46  Solution of the system equations for normal modes started.
- 10:34:48  Solution of the system equations for normal modes successfully completed.
+ 11:14:01  Analysis started.
+ 11:14:01  Geometry access/verification to CAD part initiated (if needed).
+ 11:14:01  Geometry access/verification to CAD part successfully completed (if needed).
+ 11:14:03  Finite element model generation started.
+ 11:14:04  Finite element model generated 36798 degrees of freedom.
+ 11:14:04  Finite element model generation successfully completed.
+ 11:14:04  Application of Loads and Boundary Conditions to the finite element model started.
+ 11:14:04  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 11:14:05  Solution of the system equations for normal modes started.
+ 11:14:07  Solution of the system equations for normal modes successfully completed.
  ================================================== 
  Warning/Fatal Message Summary           Occurrence
        USER WARNING MESSAGE     4312.0          1 
@@ -244,12 +244,12 @@ Processing of bulk data entries is complete.
      SYSTEM WARNING MESSAGE     5407.1          1 
        USER WARNING MESSAGE     7697.0          1 
  ================================================== 
- 10:37:07  22 records read from JID file "v:/scholar/sparibs/paaw project/repairedwing_v2.1/maewing2_fem_v2p0_free_model-repaired/sol145_femv2p1.bdf"
- 10:37:07  NSEXIT: EXIT(0)
- 10:37:07  Analysis complete  0
-Real:      151.981 seconds ( 0:02:31.981)
-User:      143.754 seconds ( 0:02:23.754)
-Sys:         5.725 seconds ( 0:00:05.725)
+ 11:16:31  22 records read from JID file "c:/users/weizhao/documents/github/maewing2/fem/fem v2.1/maewing2_fem_v2p1_free_model/sol145_femv2p1.bdf"
+ 11:16:31  NSEXIT: EXIT(0)
+ 11:16:31  Analysis complete  0
+Real:      157.370 seconds ( 0:02:37.370)
+User:      148.185 seconds ( 0:02:28.185)
+Sys:         5.756 seconds ( 0:00:05.756)
  ==================================================
  OS:              6.1
  OEM ID:         9
@@ -265,13 +265,13 @@ Sys:         5.725 seconds ( 0:00:05.725)
  Ram:          65458 Mb
  ==================================================
  Time Summary                 CPU       Wall   ( Time in Seconds )
- Eigenvalue                   1.9          2 
- Miscellaneous              146.3        148 
+ Eigenvalue                   2.0          2 
+ Miscellaneous              150.6        154 
  -------------------------------------------
- Total:                     148.1        150 
+ Total:                     152.6        156 
  ==================================================
  ==================================================
  Detailed performance studies can be found at:
  https://simcompanion.mscsoftware.com/infocenter/index?page=content&id=S:KB8022065&actp=LIST 
  ==================================================
-MSC Nastran finished Mon Nov 26 10:37:08 EST 2018 
+MSC Nastran finished Tue Aug 27 11:16:32 EDT 2019 
